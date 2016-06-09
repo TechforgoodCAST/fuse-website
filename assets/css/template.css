@@ -36,26 +36,13 @@
 }
 
 .newsletter {
-  background: #999;
   color: #fff;
-  text-decoration: none;
-  background-color: #4b494f;
-  padding: 10px 15px;
-  border-radius: 4px;
-  margin: 5px;
-  width: auto;
 }
 
 .mailChimp {
 	padding-top: 10px;
-<<<<<<< HEAD
 	padding-bottom: 10px
 	top: none;
-
-=======
-	padding-bottom: 10px;
-
->>>>>>> gh-pages
 }
 
 
@@ -93,15 +80,6 @@
 	margin-top: 0.5em;
 
 
-}
-
-.activeFUSE>a,.nav-tabs>li.activeFUSE>a:hover,.nav-tabs>li.activeFUSE>a:focus {
-	color:#fff;
-	background-color:#FF6121;
-	border:1px
-	solid #ddd;
-	border-bottom-color:transparent;
-	cursor:default
 }
 
 .mcButton {
@@ -288,4 +266,27 @@ h2
 	margin-left: 1em;
 	margin-top: 0.25em;
 	margin-bottom: 0.25em
+}
+
+/* Bootstrap fixes
+ ============================================================================ */
+
+body {
+  overflow-x: hidden;
+}
+.site-main {
+  padding-top: 79px;
+}
+@media screen and (max-width:992px) {
+  .navbar-header {
+    position: relative;
+  }
+  .navbar-toggle {
+    position: absolute;
+    top: 16px;
+    right: 0;
+  }
+}
+.portfolio-isotope {
+  width: 100%;
 }
