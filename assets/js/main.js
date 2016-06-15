@@ -61,4 +61,6 @@ $(document).ready(function(){
     resizesContainer: true,
     layoutMode: 'fitRows'
   });
+
+  $("#mc-embedded-subscribe-form").validate();
 });
