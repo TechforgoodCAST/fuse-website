@@ -37,26 +37,9 @@
 
 .newsletter {
   color: #fff;
+  font-size: 1.3em;
+  margin-bottom: 1em;
 }
-
-.mailChimp {
-	padding-top: 10px;
-	padding-bottom: 10px
-	top: none;
-}
-
-
-.mailChimpBox {
-	border-radius: 3px;
-	border: 1px solid #fff;
-	box-shadow: none;
-	height: 2em;
-
-  }
-
-.mcText {
- font-family: 'Roboto', sans-serif;
-  }
 
 .suButton {
 	border-radius: 4px;
@@ -68,7 +51,6 @@
 
 }
 
-
 .suButtonFuse {
 	border-radius: 4px;
 	background: #FF6121;
@@ -78,32 +60,11 @@
 	font-size: 15px;
 	text-align: centre;
 	margin-top: 0.5em;
-
-
-}
-
-.mcButton {
-	border-radius: 4px;
-	background: #aaa;
-	color: #fff;
-	border: 1px solid #999;
-	padding: 12px;
-	font-size: 15px;
-	font-weight: bold;
-}
-
-.validate {
-	background: #4b494f;
-}
-
-.validateAdd {
-	background: #4b494f;
 }
 
 #emailLink {
 	text-decoration: none;
 	color: #d62711;
-	/*#ee3d26*/
 }
 
 .emailLink a:hover {
@@ -126,18 +87,12 @@
 	float: none;
 }
 
-.mcSpace {
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
 #mc_embed_signup .button:hover {
-    background-color: #777;
+  background-color: #777;
 }
 
 .suButton:hover {
 	background-color: #d62711;
-
 }
 
 .link {
@@ -289,4 +244,82 @@ body {
 }
 .portfolio-isotope {
   width: 100%;
+}
+
+/* Mailchimp sign up
+ ============================================================================ */
+
+#mc_embed_signup {
+  background: none !important;
+}
+
+#mc-embedded-subscribe-form {
+  margin-bottom: 60px;
+}
+
+.field {
+  width: 100%;
+}
+
+.field input, input[type=submit] {
+  outline: none;
+  width: 30%;
+  height: 2.8em;
+  margin-top: 1em;
+  transition: all .3s;
+}
+
+.field input {
+  border-radius: 4px;
+  padding-left: .8em;
+  color: black;
+  border: 2px solid white;
+}
+
+.field input:focus {
+  border-color: #13aeb5;
+}
+
+@media screen and (max-width: 992px) {
+  .field input, input[type=submit] {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .field input, input[type=submit] {
+    width: 100%;
+  }
+}
+
+.field label {
+  display: block;
+  margin: .2em 0 0 0;
+  font-weight: normal;
+  color: #FF6121;
+}
+
+.error, .mce_inline_error {
+  color: #e53722;
+  border-color: #e53722 !important;
+}
+
+.error:focus {
+  border-color: #13aeb5 !important;
+}
+
+.valid {
+  border-color: #c7d14f !important;
+}
+
+.response {
+  margin-top: 1em;
+}
+
+#mce-success-response {
+  color: #c7d14f;
+}
+
+#mce-error-response {
+  color: #e53722;
 }
