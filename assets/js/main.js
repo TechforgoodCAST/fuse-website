@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   // Add "loaded" class when a section has been loaded
-  $(window).scroll(function() { 
+  $(window).scroll(function() {
     var scrollTop = $(window).scrollTop();
     $(".section").each(function() {
       var elementTop = $(this).offset().top - $('#header').outerHeight();
@@ -61,11 +61,6 @@ $(document).ready(function(){
     resizesContainer: true,
     layoutMode: 'fitRows'
   });
-/*
-  // filter items when filter link is clicked
-  $('#filters a').click(function(){
-    var selector = $(this).attr('data-filter');
-    $container.isotope({ filter: selector });
-    return false;
-  }); */
-}); 
+
+  $("#mc-embedded-subscribe-form").validate();
+});

@@ -37,33 +37,9 @@
 
 .newsletter {
   color: #fff;
-  width: 100%;
+  font-size: 1.3em;
+  margin-bottom: 1em;
 }
-
-.mailChimp {
-	padding-top: 10px;
-<<<<<<< HEAD
-	padding-bottom: 10px
-	top: none;
-
-=======
-	padding-bottom: 10px;
-	
->>>>>>> gh-pages
-}
- 
-
-.mailChimpBox {
-	border-radius: 3px;
-	border: 1px solid #fff;
-	box-shadow: none;
-	height: 2em;
-	
-  }
-
-.mcText {
- font-family: 'Roboto', sans-serif; 
-  }
 
 .suButton {
 	border-radius: 4px;
@@ -75,35 +51,20 @@
 
 }
 
-
 .suButtonFuse {
 	border-radius: 4px;
 	background: #FF6121;
 	color: #fff;
-	border-radius: 4px;
+	border: 1px solid #d62711;
 	padding: 1em;
-	font-size: 15px; 
+	font-size: 15px;
 	text-align: centre;
-	margin-top: 0.5em; 
-	text-decoration: none;
-
-
-}
-
-
-
-.validate {
-	background: #4b494f;
-}
-
-.validateAdd {
-	background: #4b494f;
+	margin-top: 0.5em;
 }
 
 #emailLink {
 	text-decoration: none;
 	color: #d62711;
-	/*#ee3d26*/
 }
 
 .emailLink a:hover {
@@ -126,35 +87,29 @@
 	float: none;
 }
 
-.mcSpace {
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
 #mc_embed_signup .button:hover {
-    background-color: #777;
+  background-color: #777;
 }
 
 .suButton:hover {
 	background-color: #d62711;
-	
 }
 
 .link {
 	color: #f15f4c;
 }
 
-/* FONTS */ 
+/* FONTS */
 
 p  {
-	 font-family: 'Roboto', sans-serif; 
+	 font-family: 'Roboto', sans-serif;
 }
 
 h2
 {font-family:helvetica, serif;
 	font-weight:500;line-height:1.2;color:inherit}
 
-/* FUSE SECTIONS */ 
+/* FUSE SECTIONS */
 
 .fuseSection {
 	background-color: #0A303E;
@@ -164,7 +119,7 @@ h2
 .fuseWriting {
 	color: #fff;
 	background-color: #0A303E;
-	font-family: sans-serif; 
+	font-family: sans-serif;
 	margin-bottom: 1em;
 	font-family: Helvetica, sans-serif;
 }
@@ -173,7 +128,7 @@ h2
 	color: #fff;
 	background-color: #0A303E;
 	font-size: 1em;
-	font-family: sans-serif; 
+	font-family: sans-serif;
 	margin-bottom: 1em;
 	text-align: left;
 	float: left;
@@ -197,7 +152,7 @@ h2
 
 .section-titleFuse:after{background:#e5e5e5}
 
-	
+
 .section .section-titleFuse span{
 		background:#0A303E;
 		padding:0 10px;
@@ -213,7 +168,7 @@ h2
 .section-titleFuse span {
 		background:#0A303E;
 		color: #fff;
-		font-family: Helvetica, sans-serif;	
+		font-family: Helvetica, sans-serif;
 		margin-bottom: 2em
 	}
 
@@ -268,16 +223,19 @@ h2
 	margin-bottom: 0.25em
 }
 
+.team-member {
+  margin-bottom: 1em;
+}
 
+/* Bootstrap fixes
+ ============================================================================ */
 
 body {
   overflow-x: hidden;
 }
-
 .site-main {
   padding-top: 79px;
 }
-
 @media screen and (max-width:992px) {
   .navbar-header {
     position: relative;
@@ -288,49 +246,84 @@ body {
     right: 0;
   }
 }
-
 .portfolio-isotope {
   width: 100%;
 }
 
-#mc-embedded-subscribe-form input {
-	outline: none;
-	color: black;
+/* Mailchimp sign up
+ ============================================================================ */
+
+#mc_embed_signup {
+  background: none !important;
 }
 
-#mc-embedded-subscribe-form input[type='submit'] {
-	border-radius: 4px;
-	background: #FF6121;
-	color: #fff;
-	border: none;
-	padding: 12px;
-	font-size: 15px;
-	font-weight: bold;
-	outline: none;
-	transition: all .5s;
+#mc-embedded-subscribe-form {
+  margin-bottom: 60px;
 }
 
-#mc-embedded-subscribe-form input[type='submit']:hover {
-	background-color: #ee3d26;
-
+.field {
+  width: 100%;
 }
 
-
-#mc_embed_signup #mce-success-response {
-	display: block !important;
-	width: 100%;
-	background: white;
+.field input, input[type=submit] {
+  outline: none;
+  width: 30%;
+  height: 2.8em;
+  margin-top: 1em;
+  transition: all .3s;
 }
 
-
-/*
-.site-navbar .navbar-nav .active a, .site-navbar .navbar-nav a:active {
-	background: #FF6121;
-	color: white;
-	padding: 10px 15px;
-    border-radius: 4px;
-    margin: 0 0 0 5px;
+.field input {
+  border-radius: 4px;
+  padding-left: .8em;
+  color: black;
+  border: 2px solid white;
 }
-*/
 
- 
+.field input:focus {
+  border-color: #13aeb5;
+}
+
+@media screen and (max-width: 992px) {
+  .field input, input[type=submit] {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .field input, input[type=submit] {
+    width: 100%;
+  }
+}
+
+.field label {
+  display: block;
+  margin: .2em 0 0 0;
+  font-weight: normal;
+  color: #FF6121;
+}
+
+.error, .mce_inline_error {
+  color: #e53722;
+  border-color: #e53722 !important;
+}
+
+.error:focus {
+  border-color: #13aeb5 !important;
+}
+
+.valid {
+  border-color: #c7d14f !important;
+}
+
+.response {
+  margin-top: 1em;
+}
+
+#mce-success-response {
+  color: #c7d14f;
+}
+
+#mce-error-response {
+  color: #e53722;
+}
