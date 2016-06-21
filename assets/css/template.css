@@ -327,3 +327,10 @@ body {
 #mce-error-response {
   color: #e53722;
 }
+
+/* Fuse site
+ ============================================================================ */
+
+.fuse-navbar .active a {
+  background-color: #FF6121 !important;
+}
