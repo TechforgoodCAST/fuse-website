@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 
 ruby '2.2.1'
 
+gem 'rack'
 gem 'puma', '~> 2.7.0'
 gem 'rake', '~> 10.1.0'
 
