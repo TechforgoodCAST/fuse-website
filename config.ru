@@ -1,11 +1,3 @@
-# Modified version of TryStatic, from rack-contrib
-# https://github.com/rack/rack-contrib/blob/master/lib/rack/contrib/try_static.rb
-
-# Serve static files under a `build` directory:
-# - `/` will try to serve your `build/index.html` file
-# - `/foo` will try to serve `build/foo` or `build/foo.html` in that order
-# - missing files will try to serve build/404.html or a tiny default 404 page
-
 module Rack
   class TryStatic
     def initialize(app, options)
@@ -35,7 +27,6 @@ use Rack::TryStatic,
   try: %w(.html index.html /index.html),
   cache_control: 'public, max-age=2592000'
 
-# Run your own Rack app here or use this one to serve 404 messages:
 run lambda { |env|
   not_found_page = File.expand_path('../build/404/index.html', __FILE__)
   content = File.exist?(not_found_page) ? File.read(not_found_page) : '404 - page not found'
