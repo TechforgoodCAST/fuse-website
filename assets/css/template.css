@@ -8,7 +8,7 @@
  	list-style-type: none;
  }
 
- .section-opportunities {
+/* .section-opportunities {
  	padding-top: 2em;
  	padding-bottom: 2em;
  	background-color: #999;
@@ -19,12 +19,13 @@
 	color: #fff;
 	background-color: #999;
 }
+*/
 
 .section-introText {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	padding-top: 3em;
-	padding-bottom: 1em;
+	padding-bottom: 3em;
 }
 
 .opportunities-discuss {
