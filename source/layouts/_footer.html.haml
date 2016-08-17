@@ -1,0 +1,41 @@
+%footer#newsletter.site-footer
+  .container
+    %h5.newsletter Sign up for our newsletter!
+
+    / Begin MailChimp Signup Form
+    #mc_embed_signup
+      %form#mc-embedded-subscribe-form.validate{ action: "//wearecast.us10.list-manage.com/subscribe/post?u=a951b342ebe81b3e0d4e600c9&id=5195355831", method: "post", name: "mc-embedded-subscribe-form", novalidate: "", target: "_blank" }
+
+        #mc_embed_signup_scroll
+
+          .mc-field-group
+            %input#mce-FNAME.required{ name: "FNAME", type: "text", value: "", placeholder: "First name" }
+
+          .mc-field-group
+            %input#mce-LNAME.required{ name: "LNAME", type: "text", value: "", placeholder: "Last name" }
+
+          .mc-field-group
+            %input#mce-EMAIL.required.email{ name: "EMAIL", type: "email", value: "", placeholder: "Email address" }
+
+          #mce-responses.clear
+            #mce-error-response.response{ style: "display: none;" }
+            #mce-success-response.response{ style: "display: none;" }
+
+          / real people should not fill this in and expect good things - do not remove this or risk form bot signups
+
+          %div{ "ariahidden": "true", style: "position: absolute; left: -5000px;" }
+            %input{ name: "b_a951b342ebe81b3e0d4e600c9_5195355831", tabindex: "-1", type: "text", value: "" }
+
+          .clear
+            %input#mc-embedded-subscribe.btn.btn-primary{ name: "subscribe", type: "submit", value: "Subscribe" }
+
+    %script{ src: "//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js", type: "text/javascript" }
+    :javascript
+      (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);
+    / End mc_embed_signup
+
+  .copyright
+    %p © 2016 CAST Reg Charity Number 1161998 Company number 9544506
+.scroll-to-top{ "data-offset-top": "200", "data-spy": "affix" }
+  %a.smooth-scroll{ href: "#page" }
+    %i.fa.fa-arrow-up

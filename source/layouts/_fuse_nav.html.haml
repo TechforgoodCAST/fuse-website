@@ -1,0 +1,26 @@
+%header#header.site-header
+  %nav#navbar.site-navbar.navbar.navbar-static-top.fuse-navbar{:role => "navigation"}
+    .container
+      .navbar-header
+        %div
+          = link_to '/fuse.html' do
+            = image_tag 'fuseLogo.png'
+          = link_to '/' do
+            = image_tag 'castLogoSmallPng.png', class: 'thumbnailImage'
+        %button.navbar-toggle{"data-target" => "#navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+          %span.sr-only Toggle navigation
+          %i.fa.fa-bars
+      #navbar-collapse-1.collapse.navbar-collapse
+        %ul#navigation.nav.navbar-nav.navbar-right
+          %li
+            %a{:href => "#header"} Home
+          %li
+            %a{:href => "#features"} How it works
+          %li
+            %a{:href => "#portfolio"} Nonprofits
+          %li
+            %a{:href => "#team"} The team
+          %li
+            %a{:href => "#clients"} Partners
+          %li
+            %a{:href => "#contact"} Contact

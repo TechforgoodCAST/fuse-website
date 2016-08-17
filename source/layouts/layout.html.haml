@@ -1,0 +1,28 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no", :name => "viewport"}/
+    / Use title if it's in the page YAML frontmatter
+    %title= current_page.data.title || "CAST - Centre for Acceleration of Social Technology"
+
+    - if current_page.url.include?('fuse')
+      %link{:href => "/images/fuseTab.png", :rel => "icon"}
+    - else
+      %link{:href => "/images/castCircle.png", :rel => "icon"}
+
+    = stylesheet_link_tag :site
+    = stylesheet_link_tag :template
+    = stylesheet_link_tag "//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
+  %body
+    = yield
+
+  = partial 'layouts/footer'
+
+  = javascript_include_tag 'jquery-1.12.1.js'
+  = javascript_include_tag 'bootstrap-3.1.1.min.js'
+  = javascript_include_tag 'jquery.isotope.min.js?v=1.5.26'
+  = javascript_include_tag 'jquery.singlePageNav.min.js'
+  = javascript_include_tag 'main.js'

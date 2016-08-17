@@ -1,0 +1,95 @@
+#page
+  = partial 'layouts/main_nav'
+
+  #main.site-main
+
+    -# Hero
+    %section#carousel-1.carousel.slide.section-slide
+      .carousel-inner
+        = image_tag 'headerImage.jpg', alt: 'CAST driving social change with technology'
+
+    -# CTA
+    %section.section.section-center.section-introText
+      .container
+        .row
+          .col-md-6.col-md-offset-3.col-xs-10.col-xs-offset-1.headline
+            %h4 CAST is accelerating the use of technology for social impact
+            %h4 We help organisations use technology to deliver their social mission and get early stage ideas to scale
+        .row
+          %a{href: '#newsletter', class: 'smooth-scroll'}
+            .col-md-4.col-md-offset-4.col-sm-4.col-sm-offset-4.col-xs-6.col-xs-offset-3.btn-newsletter.suButton Sign up for our Newsletter
+
+    -# Work with us
+    %section.section.section-center.section-opportunities
+      .container
+        %h2.section-title
+          %span#section-opportunities Work with us!
+        .row
+          .col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-8.col-xs-offset-2
+            %p
+              CAST has
+              = link_to 'recently been awarded £1.12m by Big Lottery Fund', 'https://medium.com/@wearecast/cast-announces-1-12m-funding-from-big-lottery-fund-to-power-nonprofits-with-digital-2bb75ec063fe#.mb633lo45', target: '_blank'
+              to help more nonprofits build tech,
+              following the success of our
+              = link_to 'Fuse', 'http://wearecast.org.uk/fuse', target: '_blank'
+              product accelerator.
+            %p
+              We’ll be sharing details about the 2017 programme later in the year, so please follow us on
+              = succeed "," do
+                = link_to 'Twitter', 'https://twitter.com/TechforgoodCAST', target: '_blank'
+              = link_to 'LinkedIn', 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank'
+              or
+              = succeed "," do
+                = link_to 'Medium', 'https://medium.com/@wearecast', target: '_blank'
+              = link_to 'sign up to our newsletter', '#newsletter', class: 'smooth-scroll', target: '_blank'
+              so you can be the first to hear more details about it; our applications aren’t open just yet.
+
+    -# What we do
+    %section#features.section.section-center.section-hilite.section-features
+      .container
+        %h2.section-title
+          %span What we do
+        .row
+          .col-md-4.col-sm-6
+            .icon-wrap= image_tag 'plantMoney.jpg'
+            %h4 Funders
+            %p Working with charitable funders and foundations to build stronger tech for good programmes
+          .col-md-4.col-sm-6
+            .icon-wrap= image_tag 'rocket.jpg'
+            %h4 Ventures
+            %p Supporting social technology ventures to grow and access finance and talent
+          .col-md-4.col-sm-6
+            .icon-wrap= image_tag 'megaphoneColor.jpg'
+            %h4 Networks
+            %p Bringing together great individuals and organisations to support and build the sector
+
+    -# Our work
+    = partial 'layouts/our_work'
+
+    -# The team
+    = partial 'layouts/team'
+
+    -# Our blog
+    %section#blog.section.section-blog
+      .container
+        %h2.section-title
+          %span Our Blog
+        .row
+          .col-md-6.col-md-offset-3
+            %article.hentry.post
+              .row
+                .entry-thumbnail.col-lg-4.col-md-5.col-sm-4
+                  = image_tag 'medium.png'
+                .col-lg-8.col-md-8.col-sm-6
+                  %header.entry-header
+                    %h2.entry-title Follow our latest thoughts on our Medium blog
+                  .entry-content
+                    %p We share our latest ideas, projects and learning openly on Medium.
+                    %a.more{:href => "https://medium.com/@wearecast", :target => "_blank"}
+                      %span.btn.btn-primary Find out more
+
+    -# Clients and supporters
+    = partial 'layouts/partners'
+
+    -# Contact us
+    = partial 'layouts/contact_us'
