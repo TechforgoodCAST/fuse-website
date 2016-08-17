@@ -1,4 +1,12 @@
 $(document).ready(function(){
+  var $container = $('.portfolio-isotope');
+
+  $container.isotope({
+    itemSelector : '.portfolio-item',
+    resizable: true,
+    resizesContainer: true,
+    layoutMode: 'fitRows'
+  });
 
   // Add "loaded" class when a section has been loaded
   $(window).scroll(function() {
@@ -50,14 +58,5 @@ $(document).ready(function(){
     if($('.navbar-toggle').css('display') !='none'){
       $(".navbar-toggle").click();
     }
-  });
-
-  var $container = $('.portfolio-isotope');
-
-  $container.isotope({
-    itemSelector : '.portfolio-item',
-    resizable: true,
-    resizesContainer: true,
-    layoutMode: 'fitRows'
   });
 });
