@@ -1,0 +1,17 @@
+%section#team.section.section-center.fuseSection.section-team.fuseWriting
+  .container.fuseWriting
+    %h2.section-titleFuse
+      %span The Team
+
+    .portfolio-isotope
+      - data.people.people.select { |person| person.fuse? }.each do |person|
+        .col-md-3.col-sm-6.portfolio-item.team-member
+          = link_to person.linkedin || person.link, target: '_blank', class: 'hover-effectFuse' do
+            = image_tag person.image
+            %span.overlay
+              - if person.linkedin
+                %i.fa.fa-linkedin-square
+              - else
+                %i.fa.fa-plus
+            %h4.fuseWriting= person.name
+            %h5.fuseWriting= person.fuse_role

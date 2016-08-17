@@ -52,7 +52,6 @@ $(document).ready(function(){
     }
   });
 
-
   var $container = $('.portfolio-isotope');
 
   $container.isotope({
@@ -61,6 +60,4 @@ $(document).ready(function(){
     resizesContainer: true,
     layoutMode: 'fitRows'
   });
-
-  $("#mc-embedded-subscribe-form").validate();
 });

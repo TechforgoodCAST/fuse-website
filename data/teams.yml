@@ -1,0 +1,33 @@
+teams:
+- name: "Oxfam UK Poverty Team"
+  tagline: "Addressing food poverty"
+  logo: "oxfamFuse.jpg"
+  image: "oxfamPostIts700Crop.jpg"
+  description:
+  - "There is an unprecedented rise in food poverty in the UK. For example, in 2015 there was 42 times more food aid given out by the Trussell Trust than in 2009 – a massive 1.1 million emergency food parcels. But this is only a very small part of the picture. Overall, there is a massive lack of reliable data about food poverty in the UK."
+  - "On the Fuse programme, we’re focusing on families living on the cusp of food poverty – those living in moderate food insecurity. We’ve developed a service that enables families to access high quality nutrition while simultaneously developing their financial resilience. This service offers support to those who need it most, as well as offering a unique opportunity to gather data needed to support wider social change."
+
+- name: "Breast Cancer Care"
+  tagline: "Providing useful and meaningful activities to women recovering from breast cancer"
+  logo: "breastCancerCareLogoFuse.jpg"
+  image: "bccFuse.jpg"
+  description:
+  - Breast Cancer takes a huge physical and emotional toll. Whilst there is a range of support and treatment to address the physical aspects; the emotional impact is often overlooked.
+  - The end of clinical treatment is only the start of women rebuilding their lives.
+  - On the Fuse programme, we’re focusing on the needs of women moving out of treatment, finding out how we can support them as they adjust and adapt to life after breast cancer.
+
+- name: "Age UK"
+  tagline: "Tools for supporting guided care conversations"
+  logo: "ageUkFuseLogo.png"
+  image: "diaryResize.jpg"
+  description:
+  - The health and social care system is often set up to deal with discrete issues at crisis point. This lack of integrated and holistic person-centred care creates an untenable demand on resources. Older people are two thirds of NHS users and 40% of over 65s have a limiting longstanding illness; by 2030 this will equate to 6 million people.
+  - On the Fuse programme we’re exploring how Age UK’s proactive person-centred care approach can be combined with digital tools to inform service design, delivery and impact measurement.
+
+- name: "Centrepoint"
+  tagline: "Streamlining service provision for young people affected by homelessness"
+  logo: "centrepointLogo.jpg"
+  image: "centrepointDiary.jpg"
+  description:
+  - Every year tens of thousands of young people need help finding somewhere safe to sleep. They could be fleeing from abusive homes, unsafe accommodation or sleeping rough. Existing support services are stretched to the limit and simply cannot give everyone the support they need.
+  - Centrepoint is already leading the way with its innovative programs like the award-winning Youth Homeless Databank project. On the Fuse programme we’re exploring new ways to support young people to prepare and engage with statutory services, as well as understanding how greater data collected about these young people in need can enable policy shifts.

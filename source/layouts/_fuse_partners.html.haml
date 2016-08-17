@@ -1,0 +1,9 @@
+%section#clients.section.section-our-clients
+  .container
+    %h2.section-title
+      %span Supporters and partners
+    .row
+      - data.partners.partners.select { |partner| partner.role == 'fuse' }.each do |partner|
+        .col-md-3.col-sm-3.col-xs-3
+          = link_to partner.link, target: '_blank' do
+            = image_tag partner.image

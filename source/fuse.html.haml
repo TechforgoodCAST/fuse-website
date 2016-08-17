@@ -1,0 +1,96 @@
+---
+title: Fuse - the technology accelerator for nonprofits
+---
+
+#page
+  = partial 'layouts/fuse_nav'
+
+  #main.site-main
+
+    -# Hero
+    %section#carousel-1.carousel.slide.section-slide
+      .carousel-inner
+        = image_tag 'fuseHeader.jpg', alt: 'FUSE header image'
+
+    -# CTA
+    %section.section.section-center.section-introText
+      .container
+        .row
+          .col-md-8.col-md-offset-2.col-xs-10.col-xs-offset-1.headline
+            %h4
+              At
+              %a{:href => "http://wearecast.org.uk"} CAST
+              we know that technology can revolutionise how we address social problems.
+              %h4
+                %h4 So we developed Fuse. The world's only nonprofit technology accelerator.
+                %br
+                %h4 Fuse works with established nonprofits to build scaleable, user-centred, digital services.
+        .row
+          %a{:href => "mailto:fuse@wearecast.org.uk?Subject=Fuse%20Opportunities "}
+            .col-md-3.col-md-offset-2.col-sm-4.col-sm-offset-4.col-xs-6.col-xs-offset-3.suButtonFuse Contact us to find out more
+          %a.smooth-scroll{:href => "#footer"}
+            .col-md-3.col-md-offset-2.col-sm-4.col-sm-offset-4.col-xs-6.col-xs-offset-3.suButtonFuse Sign up for CAST's newsletter
+        %br
+
+    -# How it works
+    %section#features.section.section-center.section-features.fuseSection
+      .container
+        %h2.section-titleFuse
+          %span How it works
+        .row.fuseWriting.col-md-offset-
+          .col-md-4.col-sm-4
+            .icon-wrap
+              = image_tag 'digitalTeamWhite.png'
+            %h4 Digital Team
+            %p We wrap an expert digital team around the nonprofit staff who join the Fuse programme
+          .col-md-4.col-sm-4
+            .icon-wrap
+              = image_tag 'testedServiceWhite.png'
+            %h4 Tested Service
+            %p Over a 3 month period we prototype, test and develop a digital product or service that supports the social mission of the nonprofit
+          .col-md-4.col-sm-4
+            .icon-wrap
+              = image_tag 'roadmapWhite.png'
+            %h4 Roadmap
+            %p At the end of the 3 months, there's not just a tested digital product, but a roadmap for its future devleopment
+        .row.col-md-offset-1.col-sm-offset-2.fuseWriting
+          .col-md-5.col-sm-4
+            .icon-wrap
+              = image_tag 'integrationWhite.png'
+            %h4 Integration
+            %p Fuse avoids silos - throughout the 3 month development process, other teams from the nonprofit are integrated into the product and service development to support its growth
+          .col-md-5.col-sm-4
+            .icon-wrap
+              = image_tag 'springboardWhite.png'
+            %h4 Springboard
+            %p Nonprofit staff participating in Fuse gain hands-on training in digital product development and a strong digital network. This means they're skilled and empowered to continue the work
+
+    -# Teams
+    = partial 'layouts/teams'
+
+    -# The team
+    = partial 'layouts/fuse_team'
+
+    -# Supporters and partners
+    = partial 'layouts/fuse_partners'
+
+    -# Fuse blog
+    %section#blog.section.fuseSection.section-blog.fuseWriting.section-center
+      .container
+        %h2.section-titleFuse
+          %span Our Blog
+        .row
+          .col-md-6.col-md-offset-3
+            %article.hentry.post
+              .row
+                .entry-thumbnail.col-lg-4.col-md-5.col-sm-4
+                  = image_tag 'medium.png'
+                .col-lg-8.col-md-8.col-sm-6
+                  %header.entry-header
+                    %h2.entry-title Follow the team's progress on our Fuse blog
+                  .entry-content
+                    %a.more{:href => "https://medium.com/@CAST_fuse"}
+                      %span.btn.btn-primary Find out more
+
+    -# Contact us
+    = partial 'layouts/contact_us'
