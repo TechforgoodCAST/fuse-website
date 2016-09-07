@@ -35,11 +35,11 @@ people:
   fuse: true
   fuse_role: "User research"
 
-- name: "Catherine Thompson"
+- name: "Sam Sparrow"
   role: "Associate"
   description: "Leads on FUSE programme delivery"
-  linkedin: "https://www.linkedin.com/in/catherineethompson"
-  image: "catherine.jpg"
+  linkedin: "https://www.linkedin.com/in/samanthasparrow"
+  image: "sam.jpg"
   cast: true
   fuse: true
   fuse_role: "Programme Lead"

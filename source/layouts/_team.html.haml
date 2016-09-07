@@ -6,7 +6,7 @@
     .row
       - data.people.people.select { |person| person.cast? }.first(5).each_with_index do |person, index|
         .col-md-2.col-sm-4.col-xs-6{ class: ('col-md-offset-1' if index < 1) }
-          = link_to person.linkedin, class: 'hover-effect' do
+          = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
             = image_tag person.image
             %span.overlay
               %i.fa.fa-linkedin-square
@@ -17,7 +17,7 @@
     .row
       - data.people.people.select { |person| person.cast? }.last(4).each_with_index do |person, index|
         .col-md-2.col-sm-4.col-xs-6{ class: ('col-md-offset-2' if index < 1) }
-          = link_to person.linkedin, class: 'hover-effect' do
+          = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
             = image_tag person.image
             %span.overlay
               %i.fa.fa-linkedin-square
