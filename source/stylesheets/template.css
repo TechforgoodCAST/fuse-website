@@ -252,10 +252,12 @@ body {
 }
 .portfolio-isotope {
   width: 100%;
+  margin: 0 auto;
 }
 
 .isotope-item {
   min-height: 334px;
+  max-width: 285px;
 }
 
 /* Fuse site

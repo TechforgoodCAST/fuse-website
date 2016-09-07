@@ -1,7 +1,20 @@
 teams:
+- name: "Advising London"
+  logo: "advising-london.png"
+  graduate: false
+
+- name: "Clore Social Leadership"
+  logo: "clore-social-leadership.png"
+  graduate: false
+
+- name: "Womens Aid"
+  logo: "womens-aid.png"
+  graduate: false
+
 - name: "Oxfam UK Poverty Team"
   tagline: "Addressing food poverty"
   logo: "oxfamFuse.jpg"
+  graduate: true
   image: "oxfamPostIts700Crop.jpg"
   description:
   - "There is an unprecedented rise in food poverty in the UK. For example, in 2015 there was 42 times more food aid given out by the Trussell Trust than in 2009 – a massive 1.1 million emergency food parcels. But this is only a very small part of the picture. Overall, there is a massive lack of reliable data about food poverty in the UK."
@@ -10,6 +23,7 @@ teams:
 - name: "Breast Cancer Care"
   tagline: "Providing useful and meaningful activities to women recovering from breast cancer"
   logo: "breastCancerCareLogoFuse.jpg"
+  graduate: true
   image: "bccFuse.jpg"
   description:
   - Breast Cancer takes a huge physical and emotional toll. Whilst there is a range of support and treatment to address the physical aspects; the emotional impact is often overlooked.
@@ -19,6 +33,7 @@ teams:
 - name: "Age UK"
   tagline: "Tools for supporting guided care conversations"
   logo: "ageUkFuseLogo.png"
+  graduate: true
   image: "diaryResize.jpg"
   description:
   - The health and social care system is often set up to deal with discrete issues at crisis point. This lack of integrated and holistic person-centred care creates an untenable demand on resources. Older people are two thirds of NHS users and 40% of over 65s have a limiting longstanding illness; by 2030 this will equate to 6 million people.
@@ -27,6 +42,7 @@ teams:
 - name: "Centrepoint"
   tagline: "Streamlining service provision for young people affected by homelessness"
   logo: "centrepointLogo.jpg"
+  graduate: true
   image: "centrepointDiary.jpg"
   description:
   - Every year tens of thousands of young people need help finding somewhere safe to sleep. They could be fleeing from abusive homes, unsafe accommodation or sleeping rough. Existing support services are stretched to the limit and simply cannot give everyone the support they need.

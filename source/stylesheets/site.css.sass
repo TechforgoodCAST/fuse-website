@@ -1,6 +1,26 @@
 @charset "utf-8"
 @import "normalize"
 
+/* Typography
+ ============================================================================ */
+.subtitle
+  display: block
+  position: relative
+  text-align: center
+  &:after
+    content: ''
+    display: block
+    height: 1px
+    background: #0A303E
+    position: absolute
+    top: 15px
+    width: 100%
+  span
+    background-color: #fff
+    padding: 0 10px
+    z-index: 1
+    position: relative
+
 /* Mailchimp sign up
  ============================================================================ */
 
