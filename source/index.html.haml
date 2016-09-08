@@ -67,8 +67,49 @@
     -# Our work
     = partial 'layouts/our_work'
 
+    -# Get involved
+    %section#features.section.section-center.section-hilite.section-features
+      .container
+        %h2.section-title
+          %span Get involved
+        .row
+          .col-md-4.col-sm-6
+            .icon-wrap= image_tag 'fuseMainLogo.jpg'
+            %h4 Current opportunities - Fuse 2017
+            %p With support from Big Lottery Fund, we’re expanding our Fuse product accelerator for nonprofits.
+            %br
+            = link_to 'Click here', '/fuse'
+            for more info.
+            .icon-wrap= image_tag 'rocket.jpg'
+            %h4 We're hiring!
+            %p
+              %strong= link_to 'Junior Developer x 2, CAST', '#'
+              %br We’re looking for two developers to join our team and work with charities to build tech that creates social impact.
+             %p
+               %strong= link_to 'Data and Research Lead, Beehive', 'http://www.beehivegiving.org/files/Data&ResearchLead.pdf?utm_source=CAST&utm_medium=Link&utm_campaign=Hiring', target: '_blank'
+               %br
+                 = succeed ',' do
+                    = link_to 'Beehive', 'http://www.beehivegiving.org?utm_source=CAST&utm_medium=Link&utm_campaign=Hiring', target: '_blank'
+                 one of the tech for good ventures we incubate, is seeking a self-directed individual to lead their research about charitable funding.
+          .col-md-4.col-sm-6
+            .icon-wrap= image_tag 'tfgMeetup.jpg'
+            %h4 Join the Tech for Good community
+            %p There are currently regular Tech for Good Meetups in
+            = link_to 'London', 'http://www.meetup.com/techforgood/', target: '_blank'
+            = link_to 'Manchester', 'http://www.meetup.com/Tech-for-Good-Manchester/', target: '_blank'
+            = link_to 'Sheffield', 'http://shefftech4good.org/', target: '_blank'
+            and
+            = link_to 'Cambridge', 'http://www.meetup.com/Cambridge-Tech-For-Good-Meetup/' target: '_blank'
+            plus
+            = link_to 'NetSquared', 'http://netsquared.org/' target: '_blank'
+            events country-wide. Drop us a line at
+            %a#emailLink.emailLink{:href => "mailto:hello@wearecast.org.uk"} hello[at]wearecast.org.uk if you'd like some tips on hosting your own community event.
+
+
     -# The team
     = partial 'layouts/team'
+
+
 
     -# Our blog
     %section#blog.section.section-blog
