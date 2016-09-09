@@ -19,32 +19,6 @@
           %a{href: '#newsletter', class: 'smooth-scroll'}
             .col-md-4.col-md-offset-4.col-sm-4.col-sm-offset-4.col-xs-6.col-xs-offset-3.btn-newsletter.suButton Sign up for our Newsletter
 
-    -# Work with us
-    -# %section.section.section-center.section-opportunities
-    -#   .container
-    -#     %h2.section-title
-    -#       %span#section-opportunities Work with us!
-    -#     .row
-    -#       .col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-8.col-xs-offset-2
-    -#         %p
-    -#           CAST has
-    -#           = link_to 'recently been awarded £1.12m by Big Lottery Fund', 'https://medium.com/@wearecast/cast-announces-1-12m-funding-from-big-lottery-fund-to-power-nonprofits-with-digital-2bb75ec063fe#.mb633lo45', target: '_blank'
-    -#           to help more nonprofits build tech,
-    -#           following the success of our
-    -#           = link_to 'Fuse', '/fuse'
-    -#           product accelerator.
-    -#         %p
-    -#           We’ll be sharing details about the 2017 programme later in the year, so please follow us on
-    -#           = succeed "," do
-    -#             = link_to 'Twitter', 'https://twitter.com/TechforgoodCAST', target: '_blank'
-    -#           = link_to 'LinkedIn', 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank'
-    -#           or
-    -#           = succeed "," do
-    -#             = link_to 'Medium', 'https://medium.com/@wearecast', target: '_blank'
-    -#           = link_to 'sign up to our newsletter', '#newsletter', class: 'smooth-scroll', target: '_blank'
-    -#           so you can be the first to hear more details about it; our applications aren’t open just yet.
-
-
     -# What we do
     %section#features.section.section-center.section-hilite.section-features
       .container
@@ -68,51 +42,52 @@
     = partial 'layouts/our_work'
 
     -# Get involved
-    %section#features.section.section-center.section-hilite.section-features
+    %section#get-involved.section.section-center.section-hilite
       .container
         %h2.section-title
           %span Get involved
+
         .row
           .col-md-4.col-sm-6
-            .icon-wrap= image_tag 'fuseMainLogo.jpg'
             %h4 Current opportunities - Fuse 2017
             %p With support from Big Lottery Fund, we’re expanding our Fuse product accelerator for nonprofits.
-            %br
-            = link_to 'Click here', '/fuse'
-            for more info.
-            .icon-wrap= image_tag 'rocket.jpg'
+            %p
+              = link_to 'Click here for more info.', '/fuse', id: 'emailLink'
+
+          .col-md-4.col-sm-6
             %h4 We're hiring!
             %p
-              %strong= link_to 'Junior Developer x 2, CAST', '#'
+              %strong= link_to 'Full Stack Developer x 2, CAST', '#', id: 'emailLink'
               %br We’re looking for two developers to join our team and work with charities to build tech that creates social impact.
             %p
-              %strong= link_to 'Data and Research Lead, Beehive', 'http://www.beehivegiving.org/files/Data&ResearchLead.pdf?utm_source=CAST&utm_medium=Link&utm_campaign=Hiring', target: '_blank'
+              %strong= link_to 'Data and Research Lead, Beehive', 'http://www.beehivegiving.org/files/Data&ResearchLead.pdf?utm_source=CAST&utm_medium=Link&utm_campaign=Hiring', target: '_blank', id: 'emailLink'
               %br
-              = succeed ',' do
-              = link_to 'Beehive', 'http://www.beehivegiving.org?utm_source=CAST&utm_medium=Link&utm_campaign=Hiring', target: '_blank'
-              one of the tech for good ventures we incubate, is seeking a self-directed individual to lead their research about charitable funding.
-          .col-md-4.col-sm-6
-            .icon-wrap= image_tag 'tfgMeetup.jpg'
-            %h4 Join the Tech for Good community
-            %p There are currently regular Tech for Good Meetups in
-            = link_to 'London', 'http://www.meetup.com/techforgood/', target: '_blank'
-            = link_to 'Manchester', 'http://www.meetup.com/Tech-for-Good-Manchester/', target: '_blank'
-            = link_to 'Sheffield', 'http://shefftech4good.org/', target: '_blank'
-            and
-            = link_to 'Cambridge', 'http://www.meetup.com/Cambridge-Tech-For-Good-Meetup/' target: '_blank'
-            plus
-            = link_to 'NetSquared', 'http://netsquared.org/' target: '_blank'
-            events country-wide. Drop us a line at
-            %a#emailLink.emailLink{:href => "mailto:hello@wearecast.org.uk"} hello[at]wearecast.org.uk if you'd like some tips on hosting your own community event.
+                = succeed ',' do
+                  = link_to 'Beehive', 'http://www.beehivegiving.org?utm_source=CAST&utm_medium=Link&utm_campaign=Hiring', target: '_blank'
+                one of the tech for good ventures we incubate, is seeking a self-directed individual to lead their research about charitable funding.
 
+          .col-md-4.col-sm-6
+            %h4 Join the Tech for Good community
+            %p
+              There are currently regular Tech for Good Meetups in
+              = succeed ',' do
+                = link_to 'London', 'http://www.meetup.com/techforgood/', target: '_blank', id: 'emailLink'
+              = succeed ',' do
+                = link_to 'Manchester', 'http://www.meetup.com/Tech-for-Good-Manchester/', target: '_blank', id: 'emailLink'
+              = succeed ',' do
+                = link_to 'Sheffield', 'http://shefftech4good.org/', target: '_blank', id: 'emailLink'
+              and
+              = link_to 'Cambridge', 'http://www.meetup.com/Cambridge-Tech-For-Good-Meetup/', target: '_blank', id: 'emailLink'
+              plus
+              = link_to 'NetSquared', 'http://netsquared.org/', target: '_blank', id: 'emailLink'
+              events country-wide. Drop us a line at
+              %a#emailLink{:href => "mailto:hello@wearecast.org.uk"} hello[at]wearecast.org.uk if you'd like some tips on hosting your own community event.
 
     -# The team
     = partial 'layouts/team'
 
-
-
     -# Our blog
-    %section#blog.section.section-blog
+    %section#blog.section.section-blog.section-hilite
       .container
         %h2.section-title
           %span Our Blog
