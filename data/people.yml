@@ -44,6 +44,15 @@ people:
   fuse: true
   fuse_role: "Programme Lead"
 
+- name: "Suraj Vadgama"
+  role: "Associate"
+  description: "Creator of BeehiveGiving.org and Product Lead on our Fuse accelerator"
+  linkedin: "https://www.linkedin.com/in/surajvadgama"
+  image: "suraj.jpg"
+  cast: true
+  fuse: true
+  fuse_role: "Product Lead"
+
 - name: "Nat Hunter"
   role: "Board Member"
   description: "Social, digital and communications designer. Founder of Airside, former Director of Design at the RSA and Director of the Machine Rooms"

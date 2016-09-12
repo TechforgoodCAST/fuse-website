@@ -4,7 +4,7 @@
       %span The Team
 
     .row
-      - data.people.people.select { |person| person.cast? }.first(5).each_with_index do |person, index|
+      - data.people.people.select { |person| person.cast? }.first(6).each_with_index do |person, index|
         .col-md-2.col-sm-4.col-xs-6{ class: ('col-md-offset-1' if index < 1) }
           = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
             = image_tag person.image
