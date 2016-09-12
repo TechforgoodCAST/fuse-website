@@ -3,9 +3,10 @@
     %h2.section-title
       %span The Team
 
-    .row
-      - data.people.people.select { |person| person.cast? }.first(6).each_with_index do |person, index|
-        .col-md-2.col-sm-4.col-xs-6{ class: ('col-md-offset-1' if index < 1) }
+    .row.portfolio-isotope
+
+      - data.people.people.select(&:cast).each_with_index do |person, index|
+        .portfolio-item.col-md-2.col-sm-4.col-xs-6{ class: ('col-md-offset-1' if index % 5 ==0) }
           = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
             = image_tag person.image
             %span.overlay
@@ -13,14 +14,4 @@
             %h4= person.name
             %h5= person.role
             %h6= person.description
-    %br
-    .row
-      - data.people.people.select { |person| person.cast? }.last(4).each_with_index do |person, index|
-        .col-md-2.col-sm-4.col-xs-6{ class: ('col-md-offset-2' if index < 1) }
-          = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
-            = image_tag person.image
-            %span.overlay
-              %i.fa.fa-linkedin-square
-            %h4= person.name
-            %h5= person.role
-            %h6= person.description
+  
