@@ -260,6 +260,11 @@ body {
   max-width: 285px;
 }
 
+.section-features.tight, .section-features.tight p {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
 /* Fuse site
  ============================================================================ */
 
