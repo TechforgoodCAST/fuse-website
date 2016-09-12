@@ -2,7 +2,7 @@
   .container
     %h2.section-title
       %span Clients and Supporters
-
+      %br
     .row
       - data.partners.partners.select { |partner| partner.role == 'cast' }.first(6).each do |partner|
         .col-md-2.col-sm-3.col-xs-6
