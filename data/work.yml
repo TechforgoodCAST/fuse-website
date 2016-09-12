@@ -1,7 +1,7 @@
 projects:
 - name: "Fuse"
   description: "Running the UK's first charity digital accelerator"
-  image: "labResize.jpg"
+  image: "diaryResize.jpg"
   modal: false
   link: "fuse"
 
