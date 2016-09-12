@@ -5,10 +5,10 @@
 
     .row
       - data.partners.partners.select { |partner| partner.role == 'cast' }.first(6).each do |partner|
-        .col-md-2.col-sm-2.col-xs-2
+        .col-md-2.col-sm-3.col-xs-6
           %a= image_tag partner.image
 
     .row
       - data.partners.partners.select { |partner| partner.role == 'cast' }.last(5).each_with_index do |partner, index|
-        .col-md-2.col-sm-2.col-xs-2{ class: ('clients-bottom-row' if index < 1) }
+        .col-md-2.col-sm-3.col-xs-6{ class: ('clients-bottom-row' if index < 1) }
           %a= image_tag partner.image
