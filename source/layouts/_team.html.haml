@@ -6,7 +6,7 @@
     .row.portfolio-isotope
 
       - data.people.people.select(&:cast).each_with_index do |person, index|
-        .portfolio-item.col-md-2.col-sm-4.col-xs-6{ class: ('col-md-offset-1' if index % 5 ==0) }
+        .portfolio-item.col-md-2.col-sm-4.col-xs-6{ class: ('col-md-offset-1' if index % 5 == 0) }
           = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
             = image_tag person.image
             %span.overlay
@@ -14,4 +14,3 @@
             %h4= person.name
             %h5= person.role
             %h6= person.description
-  
