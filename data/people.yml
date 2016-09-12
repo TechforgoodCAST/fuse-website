@@ -89,9 +89,3 @@ people:
   fuse_role: "Technology Partner"
   image: "superbeingLogo.jpg"
   link: "http://superbeinglabs.org"
-
-- name: "Founders & Coders"
-  fuse: true
-  fuse_role: "Technology Partner"
-  image: "foundersLogo.jpg"
-  link: "http://www.foundersandcoders.com"
