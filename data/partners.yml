@@ -19,12 +19,10 @@ partners:
   role: 'cast'
 - image: 'foundersLogo.jpg'
   role: 'cast'
-- image: 'wayfindrNew.png'
-  role: 'cast'
 - image: 'latimerLogo400x300.jpg'
   role: 'cast'
 - image: 'impactHubLogoFuse.jpg'
-  role: 'cast'  
+  role: 'cast'
 
 - image: 'big-lottery-fund-logo.png'
   role: 'fuse'

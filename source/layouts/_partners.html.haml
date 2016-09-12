@@ -4,7 +4,7 @@
       %span Clients and Supporters
 
     .row
-      - data.partners.partners.select { |partner| partner.role == 'cast' }.first(7).each do |partner|
+      - data.partners.partners.select { |partner| partner.role == 'cast' }.first(6).each do |partner|
         .col-md-2.col-sm-3.col-xs-6
           %a= image_tag partner.image
 
