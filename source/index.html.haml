@@ -50,7 +50,7 @@
         .row.section.section-features.tight
           .col-md-4.col-sm-6
             .icon-wrap.wide
-              .verticle-align= image_tag 'fuseLogoLarge.png'
+              .verticle-align= image_tag 'fuseLogo.png'
             %h4 Current opportunities - Fuse 2017
             %p With support from Big Lottery Fund, we’re expanding our Fuse product accelerator.
             %p Fuse works with nonprofits to build scaleable, user-centred, digital services that fuse together the reach, ambition and reputation of established social-impact organisations with the lean, agile and test-driven processes of tech startups.
@@ -93,30 +93,11 @@
               %a#emailLink{:href => "mailto:hello@wearecast.org.uk"} Drop us a line at hello[at]wearecast.org.uk
               if you'd like some tips on hosting your own community event.
 
-    -# The team
-    = partial 'layouts/team'
-
-    -# Our blog
-    %section#blog.section.section-blog.section-hilite
-      .container
-        %h2.section-title
-          %span Our Blog
-        .row
-          .col-md-6.col-md-offset-3
-            %article.hentry.post
-              .row
-                .entry-thumbnail.col-lg-4.col-md-5.col-sm-4
-                  = image_tag 'medium.png'
-                .col-lg-8.col-md-8.col-sm-6
-                  %header.entry-header
-                    %h2.entry-title Follow our latest thoughts on our Medium blog
-                  .entry-content
-                    %p We share our latest ideas, projects and learning openly on Medium.
-                    %a.more{:href => "https://medium.com/@wearecast", :target => "_blank"}
-                      %span.btn.btn-primary Find out more
-
     -# Clients and supporters
     = partial 'layouts/partners'
+
+    -# The team
+    = partial 'layouts/team'
 
     -# Contact us
     = partial 'layouts/contact_us'
