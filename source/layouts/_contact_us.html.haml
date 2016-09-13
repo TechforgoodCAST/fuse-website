@@ -29,13 +29,12 @@
         %i.fa.fa-medium.fa-3x
         %p
           - if current_page.url.include?('fuse')
-            Follow the team's progress on our
-            = succeed '.' do
-              = link_to 'Fuse blog', 'https://medium.com/@CAST_fuse', target: '_blank', id: 'emailLink'
+            Follow the progress of our charity 'Fusiliers' on our
+            = succeed ',' do
+              = link_to 'dedicated Fuse blog', 'https://medium.com/@CAST_fuse', target: '_blank', id: 'emailLink'
+            where we share insights about the accelerator process and latest updates.
           - else
             Follow our latest thoughts on
             = succeed ',' do
-              = link_to 'our blog', 'https://medium.com/@wearecast', target: '_blank', id: 'emailLink'
-            we share our latest ideas, projects and learning openly on
-            = succeed '.' do
-              = link_to 'Medium', 'https://medium.com/@wearecast', target: '_blank', id: 'emailLink'
+              = link_to 'our Medium blog', 'https://medium.com/@wearecast', target: '_blank', id: 'emailLink'
+            we share our latest ideas, projects and learning openly.
