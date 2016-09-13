@@ -256,7 +256,10 @@ body {
   max-width: 285px;
 }
 .isotope-item.small {
-  min-height: auto;
+  min-height: 160px;
+}
+#clients {
+  min-height: 527px;
 }
 
 .section-features.tight, .section-features.tight p {
