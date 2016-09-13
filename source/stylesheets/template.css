@@ -255,6 +255,9 @@ body {
   min-height: 334px;
   max-width: 285px;
 }
+.isotope-item.small {
+  min-height: auto;
+}
 
 .section-features.tight, .section-features.tight p {
   padding: 0;
