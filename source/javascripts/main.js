@@ -75,7 +75,7 @@ $(document).ready(function(){
           }
         },
         oncancel: function(){
-          window.open('https://drive.google.com/file/d/0B-M1syckDdQbcEZoUUJoUzNNblk/view?usp=sharing', '_blank');
+          window.open('/files/AboutFuse.pdf', '_blank');
         }
       });
       $('.ajs-body').remove();

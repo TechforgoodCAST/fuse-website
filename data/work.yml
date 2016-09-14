@@ -11,29 +11,11 @@ projects:
   modal: true
   partial: "fellowship"
 
-#- name: "Age UK Islington"
-#  description: "Working in partnership with Age UK Islington and Islington Council to create a shared impact framework for wellbeing in the borough"
-#  image: "ruler.jpg"
-#  modal: true
-#  partial: "age_uk"
-
-#- name: "Tech for Good meet-ups"
-#  description: "Running the #techforgood meetups - a community of over 3000 social tech entrepreneurs"
-#  image: "tfgMeetup.jpg"
-#  modal: true
-#  partial: "meet_ups"
-
 - name: "Ufi Charitable Trust"
   description: "Developing Ufi’s innovation fund and providing strategic insight to further their mission and impact"
   image: "ufiBrainStorm.jpg"
   modal: true
   partial: "ufi"
-
-#- name: "Latimer"
-#  description: "Producing a guide on digital transformation for Latimer clients"
-#  image: "robotBird.jpg"
-#  modal: true
-#  partial: "latimer"
 
 - name: "The Power to Change"
   description: "Supporting The Power to Change to embed digital tools into their grant management processes"
