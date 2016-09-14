@@ -10,11 +10,15 @@
 
     - if current_page.url.include?('fuse')
       %link{href: "/images/fuseTab.png", rel: "icon"}
+      = stylesheet_link_tag "//cdn.jsdelivr.net/alertifyjs/1.8.0/css/alertify.min.css"
+      = stylesheet_link_tag "//cdn.jsdelivr.net/alertifyjs/1.8.0/css/themes/default.min.css"
+      = javascript_include_tag '//cdn.jsdelivr.net/alertifyjs/1.8.0/alertify.min.js'
     - else
       %link{href: "/images/castCircle.png", rel: "icon"}
 
     = stylesheet_link_tag :site
     = stylesheet_link_tag :template
+    = stylesheet_link_tag "//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
     = stylesheet_link_tag "//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
 
     :javascript

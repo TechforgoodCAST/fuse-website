@@ -19,31 +19,6 @@
           %a{href: '#newsletter', class: 'smooth-scroll'}
             .col-md-4.col-md-offset-4.col-sm-4.col-sm-offset-4.col-xs-6.col-xs-offset-3.btn-newsletter.suButton Sign up for our Newsletter
 
-    -# Work with us
-    %section.section.section-center.section-opportunities
-      .container
-        %h2.section-title
-          %span#section-opportunities Work with us!
-        .row
-          .col-md-8.col-md-offset-2.col-sm-8.col-sm-offset-2.col-xs-8.col-xs-offset-2
-            %p
-              CAST has
-              = link_to 'recently been awarded £1.12m by Big Lottery Fund', 'https://medium.com/@wearecast/cast-announces-1-12m-funding-from-big-lottery-fund-to-power-nonprofits-with-digital-2bb75ec063fe#.mb633lo45', target: '_blank'
-              to help more nonprofits build tech,
-              following the success of our
-              = link_to 'Fuse', '/fuse'
-              product accelerator.
-            %p
-              We’ll be sharing details about the 2017 programme later in the year, so please follow us on
-              = succeed "," do
-                = link_to 'Twitter', 'https://twitter.com/TechforgoodCAST', target: '_blank'
-              = link_to 'LinkedIn', 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank'
-              or
-              = succeed "," do
-                = link_to 'Medium', 'https://medium.com/@wearecast', target: '_blank'
-              = link_to 'sign up to our newsletter', '#newsletter', class: 'smooth-scroll', target: '_blank'
-              so you can be the first to hear more details about it; our applications aren’t open just yet.
-
     -# What we do
     %section#features.section.section-center.section-hilite.section-features
       .container
@@ -66,30 +41,65 @@
     -# Our work
     = partial 'layouts/our_work'
 
-    -# The team
-    = partial 'layouts/team'
-
-    -# Our blog
-    %section#blog.section.section-blog
+    -# Get involved
+    %section#get-involved.section.section-center.section-hilite
       .container
         %h2.section-title
-          %span Our Blog
-        .row
-          .col-md-6.col-md-offset-3
-            %article.hentry.post
-              .row
-                .entry-thumbnail.col-lg-4.col-md-5.col-sm-4
-                  = image_tag 'medium.png'
-                .col-lg-8.col-md-8.col-sm-6
-                  %header.entry-header
-                    %h2.entry-title Follow our latest thoughts on our Medium blog
-                  .entry-content
-                    %p We share our latest ideas, projects and learning openly on Medium.
-                    %a.more{:href => "https://medium.com/@wearecast", :target => "_blank"}
-                      %span.btn.btn-primary Find out more
+          %span Get involved
+
+        .row.section.section-features.tight
+          .col-md-4.col-sm-6
+            .icon-wrap.wide
+              .verticle-align= image_tag 'fuseLogo.png'
+            %h4 Current opportunities - Fuse 2017
+            %p
+              With support from Big Lottery Fund, we’re expanding our Fuse product accelerator.
+              = succeed '.' do
+                = link_to 'Click here for more info', '/fuse', target: '_blank', id: 'emailLink'
+            %p Fuse works with nonprofits to build scaleable, user-centred, digital services that fuse together the reach, ambition and reputation of established social-impact organisations with the lean, agile and test-driven processes of tech startups.
+
+
+          .col-md-4.col-sm-6
+            .icon-wrap
+              .verticle-align= image_tag 'hiring.png'
+            %h4 We're hiring!
+            %p
+              %strong= link_to 'Full Stack Developer (x2), CAST', '/files/FullStackDeveloper.pdf', id: 'emailLink', target: '_blank'
+              %br We’re looking for two developers to join our team and work with nonprofits to build tech that solves some of the world's toughest social challenges.
+            %p
+              %strong= link_to 'Data and Research Lead, Beehive', 'http://www.beehivegiving.org/files/Data&ResearchLead.pdf?utm_source=CAST&utm_medium=Link&utm_campaign=Hiring', target: '_blank', id: 'emailLink'
+              %br
+                = succeed ',' do
+                  = link_to 'Beehive', 'http://www.beehivegiving.org?utm_source=CAST&utm_medium=Link&utm_campaign=Hiring', target: '_blank'
+                one of the tech for good ventures we incubate, is seeking a self-directed individual to lead their research about charitable funding.
+
+          .col-md-4.col-sm-6
+            .icon-wrap
+              .verticle-align= image_tag 'tfgLogo.png'
+            %h4 Join the Tech for Good community
+            %br
+            %p
+              There are currently regular Tech for Good Meetups in
+              = succeed ',' do
+                = link_to 'London', 'http://www.meetup.com/techforgood/', target: '_blank', id: 'emailLink'
+              = succeed ',' do
+                = link_to 'Manchester', 'http://www.meetup.com/Tech-for-Good-Manchester/', target: '_blank', id: 'emailLink'
+              = succeed ',' do
+                = link_to 'Sheffield', 'http://shefftech4good.org/', target: '_blank', id: 'emailLink'
+              and
+              = link_to 'Cambridge', 'http://www.meetup.com/Cambridge-Tech-For-Good-Meetup/', target: '_blank', id: 'emailLink'
+              plus
+              = link_to 'NetSquared', 'http://netsquared.org/', target: '_blank', id: 'emailLink'
+              events country-wide.
+            %p
+              %a#emailLink{:href => "mailto:hello@wearecast.org.uk"} Drop us a line at hello[at]wearecast.org.uk
+              if you'd like some tips on hosting your own community event.
 
     -# Clients and supporters
     = partial 'layouts/partners'
+
+    -# The team
+    = partial 'layouts/team'
 
     -# Contact us
     = partial 'layouts/contact_us'

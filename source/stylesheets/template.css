@@ -227,10 +227,6 @@ h2
   margin-bottom: 1em;
 }
 
-.clients-bottom-row {
-  margin-left: 13%;
-}
-
 /* Bootstrap fixes
  ============================================================================ */
 
@@ -252,10 +248,23 @@ body {
 }
 .portfolio-isotope {
   width: 100%;
+  margin: 0 auto;
 }
 
 .isotope-item {
   min-height: 334px;
+  max-width: 285px;
+}
+.isotope-item.small {
+  min-height: 160px;
+}
+#clients {
+  min-height: 527px;
+}
+
+.section-features.tight, .section-features.tight p {
+  padding: 0;
+  margin-bottom: 10px;
 }
 
 /* Fuse site

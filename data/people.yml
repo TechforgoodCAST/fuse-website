@@ -1,6 +1,6 @@
 people:
 - name: "Annika Small"
-  role: "Co-Founder & Associate"
+  role: "Co-Founder & Director"
   description: "Advises CAST on business development. Chair of Wayra/Unltd, Trustee Design Council and Access Foundation"
   linkedin: "https://uk.linkedin.com/pub/annika-small/0/ab/166"
   image: "annika.jpg"
@@ -27,7 +27,7 @@ people:
   fuse_role: "Marketing and PR Lead"
 
 - name: "Kieron Kirkland"
-  role: "Co-Founder & Director<"
+  role: "Co-Founder & Director"
   description: "Leads on community building, digital R&D and impact measurement"
   linkedin: "https://www.linkedin.com/pub/kieron-kirkland/19/7a2/a68"
   image: "kieron.jpg"
@@ -35,14 +35,23 @@ people:
   fuse: true
   fuse_role: "User research"
 
-- name: "Catherine Thompson"
+- name: "Sam Sparrow"
   role: "Associate"
-  description: "Leads on FUSE programme delivery"
-  linkedin: "https://www.linkedin.com/in/catherineethompson"
-  image: "catherine.jpg"
+  description: "Leads on Fuse programme delivery"
+  linkedin: "https://www.linkedin.com/in/samanthasparrow"
+  image: "sam.jpg"
   cast: true
   fuse: true
   fuse_role: "Programme Lead"
+
+- name: "Suraj Vadgama"
+  role: "Associate"
+  description: "Creator of BeehiveGiving.org and Product Lead on our Fuse accelerator"
+  linkedin: "https://www.linkedin.com/in/surajvadgama"
+  image: "suraj.jpg"
+  cast: true
+  fuse: true
+  fuse_role: "Product Lead"
 
 - name: "Nat Hunter"
   role: "Board Member"
@@ -80,9 +89,3 @@ people:
   fuse_role: "Technology Partner"
   image: "superbeingLogo.jpg"
   link: "http://superbeinglabs.org"
-
-- name: "Founders & Coders"
-  fuse: true
-  fuse_role: "Technology Partner"
-  image: "foundersLogo.jpg"
-  link: "http://www.foundersandcoders.com"

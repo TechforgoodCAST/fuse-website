@@ -4,7 +4,7 @@
       .navbar-header
         %div
           = link_to '/fuse.html' do
-            = image_tag 'fuseLogo.png'
+            = image_tag 'fuseLogo.png', width: 190
           = link_to '/' do
             = image_tag 'castLogoSmallPng.png', class: 'thumbnailImage'
         %button.navbar-toggle{"data-target" => "#navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
@@ -21,6 +21,6 @@
           %li
             %a{:href => "#team"} The team
           %li
-            %a{:href => "#clients"} Partners
+            %a{:href => "#partners"} Partners
           %li
             %a{:href => "#contact"} Contact

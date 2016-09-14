@@ -1,8 +1,42 @@
 @charset "utf-8"
 @import "normalize"
 
-/* Mailchimp sign up
- ============================================================================ */
+// Typography
+   =============================================================================
+
+.subtitle
+  display: block
+  position: relative
+  text-align: center
+  &:after
+    content: ''
+    display: block
+    height: 1px
+    background: #0A303E
+    position: absolute
+    top: 15px
+    width: 100%
+  span
+    background-color: #fff
+    padding: 0 10px
+    z-index: 1
+    position: relative
+
+// Utility
+   =============================================================================
+
+.verticle-align
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+  -webkit-transform: translateY(-50%)
+  -ms-transfrom: translateY(-50%)
+
+.icon-wrap.wide
+  width: 220px !important
+
+// Mailchimp sign up
+   =============================================================================
 
 #mc_embed_signup
   background: none !important
@@ -61,3 +95,9 @@ input.mce_inline_error
 
 #mce-error-response
   color: #e53722
+
+// Alertify Overrides
+   =============================================================================
+
+.ajs-buttons
+  text-align: center !important
