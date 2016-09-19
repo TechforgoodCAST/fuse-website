@@ -59,4 +59,25 @@ $(document).ready(function(){
       $(".navbar-toggle").click();
     }
   });
+
+  $('#apply').on('click', function(e) {
+    e.preventDefault();
+    var href = this.href;
+    alertify.confirm('Have you read our guidance?').setting({
+        title: 'Have you read our guidance?',
+        transition: 'fade',
+        movable: false,
+        closable: false,
+        labels: { ok: 'Yes, take me to the application form', cancel: 'No, show me guidance'},
+        onok: function() {
+          if (e) {
+            window.open(href, '_blank');
+          }
+        },
+        oncancel: function(){
+          window.open('/files/AboutFuse.pdf', '_blank');
+        }
+      });
+      $('.ajs-body').remove();
+  });
 });
