@@ -54,18 +54,21 @@ people:
 - name: "Mary McKenna MBE"
   role: "Board Member"
   description: "Tech entrepreneur &amp angel investor, Entrepreneur in Residence at the NI Science Park, Digital Catapult Advisory Network member, charities trustee, co-founded Learning Pool"
+  linkedin: "https://www.linkedin.com/in/mmarymckenna"
   image: "mary3.jpg"
   cast: true
 
 - name: "Nick Stanhope"
   role: "Board Member"
   description: "Expert in social innovation and product design for social change. CEO of Shift and Trustee of Tinder Foundation"
+  linkedin: "https://www.linkedin.com/in/nickstanhope"
   image: "nick.jpg"
   cast: true
 
 - name: "Emma Thomas"
   role: "Board Member"
   description: "Charity and technology innovator, leader and advocate. Former CEO of YouthNet and Trustee of Technology Trust"
+  linkedin: "https://www.linkedin.com/in/emma-thomas-17316015"
   image: "emma.jpg"
   cast: true
 
