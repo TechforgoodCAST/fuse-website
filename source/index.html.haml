@@ -49,28 +49,30 @@
 
         .row.section.section-features.tight
           .col-md-4.col-sm-6
-            .icon-wrap.wide
+            .icon-wrap
               .verticle-align= image_tag 'hiring.png'
             %h4 Need inspiration or got some to share?
             %p
               Follow the #techforgood hashtag on Twitter for regular updates and inspiring stories from the global tech for good community.
             %p
               %br
-              We’ve also put together a handy guide for developers to some
+                We’ve also put together a handy guide for developers to some
                 = link_to 'awesome-techforgood', 'https://github.com/TechforgoodCAST/awesome-techforgood', target: '_blank', id: 'emailLink'
-              organisations and projects on GitHub. Please add your contributions!
+                organisations and projects on GitHub. Please add your contributions!
 
 
 
           .col-md-4.col-sm-6
-            .icon-wrap
+            .icon-wrap.wide
               .verticle-align= image_tag 'beehivelogo.png'
             %h4 Looking for funding?
             %p
               CAST itself isn’t a funder, but we are currently incubating a funder recommendation platform called
-                = succeed '.' do
-                  = link_to 'Beehive.', 'https://www.beehivegiving.org/', target: '_blank'
-              Beehive uses open data to intelligently match social-impact organisations with the right funders. So you can check your eligibility and see what’s out there before you apply.
+              = succeed '.' do
+                = link_to 'Beehive.', 'https://www.beehivegiving.org/', target: '_blank'
+              Beehive uses open data to intelligently match social-impact organisations with the right funders.
+            %p  
+              So you can check your eligibility and see what’s out there before you apply.
             %p
               %br
                 = succeed '.' do
