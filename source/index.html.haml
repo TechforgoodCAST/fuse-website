@@ -73,9 +73,8 @@
             %p
               Beehive uses open data to intelligently match social-impact organisations with the right funders. So you can check your eligibility and see what’s out there before you apply.
             %p
-              %br
-                = succeed '.' do
-                  = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank'
+              = succeed '.' do
+                = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink'
 
           .col-md-4.col-sm-6
             .icon-wrap
