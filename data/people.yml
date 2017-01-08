@@ -88,6 +88,11 @@ people:
   image: "jim.jpg"
   cast: true
 
+- name: "More team members to be announced soon..."
+  description: "Stay tuned!"
+  image: "comingsoon.png"
+  cast: true
+
 - name: "Simon L'Anson"
   fuse: true
   fuse_role: "Design and Product Lead"
