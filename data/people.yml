@@ -81,6 +81,13 @@ people:
   image: "emma.jpg"
   cast: true
 
+- name: "Lord Jim Knight"
+  role: "Board Member"
+  description: "Education, technology and digital inclusion expert. Former Labour Schools minister, Chief Education Adviser at TES Global Ltd. and co-owner of tech for good venture, xRapid"
+  linkedin: "https://uk.linkedin.com/in/jimpknight"
+  image: "jim.jpg"
+  cast: true
+
 - name: "Simon L'Anson"
   fuse: true
   fuse_role: "Design and Product Lead"
