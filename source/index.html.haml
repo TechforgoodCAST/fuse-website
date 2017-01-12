@@ -65,11 +65,10 @@
             %h4 Looking for funding?
             %p
               CAST itself isn’t a funder, but we are currently incubating a funder recommendation platform called
-              = succeed '.' do
+              = succeed ' ' do
                 = link_to 'Beehive', 'https://www.beehivegiving.org/', target: '_blank'
             %p
               Beehive uses open data to intelligently match social-impact organisations with the right funders. So you can check your eligibility and see what’s out there before you apply.
-            %p
               = succeed '.' do
                 = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink'
 
@@ -77,7 +76,6 @@
             .icon-wrap
               .verticle-align= image_tag 'tfgLogo.png'
             %h4 Join the Tech for Good community
-            %br
             %p
               There are currently regular Tech for Good Meetups in
               = succeed ',' do
