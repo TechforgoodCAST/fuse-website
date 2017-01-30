@@ -9,7 +9,7 @@
     .portfolio-isotope.row{style: "max-width: #{285 * data.teams.teams.select { |t| !t.graduate? }.count}px"}
       - data.teams.teams.select { |t| !t.graduate? }.each do |team|
         - unless team.graduate?
-          %article.post.col-md-4.col-sm-6.portfolio-item
+          %article.post.col-md-6.col-sm-6.portfolio-item
             .entry-thumbnail
               = image_tag team.logo
               %h4.fuseTeamText= team.name
