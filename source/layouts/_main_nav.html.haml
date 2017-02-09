@@ -1,16 +1,4 @@
 %header#header.site-header
-  %nav#topbar.site-topbar.visible-lg.visible-md
-    .container
-      .row
-        .col-sm-6
-        .social-links.col-sm-6
-          %a{ href: 'https://twitter.com/@TechforgoodCAST', target: '_blank' }
-            %i.fa.fa-twitter
-          %a{ href: 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank' }
-            %i.fa.fa-linkedin-square
-          %a{ href: 'https://medium.com/@wearecast', target: '_blank' }
-            %i.fa.fa-medium{'aria-hidden' => 'true'}
-
   %nav#navbar.site-navbar.navbar.navbar-static-top{ role: 'navigation' }
     .container
       .navbar-header
@@ -20,6 +8,13 @@
         %h1.navbar-brand
           %a{ href: 'index.html' }
       #navbar-collapse-1.collapse.navbar-collapse
+        %div.social-links
+          %a{ href: 'https://twitter.com/@TechforgoodCAST', target: '_blank' }
+            %i.fa.fa-twitter
+          %a{ href: 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank' }
+            %i.fa.fa-linkedin-square
+          %a{ href: 'https://medium.com/@wearecast', target: '_blank' }
+            %i.fa.fa-medium{'aria-hidden' => 'true'}
         %ul#navigation.nav.navbar-nav.navbar-right
           %li.active
             %a.current{ href: '#header' } Home
