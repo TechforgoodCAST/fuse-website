@@ -1,14 +1,25 @@
 teams:
-- name: "Advising London"
-  logo: "advising-london.png"
+
+# TODO: Find description and images for most recent graduates (Advising London, Clore Social Leadership, Womens Aid)
+
+# - name: "Advising London"
+#   logo: "advising-london.png"
+#   graduate: false
+#
+# - name: "Clore Social Leadership"
+#   logo: "clore-social-leadership.png"
+#   graduate: false
+#
+# - name: "Womens Aid"
+#   logo: "womens-aid.png"
+#   graduate: false
+
+- name: "National Childbirth Trust"
+  logo: "nct-logo-fuse.png"
   graduate: false
 
-- name: "Clore Social Leadership"
-  logo: "clore-social-leadership.png"
-  graduate: false
-
-- name: "Womens Aid"
-  logo: "womens-aid.png"
+- name: "Parkinsons UK"
+  logo: "parkinsons-uk-logo-fuse.png"
   graduate: false
 
 - name: "Oxfam UK Poverty Team"
