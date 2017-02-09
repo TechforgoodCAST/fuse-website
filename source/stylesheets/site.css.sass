@@ -1,6 +1,11 @@
 @charset "utf-8"
 @import "normalize"
 
+// variables
+$red: #f15f4c
+$blue-green: #2dadb6
+
+
 // Typography
    =============================================================================
 
@@ -34,6 +39,24 @@
 
 .icon-wrap.wide
   width: 220px !important
+
+// Social
+   =============================================================================
+
+.social-links
+  float: right
+  height: 5em
+  width: 5em
+  margin: 0 2em
+  display: flex
+  align-items: center
+  justify-content: space-between
+  a
+    padding: 0.5em
+    font-size: 1.2em
+  a:hover
+    color: $red
+
 
 // Mailchimp sign up
    =============================================================================
@@ -101,3 +124,46 @@ input.mce_inline_error
 
 .ajs-buttons
   text-align: center !important
+
+
+// Carousel Overrides
+   =============================================================================
+
+.carousel-inner
+  img
+    width: 100%
+
+
+.site-main
+  padding-top: 65px
+  @media screen and (max-width: 992px)
+    padding-top: 50px
+
+// Navbar Overrides
+   =============================================================================
+
+.site-navbar
+  background-color: $blue-green
+  box-shadow: none
+
+.site-navbar
+  .navbar-toggle
+    color: #fff
+
+.nav
+  li
+    a
+      color: #fff
+    a:hover
+      color: $red
+    a:focus
+      background-color: transparent
+
+.navbar-toggle
+  top: 7px
+  right: 14px
+  margin: 0!important
+
+.navbar-collapse
+  margin-left: 0
+  margin-right: 0
