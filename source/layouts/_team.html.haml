@@ -1,11 +1,11 @@
 %section#team.section.section-center.section-hilite.section-team
   .container
     %h2.section-title
-      %span The Team
+      %span Our Team
 
     .row.portfolio-isotope
 
-      - data.people.people.select(&:cast).each_with_index do |person, index|
+      - data.people.team.select(&:cast).each_with_index do |person, index|
         .portfolio-item.col-md-2.col-sm-4.col-xs-6
           = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
             = image_tag person.image

@@ -1,4 +1,4 @@
-people:
+team:
 - name: "Annika Small"
   role: "Co-Founder & Director"
   description: "Advises CAST on business development. Chair of Wayra/Unltd, Trustee Design Council and Access Foundation"
@@ -53,6 +53,19 @@ people:
   fuse: true
   fuse_role: "Product Lead"
 
+- name: "Simon L'Anson"
+  fuse: true
+  fuse_role: "Design and Product Lead"
+  image: "simon.png"
+  link: "http://www.showmestudio.co.uk"
+
+- name: "Super Being Labs"
+  fuse: true
+  fuse_role: "Technology Partner"
+  image: "superbeingLogo.png"
+  link: "http://superbeinglabs.org"
+
+board:
 - name: "Nat Hunter"
   role: "Board Member"
   description: "Social, digital and communications designer. Founder of Airside, former Director of Design at the RSA and Director of the Machine Rooms"
@@ -88,20 +101,8 @@ people:
   image: "jim.jpg"
   cast: true
 
-- name: "More team members to be announced soon..."
-  description: "Stay tuned!"
-  linkedin: "https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology/"
-  image: "comingsoon.png"
-  cast: true
-
-- name: "Simon L'Anson"
-  fuse: true
-  fuse_role: "Design and Product Lead"
-  image: "simon.png"
-  link: "http://www.showmestudio.co.uk"
-
-- name: "Super Being Labs"
-  fuse: true
-  fuse_role: "Technology Partner"
-  image: "superbeingLogo.png"
-  link: "http://superbeinglabs.org"
+# - name: "More team members to be announced soon..."
+#   description: "Stay tuned!"
+#   linkedin: "https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology/"
+#   image: "comingsoon.png"
+#   cast: true
