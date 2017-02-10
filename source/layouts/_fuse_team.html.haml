@@ -4,7 +4,7 @@
       %span The Team
 
     .portfolio-isotope
-      - data.people.people.select { |person| person.fuse? }.each do |person|
+      - data.people.team.select { |person| person.fuse? }.each do |person|
         .col-md-3.col-sm-6.portfolio-item.team-member
           = link_to person.linkedin || person.link, target: '_blank', class: 'hover-effectFuse' do
             = image_tag person.image

@@ -1,0 +1,26 @@
+%section#board.section.section-center.section-hilite.section-board
+  .container
+    %h2.section-title
+      %span Board Members
+
+    .row.portfolio-isotope
+
+      - data.people.board.select(&:cast).each_with_index do |person, index|
+        -if index == 0
+          .portfolio-item.col-md-2.col-sm-4.col-xs-6.col-md-offset-1
+            = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
+              = image_tag person.image
+              %span.overlay
+                %i.fa.fa-linkedin-square
+              %h4= person.name
+              %h5= person.role
+              %h6= person.description
+        - else
+          .portfolio-item.col-md-2.col-sm-4.col-xs-6
+            = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
+              = image_tag person.image
+              %span.overlay
+                %i.fa.fa-linkedin-square
+              %h4= person.name
+              %h5= person.role
+              %h6= person.description
