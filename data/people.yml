@@ -7,6 +7,7 @@ team:
   cast: true
   fuse: true
   fuse_role: "Mentor"
+  first_row: true
 
 - name: "Dan Sutch"
   role: "Co-Founder & Director"
@@ -16,6 +17,7 @@ team:
   cast: true
   fuse: true
   fuse_role: "Strategy and venture support"
+  first_row: true
 
 - name: "Ellie Hale"
   role: "Associate"
@@ -25,6 +27,7 @@ team:
   cast: true
   fuse: true
   fuse_role: "Marketing and PR Lead"
+  first_row: true
 
 - name: "Kieron Kirkland"
   role: "Co-Founder & Director"
@@ -34,6 +37,7 @@ team:
   cast: true
   fuse: true
   fuse_role: "User research"
+  first_row: true
 
 - name: "Sam Sparrow"
   role: "Associate"
@@ -43,6 +47,7 @@ team:
   cast: true
   fuse: true
   fuse_role: "Programme Lead"
+  first_row: true
 
 - name: "Suraj Vadgama"
   role: "Associate"
@@ -52,8 +57,33 @@ team:
   cast: true
   fuse: true
   fuse_role: "Product Lead"
+  first_row: true
 
-- name: "Simon L'Anson"
+- name: "David Kane"
+  role: "Data Scientist"
+  description: "Data scientist at BeehiveGiving.org and CAST"
+  linkedin: "https://www.linkedin.com/in/david-kane-52256327"
+  image: "david.jpg"
+  cast: true
+  second_row: true
+
+- name: "Andrew MacMurray"
+  role: "Full Stack Developer"
+  description: "Technical lead on Fuse programme"
+  linkedin: "https://www.linkedin.com/in/andrew-macmurray-280a08111"
+  image: "andrew.jpg"
+  cast: true
+  second_row: true
+
+- name: "Ivan Gonzalez"
+  role: "Full Stack Developer"
+  description: "Technical lead on Fuse programme"
+  linkedin: "https://uk.linkedin.com/in/i-gonzalez"
+  image: "ivan.jpg"
+  cast: true
+  second_row: true
+
+- name: "Simon L'anson"
   fuse: true
   fuse_role: "Design and Product Lead"
   image: "simon.png"
