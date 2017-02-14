@@ -1,10 +1,7 @@
 @charset "utf-8"
 @import "normalize"
-
-// variables
-$red: #f15f4c
-$blue-green: #2dadb6
-$dark-blue-green: #0a303d
+@import "variables"
+@import "fuse"
 
 
 // Typography
@@ -52,7 +49,7 @@ $dark-blue-green: #0a303d
   display: flex
   align-items: center
   justify-content: space-between
-  @media screen and (max-width: 992px)
+  @media #{$w-medium}
     display: none
   a
     padding: 0.5em
@@ -82,9 +79,9 @@ $dark-blue-green: #0a303d
   height: 2.8em !important
   margin: 0 auto !important
   transition: all .3s
-  @media screen and (max-width: 992px)
+  @media #{$w-medium}
     width: 50% !important
-  @media screen and (max-width: 420px)
+  @media #{$w-small}
     width: 100% !important
 
 .mc-field-group input
@@ -102,9 +99,9 @@ $dark-blue-green: #0a303d
   color: #e53722 !important
   transition: all .3s
   width: 30%
-  @media screen and (max-width: 992px)
+  @media #{$w-medium}
     width: 50%
-  @media screen and (max-width: 420px)
+  @media #{$w-small}
     width: 100%
 
 input.mce_inline_error
@@ -139,7 +136,7 @@ input.mce_inline_error
 
 .site-main
   padding-top: 65px
-  @media screen and (max-width: 992px)
+  @media #{$w-medium}
     padding-top: 50px
 
 // Navbar Overrides
@@ -193,7 +190,3 @@ input.mce_inline_error
 
 .overlay
   border-radius: 0.9em
-
-.cast-small
-  padding: 7px 0
-  width: 143px
