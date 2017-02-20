@@ -8,19 +8,18 @@
 
     .portfolio-isotope.row{style: "max-width: #{285 * data.teams.teams.select { |t| !t.graduate? }.count}px"}
       - data.teams.teams.select { |t| !t.graduate? }.each do |team|
-        - unless team.graduate?
-          %article.post.col-md-6.col-sm-6.portfolio-item
-            .entry-thumbnail
-              = image_tag team.logo
-              %h4.fuseTeamText= team.name
-              %h5.fuseTeamText= team.tagline
+        %article.post.col-md-6.col-sm-6.portfolio-item
+          .entry-thumbnail
+            = image_tag team.logo
+            %h4.fuseTeamText= team.name
+            %h5.fuseTeamText= team.tagline
 
     %h3.subtitle
       %span Graduates
 
     .portfolio-isotope.row{style: "max-width: #{285 * data.teams.teams.select(&:graduate).count}px"}
       - data.teams.teams.each do |team|
-        - if team.graduate?
+        - if team.graduate? && team.has_description
           %article.post.col-md-3.col-sm-6.portfolio-item
             .entry-thumbnail
               %a.hover-effectFuse{"data-target" => "##{team.name.downcase.gsub(' ', '-')}", "data-toggle" => "modal"}
@@ -45,3 +44,11 @@
                       .col-md-12
                         - team.description.each do |para|
                           %p= para
+
+    .portfolio-isotope.row{style: "max-width: #{285 * data.teams.teams.select(&:graduate).count}px"}
+      - data.teams.teams.select { |t| t.graduate? && !t.has_description }.each do |team|
+        %article.post.col-md-3.col-sm-6.portfolio-item.col-md-offset-1
+          .entry-thumbnail
+            = image_tag team.logo
+            %h4.fuseTeamText= team.name
+            %h5.fuseTeamText= team.tagline

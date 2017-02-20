@@ -2,17 +2,20 @@ teams:
 
 # TODO: Find description and images for most recent graduates (Advising London, Clore Social Leadership, Womens Aid)
 
-# - name: "Advising London"
-#   logo: "advising-london.png"
-#   graduate: false
-#
-# - name: "Clore Social Leadership"
-#   logo: "clore-social-leadership.png"
-#   graduate: false
-#
-# - name: "Womens Aid"
-#   logo: "womens-aid.png"
-#   graduate: false
+- name: "Advising London"
+  logo: "advising-london.png"
+  graduate: true
+  has_description: false
+
+- name: "Clore Social Leadership"
+  logo: "clore-social-leadership.png"
+  graduate: true
+  has_description: false
+
+- name: "Womens Aid"
+  logo: "womens-aid.png"
+  graduate: true
+  has_description: false
 
 - name: "National Childbirth Trust"
   logo: "nct-logo-fuse.png"
@@ -27,6 +30,7 @@ teams:
   logo: "oxfamFuse.jpg"
   graduate: true
   image: "oxfamPostIts700Crop.jpg"
+  has_description: true
   description:
   - One in five people in the UK today are struggling to put food on the table and heat their homes. More than half a million people had to rely on food banks to feed themselves and their families in 2015.
   - Oxfam joined Fuse to find ways to address this challenge, while learning more about delivering social value through user-centred design and how technology might amplify their impact across all their programmes.
@@ -41,6 +45,7 @@ teams:
   logo: "breastCancerCareLogoFuse.jpg"
   graduate: true
   image: "bccFuse.jpg"
+  has_description: true
   description:
   - Every year, nearly 60,000 people in the UK are diagnosed with breast cancer – the equivalent of one person every 10 minutes. Breast Cancer Care joined Fuse to look at new ways to support women diagnosed with breast cancer after intial treatment ends, as studies have shown that it’s at this point that there’s a big drop in the emotional wellbeing as people come to turns with life after diagnosis.
   - Joining Fuse, Breast Cancer Care had a plan to develop a new service to connect women with others in their local area. After speaking to a broad spectrum of women, it was clear that this wouldn’t provide them with the support needed after treatment ended. Through phone calls, workshops and the odd cup of coffee, a new service was born - supporting women through quick tips and suggestions from the Breast Cancer Care community. It’s been really well received by users, with one of the Beta testers commenting, “I feel like it could carry me through a bad day”.
@@ -52,6 +57,7 @@ teams:
   logo: "ageUkFuseLogo.png"
   graduate: true
   image: "diaryResizeLarge.jpg"
+  has_description: true
   description:
   - Over 1 million older people haven’t spoken to a friend, neighbour or family member for at least a month. Age UK believes that no one should have no one - it’s the UK’s largest charity dedicated to helping everyone make the most of later life.
   - Aging is not an illness, but it can be challenging and Age UK provides services and support at a national and local level to inspire, enable and support older people. Age UK joined Fuse to find ways to have more, meaningful conversations with older people across the UK.
@@ -65,6 +71,7 @@ teams:
   logo: "centrepointLogo.jpg"
   graduate: true
   image: "centrepointDiary.jpg"
+  has_description: true
   description:
   - 83,000 young people experience homelessness every year in the UK. Centrepoint supports more than 9,000 of them with housing, health and learning. They work closely with young people while also influencing policy to help young people get their lives back on track.
   - Centrepoint’s Youth Homelessness Databank project is focusing on how data and technology can be used to better understand and address youth homelessness. Centrepoint joined Fuse to accelerate the development of technology to enable them to deliver multi-channel information and guidance to young people across the UK as part of the Youth Homelessness Databank project. Centrepoint discovered that one of the key challenges of any service is getting the information you need from service users quickly and unintrusively to understand how best to help.
