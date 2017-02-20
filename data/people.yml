@@ -8,6 +8,7 @@ team:
   fuse: true
   fuse_role: "Mentor"
   first_row: true
+  fuse_first_row: true
 
 - name: "Dan Sutch"
   role: "Co-Founder & Director"
@@ -18,6 +19,7 @@ team:
   fuse: true
   fuse_role: "Strategy and venture support"
   first_row: true
+  fuse_first_row: true
 
 - name: "Ellie Hale"
   role: "Associate"
@@ -28,6 +30,7 @@ team:
   fuse: true
   fuse_role: "Marketing and PR Lead"
   first_row: true
+  fuse_first_row: true
 
 - name: "Kieron Kirkland"
   role: "Co-Founder & Director"
@@ -38,6 +41,7 @@ team:
   fuse: true
   fuse_role: "User research"
   first_row: true
+  fuse_first_row: true
 
 - name: "Sam Sparrow"
   role: "Associate"
@@ -48,6 +52,7 @@ team:
   fuse: true
   fuse_role: "Programme Lead"
   first_row: true
+  fuse_first_row: true
 
 - name: "Suraj Vadgama"
   role: "Associate"
@@ -73,7 +78,9 @@ team:
   linkedin: "https://www.linkedin.com/in/andrew-macmurray-280a08111"
   image: "andrew.jpg"
   cast: true
+  fuse: true
   second_row: true
+  fuse_role: "Technical Lead"
 
 - name: "Ivan Gonzalez"
   role: "Full Stack Developer"
@@ -81,7 +88,9 @@ team:
   linkedin: "https://uk.linkedin.com/in/i-gonzalez"
   image: "ivan.jpg"
   cast: true
+  fuse: true
   second_row: true
+  fuse_role: "Technical Lead"
 
 - name: "Simon L'anson"
   fuse: true
