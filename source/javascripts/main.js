@@ -1,4 +1,4 @@
-$(document).ready(function(){
+window.onload = function(){
   var $container = $('.portfolio-isotope');
 
   $container.isotope({
@@ -80,4 +80,4 @@ $(document).ready(function(){
       });
       $('.ajs-body').remove();
   });
-});
+};
