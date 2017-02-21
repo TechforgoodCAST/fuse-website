@@ -4,6 +4,6 @@
       %span Supporters and partners
     .row
       - data.partners.partners.select { |partner| partner.role == 'fuse' }.each_with_index do |partner, i|
-        .col-md-2.col-sm-3.col-xs-3{class: ('col-md-offset-1' if i < 1)}
+        .col-md-2.col-sm-3.col-xs-2{class: ('col-md-offset-1' if i < 1), class: ('col-xs-offset-1' if i == 0)}
           = link_to partner.link, target: '_blank' do
             = image_tag partner.image
