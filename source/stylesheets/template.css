@@ -46,7 +46,7 @@
 	background: #f15f4c;
 	color: #fff;
 	border: 1px solid #d62711;
-	padding: 4px;
+	padding: 10px;
 	font-size: 15px;
 
 }
@@ -252,8 +252,8 @@ body {
 }
 
 .isotope-item {
-  min-height: 334px;
-  max-width: 285px;
+  max-width: 100%;
+  padding-bottom: 10px;
 }
 .isotope-item.small {
   min-height: 160px;
