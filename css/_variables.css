@@ -45,6 +45,7 @@
   --width-3: 4rem;
   --width-4: 6rem;
   --width-5: 8rem;
+  --width-6: 16rem;
 
   --max-width-1: 1rem;
   --max-width-2: 2rem;
@@ -139,7 +140,7 @@
   --blue:  #357edd;
   --light-blue:  #96ccff;
   --lightest-blue:  #cdecff;
-  --washed-blue:  #e9f3f5;
+  --washed-blue: #eeeeee;
   --washed-green:  #E1F8EA;
   --washed-yellow:  #fffceb;
   --washed-red:  #ffdfdf;

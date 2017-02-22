@@ -42,52 +42,52 @@
 
         .placeholder
           .icon-wrap
-            .verticle-align= image_tag 'hiring.png', :class => "br3"
+            .verticle-align= image_tag 'hiring.png', :class => "mw-100 w5 h5"
 
           %h4 Need inspiration or got some to share?
           %p
             Follow the
-            = link_to '#techforgood', 'https://twitter.com/search?l=&q=%23techforgood&src=typd', target: '_blank', id: 'emailLink'
+            = link_to '#techforgood', 'https://twitter.com/search?l=&q=%23techforgood&src=typd', target: '_blank', id: 'emailLink', class: 'dark-red'
             hashtag on Twitter for regular updates and inspiring stories from the global tech for good community.
           %p
             We’ve also put together a handy guide for developers to some
-            = link_to 'awesome-techforgood', 'https://github.com/TechforgoodCAST/awesome-techforgood', target: '_blank', id: 'emailLink'
+            = link_to 'awesome-techforgood', 'https://github.com/TechforgoodCAST/awesome-techforgood', target: '_blank', id: 'emailLink', class: 'dark-red'
             organisations and projects on GitHub. Please add your contributions!
 
 
 
           .col-md-4.col-sm-6
             .icon-wrap.wide
-              .verticle-align= image_tag 'beehivelogo.png'
+              .verticle-align= image_tag 'beehivelogo.png', :class => "mw-100 w6 h3"
             %h4 Looking for funding?
             %p
               CAST itself isn’t a funder, but we are currently incubating a funder recommendation platform called
               = succeed '.' do
-                = link_to 'Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink'
+                = link_to 'Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
             %p
               Beehive uses open data to intelligently match social-impact organisations with the right funders. So you can check your eligibility and see what’s out there before you apply.
               = succeed '.' do
-                = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink'
+                = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
 
           .col-md-4.col-sm-6
             .icon-wrap
-              .verticle-align= image_tag 'tfgLogo.png'
+              .verticle-align= image_tag 'tfgLogo.png', :class => "mw-100 w5 h3"
             %h4 Join the Tech for Good community
             %p
               There are currently regular Tech for Good Meetups in
               = succeed ',' do
-                = link_to 'London', 'http://www.meetup.com/techforgood/', target: '_blank', id: 'emailLink'
+                = link_to 'London', 'http://www.meetup.com/techforgood/', target: '_blank', id: 'emailLink', class: 'dark-red'
               = succeed ',' do
-                = link_to 'Manchester', 'http://www.meetup.com/Tech-for-Good-Manchester/', target: '_blank', id: 'emailLink'
+                = link_to 'Manchester', 'http://www.meetup.com/Tech-for-Good-Manchester/', target: '_blank', id: 'emailLink', class: 'dark-red'
               = succeed ',' do
-                = link_to 'Sheffield', 'http://shefftech4good.org/', target: '_blank', id: 'emailLink'
+                = link_to 'Sheffield', 'http://shefftech4good.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
               and
-              = link_to 'Cambridge', 'http://www.meetup.com/Cambridge-Tech-For-Good-Meetup/', target: '_blank', id: 'emailLink'
+              = link_to 'Cambridge', 'http://www.meetup.com/Cambridge-Tech-For-Good-Meetup/', target: '_blank', id: 'emailLink', class: 'dark-red'
               plus
-              = link_to 'NetSquared', 'http://netsquared.org/', target: '_blank', id: 'emailLink'
+              = link_to 'NetSquared', 'http://netsquared.org/', target: '_blank', id: 'emailLink', class: 'red no-underline'
               events country-wide.
             %p
-              %a#emailLink{:href => "mailto:hello@wearecast.org.uk"} Drop us a line at hello@wearecast.org.uk
+              %a#emailLink{:href => "mailto:hello@wearecast.org.uk", :class => "red"} Drop us a line at hello@wearecast.org.uk
               if you'd like some tips on hosting your own community event.
 
     -# Clients and supporters

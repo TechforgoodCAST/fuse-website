@@ -11,6 +11,10 @@ body {
   background-color: var(--blue-green);
 }
 
+.w6 {
+  width: 16rem;
+}
+
 .modal {
   display: none;
   overflow: auto;
