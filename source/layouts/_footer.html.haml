@@ -1,12 +1,12 @@
-%footer#newsletter.site-footer
-  .container
-    %h5.newsletter Sign up for our newsletter!
+%footer.bg-mid-gray.pt3
+  .tc
+    %h5.ma0.pa4.white.f4.fw4 Sign up for our newsletter!
 
     / Begin MailChimp Signup Form
     #mc_embed_signup
       %form#mc-embedded-subscribe-form.validate{ action: "//wearecast.us10.list-manage.com/subscribe/post?u=a951b342ebe81b3e0d4e600c9&id=5195355831", method: "post", name: "mc-embedded-subscribe-form", novalidate: "", target: "_blank" }
 
-        #mc_embed_signup_scroll
+        .w-80.w-50-ns.center
 
           .mc-field-group
             %input#mce-FNAME.required{ name: "FNAME", type: "text", value: "", placeholder: "First name" }
@@ -29,12 +29,12 @@
       (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);
     / End mc_embed_signup
 
-  .copyright
-    %p 
-      © 2016 CAST Reg Charity Number 
-      %a{:href => "http://beta.charitycommission.gov.uk/charity-details/?regid=1161998&subid=0"} 1161998 
-      Company number 
-      %a{:href => "https://beta.companieshouse.gov.uk/company/09544506"} 9544506
+  .tc.pv3
+    %p.f6.silver
+      © 2016 CAST Reg Charity Number
+      %a.no-underline.silver{:href => "http://beta.charitycommission.gov.uk/charity-details/?regid=1161998&subid=0"} 1161998
+      Company number
+      %a.no-underline.silver{:href => "https://beta.companieshouse.gov.uk/company/09544506"} 9544506
 .scroll-to-top{ "data-offset-top": "200", "data-spy": "affix" }
   %a.smooth-scroll{ href: "#page" }
     %i.fa.fa-arrow-up
