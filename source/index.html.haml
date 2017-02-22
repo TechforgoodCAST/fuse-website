@@ -36,25 +36,23 @@
     = partial 'layouts/our_work'
 
     -# Get involved
-    %section#get-involved.section.section-center.section-hilite
-      .container
-        %h2.section-title
-          %span Get involved
+    %section.bg-washed-blue.pa2
+      .tc.center
+        %h2.ma3 Get involved
 
-        .row.section.section-features.tight
-          .col-md-4.col-sm-6
-            .icon-wrap
-              .verticle-align= image_tag 'hiring.png'
+        .placeholder
+          .icon-wrap
+            .verticle-align= image_tag 'hiring.png', :class => "br3"
 
-            %h4 Need inspiration or got some to share?
-            %p
-              Follow the
-              = link_to '#techforgood', 'https://twitter.com/search?l=&q=%23techforgood&src=typd', target: '_blank', id: 'emailLink'
-              hashtag on Twitter for regular updates and inspiring stories from the global tech for good community.
-            %p
-              We’ve also put together a handy guide for developers to some
-              = link_to 'awesome-techforgood', 'https://github.com/TechforgoodCAST/awesome-techforgood', target: '_blank', id: 'emailLink'
-              organisations and projects on GitHub. Please add your contributions!
+          %h4 Need inspiration or got some to share?
+          %p
+            Follow the
+            = link_to '#techforgood', 'https://twitter.com/search?l=&q=%23techforgood&src=typd', target: '_blank', id: 'emailLink'
+            hashtag on Twitter for regular updates and inspiring stories from the global tech for good community.
+          %p
+            We’ve also put together a handy guide for developers to some
+            = link_to 'awesome-techforgood', 'https://github.com/TechforgoodCAST/awesome-techforgood', target: '_blank', id: 'emailLink'
+            organisations and projects on GitHub. Please add your contributions!
 
 
 
