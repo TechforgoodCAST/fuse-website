@@ -1,14 +1,12 @@
-%section#portfolio.section.section-portfolio
-  .container
-    %h2.section-title
-      %span Our Work
-      %br
+%section.pa2
+  .tc.center
+    %h2 Our Work
 
-    .portfolio-isotope.row
+    .flex.flex-wrap
       - data.work.projects.each do |project|
-        %article.post.col-md-3.col-sm-3.col-xs-6.portfolio-item
+        %article.w-50
           .entry-thumbnail
-            %a.hover-effect{ "data-target": (project.modal? ? "##{project.partial}" : ""),
+            %a.no-underline.hover-effect{ "data-target": (project.modal? ? "##{project.partial}" : ""),
                              "data-toggle": (project.modal? ? "modal" : ""),
                              href: (project.modal? ? "#" : project.link)}
               = image_tag project.image
