@@ -3,12 +3,20 @@ body {
   font-family: Roboto, Lato, Helvetica, Arial;
 }
 
+a {
+  text-decoration: none;
+}
+
 .blue-green {
   color: var(--blue-green);
 }
 
 .bg-blue-green {
   background-color: var(--blue-green);
+}
+
+.empty {
+  content: "";
 }
 
 .modal {
