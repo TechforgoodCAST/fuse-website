@@ -4,36 +4,33 @@
   #main.site-main
 
     -# Hero
-    %section.w-100.bg-blue-green
-      %img.vh-50.db.center{src: '/images/cast-hero-image.jpg', alt: 'CAST driving social change with technology'}
+    %section.bg-blue-green
+      %img.db.center.mw7.w-100{src: '/images/cast-hero-image.jpg', alt: 'CAST driving social change with technology'}
 
     -# CTA
-    %section
-      .tc
-        %h4 CAST is accelerating the use of technology for social impact
-        %h4 We help organisations use technology to deliver their social mission and get early stage ideas to scale
-      .row
-        %a{href: '#newsletter', class: 'smooth-scroll'}
-          .col-md-4.col-md-offset-4.col-sm-4.col-sm-offset-4.col-xs-6.col-xs-offset-3.btn-newsletter.suButton Sign up for our Newsletter
+    %section.pa2
+      .tc.center
+        %h4.ma3 CAST is accelerating the use of technology for social impact
+        %h4.ma3 We help organisations use technology to deliver their social mission and get early stage ideas to scale
+        %a.no-underline{href: '#newsletter', class: 'smooth-scroll'}
+          .bg-red.white.w-50.center.pa2.br3.ma2 Sign up for our Newsletter
 
     -# What we do
-    %section#features.section.section-center.section-hilite.section-features
-      .container
-        %h2.section-title
-          %span What we do
-        .row
-          .col-md-4.col-sm-6
-            .icon-wrap= image_tag 'plantMoney.jpg'
-            %h4 Funders
-            %p Working with charitable funders and foundations to build stronger tech for good programmes
-          .col-md-4.col-sm-6
-            .icon-wrap= image_tag 'rocket.jpg'
-            %h4 Ventures
-            %p Supporting social technology ventures to grow and access finance and talent
-          .col-md-4.col-sm-6
-            .icon-wrap= image_tag 'megaphoneColor.jpg'
-            %h4 Networks
-            %p Bringing together great individuals and organisations to support and build the sector
+    %section.bg-washed-blue.pa2
+      .tc.center
+        %h2.ma3 What we do
+        .placeholder
+          .icon-wrap= image_tag 'plantMoney.jpg'
+          %h4 Funders
+          %p Working with charitable funders and foundations to build stronger tech for good programmes
+        .placeholder
+          .icon-wrap= image_tag 'rocket.jpg'
+          %h4 Ventures
+          %p Supporting social technology ventures to grow and access finance and talent
+        .placeholder
+          .icon-wrap= image_tag 'megaphoneColor.jpg'
+          %h4 Networks
+          %p Bringing together great individuals and organisations to support and build the sector
 
     -# Our work
     = partial 'layouts/our_work'
