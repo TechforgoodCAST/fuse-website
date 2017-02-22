@@ -3,6 +3,10 @@ body {
   font-family: Roboto, Lato, Helvetica, Arial;
 }
 
+a {
+  text-decoration: none;
+}
+
 .blue-green {
   color: var(--blue-green);
 }
@@ -13,6 +17,10 @@ body {
 
 .w6 {
   width: 16rem;
+}
+
+.empty {
+  content: "";
 }
 
 .modal {
