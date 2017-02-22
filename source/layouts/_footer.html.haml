@@ -1,4 +1,4 @@
-%footer.bg-mid-gray.pt3
+%footer#newsletter.bg-mid-gray.pt3
   .tc
     %h5.ma0.pa4.white.f4.fw4 Sign up for our newsletter!
 
@@ -6,23 +6,23 @@
     #mc_embed_signup
       %form#mc-embedded-subscribe-form.validate{ action: "//wearecast.us10.list-manage.com/subscribe/post?u=a951b342ebe81b3e0d4e600c9&id=5195355831", method: "post", name: "mc-embedded-subscribe-form", novalidate: "", target: "_blank" }
 
-        .w-80.w-50-ns.center
+        .w-80.mw6-ns.center
 
           .mc-field-group
-            %input#mce-FNAME.required{ name: "FNAME", type: "text", value: "", placeholder: "First name" }
+            %input#mce-FNAME.required.outline-0.f6.transition-300{ name: "FNAME", type: "text", value: "", placeholder: "First name" }
 
           .mc-field-group
-            %input#mce-LNAME.required{ name: "LNAME", type: "text", value: "", placeholder: "Last name" }
+            %input#mce-LNAME.required.outline-0.f6.transition-300{ name: "LNAME", type: "text", value: "", placeholder: "Last name" }
 
           .mc-field-group
-            %input#mce-EMAIL.required.email{ name: "EMAIL", type: "email", value: "", placeholder: "Email address" }
+            %input#mce-EMAIL.required.email.outline-0.f6.transition-300{ name: "EMAIL", type: "email", value: "", placeholder: "Email address" }
 
           #mce-responses.clear
             #mce-error-response.response{ style: "display: none;" }
             #mce-success-response.response{ style: "display: none;" }
 
           .clear
-            %input#mc-embedded-subscribe.btn.btn-primary{ name: "subscribe", type: "submit", value: "Subscribe" }
+            %button#mc-embedded-subscribe.white.bg-light-red.f6.bn.pa3.br2{ name: "subscribe", type: "submit" } Subscribe
 
     %script{ src: "//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js", type: "text/javascript" }
     :javascript
@@ -32,9 +32,9 @@
   .tc.pv3
     %p.f6.silver
       © 2016 CAST Reg Charity Number
-      %a.no-underline.silver{:href => "http://beta.charitycommission.gov.uk/charity-details/?regid=1161998&subid=0"} 1161998
+      %a.no-underline.blue-green{:href => "http://beta.charitycommission.gov.uk/charity-details/?regid=1161998&subid=0"} 1161998
       Company number
-      %a.no-underline.silver{:href => "https://beta.companieshouse.gov.uk/company/09544506"} 9544506
+      %a.no-underline.blue-green{:href => "https://beta.companieshouse.gov.uk/company/09544506"} 9544506
 .scroll-to-top{ "data-offset-top": "200", "data-spy": "affix" }
   %a.smooth-scroll{ href: "#page" }
     %i.fa.fa-arrow-up

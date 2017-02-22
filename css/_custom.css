@@ -3,6 +3,14 @@ body {
   font-family: Roboto, Lato, Helvetica, Arial;
 }
 
+.blue-green {
+  color: var(--blue-green);
+}
+
 .bg-blue-green {
   background-color: var(--blue-green);
+}
+
+.transition-300 {
+  transition: 0.3s ease
 }
