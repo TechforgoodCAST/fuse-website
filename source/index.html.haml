@@ -4,20 +4,17 @@
   #main.site-main
 
     -# Hero
-    %section
-      .hero-image-container
-        %img{src: '/images/cast-hero-image.jpg', alt: 'CAST driving social change with technology'}
+    %section.w-100.bg-blue-green
+      %img.vh-50.db.center{src: '/images/cast-hero-image.jpg', alt: 'CAST driving social change with technology'}
 
     -# CTA
-    %section.section.section-center.section-introText
-      .container
-        .row
-          .col-md-6.col-md-offset-3.col-xs-10.col-xs-offset-1.headline
-            %h4 CAST is accelerating the use of technology for social impact
-            %h4 We help organisations use technology to deliver their social mission and get early stage ideas to scale
-        .row
-          %a{href: '#newsletter', class: 'smooth-scroll'}
-            .col-md-4.col-md-offset-4.col-sm-4.col-sm-offset-4.col-xs-6.col-xs-offset-3.btn-newsletter.suButton Sign up for our Newsletter
+    %section
+      .tc
+        %h4 CAST is accelerating the use of technology for social impact
+        %h4 We help organisations use technology to deliver their social mission and get early stage ideas to scale
+      .row
+        %a{href: '#newsletter', class: 'smooth-scroll'}
+          .col-md-4.col-md-offset-4.col-sm-4.col-sm-offset-4.col-xs-6.col-xs-offset-3.btn-newsletter.suButton Sign up for our Newsletter
 
     -# What we do
     %section#features.section.section-center.section-hilite.section-features
