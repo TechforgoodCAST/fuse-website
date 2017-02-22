@@ -3,6 +3,10 @@ body {
   font-family: Roboto, Lato, Helvetica, Arial;
 }
 
+.blue-green {
+  color: var(--blue-green);
+}
+
 .bg-blue-green {
   background-color: var(--blue-green);
 }
@@ -20,4 +24,8 @@ body {
   -webkit-overflow-scrolling: touch;
   outline: 0;
   background-color: #fff;
+}
+
+.transition-300 {
+  transition: 0.3s ease
 }
