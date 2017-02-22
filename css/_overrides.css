@@ -1,0 +1,7 @@
+/* --- mailchimp --- */
+
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
