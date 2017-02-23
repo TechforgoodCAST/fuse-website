@@ -1,8 +1,6 @@
 %section#contact.pa4{class: ('section-hilite' if current_page.url.include?('fuse'))}
   .container
-    %h2.tc.fw4.f2.mid-gray
-      %span.bg-white.ph3 Contact Us
-      = partial "/components/divider"
+    = partial("components/section_header", :locals => { :title => "Contact Us"})
     .cf.pa4.tc.mw9.center
       .w-100.pa3.w-25-m.fl
         %i.fa.fa-envelope.fa-3x.db.mid-gray

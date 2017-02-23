@@ -1,12 +1,12 @@
 %section.pa2
   .tc.center
-    %h2 Our Work
+    = partial("components/section_header", :locals => { :title => "Our Work"})
 
     .flex.flex-wrap
       - data.work.projects.each do |project|
         %article.w-50.pa2
           .entry-thumbnail
-            %a.no-underline.hover-effect{ "data-target": (project.modal? ? "##{project.partial}" : ""),
+            %a.mid-gray.no-underline.hover-effect{ "data-target": (project.modal? ? "##{project.partial}" : ""),
                              "data-toggle": (project.modal? ? "modal" : ""),
                              href: (project.modal? ? "#" : project.link)}
               = image_tag project.image, :class => "br3"

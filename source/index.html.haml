@@ -13,23 +13,23 @@
         %h4.ma3 CAST is accelerating the use of technology for social impact
         %h4.ma3 We help organisations use technology to deliver their social mission and get early stage ideas to scale
         %a.no-underline{href: '#newsletter', class: 'smooth-scroll'}
-          .bg-red.white.w-50.center.pa2.br3.ma2 Sign up for our Newsletter
+          .bg-dark-red.white.w-50.center.pa2.br3.ma2 Sign up for our Newsletter
 
     -# What we do
     %section.bg-washed-blue.pa2
       .tc.center
-        %h2.ma3 What we do
+        = partial("components/section_header_dark", :locals => { :title => "What We Do"})
         .placeholder
           .icon-wrap= image_tag 'plantMoney.jpg'
-          %h4 Funders
+          %h4.mt1.mb0 Funders
           %p Working with charitable funders and foundations to build stronger tech for good programmes
         .placeholder
           .icon-wrap= image_tag 'rocket.jpg'
-          %h4 Ventures
+          %h4.mt1.mb0 Ventures
           %p Supporting social technology ventures to grow and access finance and talent
         .placeholder
           .icon-wrap= image_tag 'megaphoneColor.jpg'
-          %h4 Networks
+          %h4.mt1.mb0 Networks
           %p Bringing together great individuals and organisations to support and build the sector
 
     -# Our work
@@ -38,56 +38,55 @@
     -# Get involved
     %section.bg-washed-blue.pa2
       .tc.center
-        %h2.ma3 Get involved
+        = partial("components/section_header_dark", :locals => { :title => "Get Involved"})
 
-        .placeholder
-          .icon-wrap
-            .verticle-align= image_tag 'hiring.png', :class => "br3"
-
-          %h4 Need inspiration or got some to share?
+        .mt4
+          .h5.w5.center
+            = image_tag 'hiring.png', :class => "mw-100"
+          %h4.mt3 Need inspiration or got some to share?
           %p
             Follow the
-            = link_to '#techforgood', 'https://twitter.com/search?l=&q=%23techforgood&src=typd', target: '_blank', id: 'emailLink'
+            = link_to '#techforgood', 'https://twitter.com/search?l=&q=%23techforgood&src=typd', target: '_blank', id: 'emailLink', class: 'dark-red'
             hashtag on Twitter for regular updates and inspiring stories from the global tech for good community.
           %p
             We’ve also put together a handy guide for developers to some
-            = link_to 'awesome-techforgood', 'https://github.com/TechforgoodCAST/awesome-techforgood', target: '_blank', id: 'emailLink'
+            = link_to 'awesome-techforgood', 'https://github.com/TechforgoodCAST/awesome-techforgood', target: '_blank', id: 'emailLink', class: 'dark-red'
             organisations and projects on GitHub. Please add your contributions!
 
 
 
-          .col-md-4.col-sm-6
-            .icon-wrap.wide
-              .verticle-align= image_tag 'beehivelogo.png'
-            %h4 Looking for funding?
+          .mt4
+            .h3.w6.center
+              = image_tag 'beehivelogo.png', :class => "mw-100"
+            %h4.mt2 Looking for funding?
             %p
               CAST itself isn’t a funder, but we are currently incubating a funder recommendation platform called
               = succeed '.' do
-                = link_to 'Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink'
+                = link_to 'Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
             %p
               Beehive uses open data to intelligently match social-impact organisations with the right funders. So you can check your eligibility and see what’s out there before you apply.
               = succeed '.' do
-                = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink'
+                = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
 
-          .col-md-4.col-sm-6
-            .icon-wrap
-              .verticle-align= image_tag 'tfgLogo.png'
-            %h4 Join the Tech for Good community
+          .mt4
+            .h3.w5.center
+              = image_tag 'tfgLogo.png', :class => "mw-100"
+            %h4.mt4 Join the Tech for Good community
             %p
               There are currently regular Tech for Good Meetups in
               = succeed ',' do
-                = link_to 'London', 'http://www.meetup.com/techforgood/', target: '_blank', id: 'emailLink'
+                = link_to 'London', 'http://www.meetup.com/techforgood/', target: '_blank', id: 'emailLink', class: 'dark-red'
               = succeed ',' do
-                = link_to 'Manchester', 'http://www.meetup.com/Tech-for-Good-Manchester/', target: '_blank', id: 'emailLink'
+                = link_to 'Manchester', 'http://www.meetup.com/Tech-for-Good-Manchester/', target: '_blank', id: 'emailLink', class: 'dark-red'
               = succeed ',' do
-                = link_to 'Sheffield', 'http://shefftech4good.org/', target: '_blank', id: 'emailLink'
+                = link_to 'Sheffield', 'http://shefftech4good.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
               and
-              = link_to 'Cambridge', 'http://www.meetup.com/Cambridge-Tech-For-Good-Meetup/', target: '_blank', id: 'emailLink'
+              = link_to 'Cambridge', 'http://www.meetup.com/Cambridge-Tech-For-Good-Meetup/', target: '_blank', id: 'emailLink', class: 'dark-red'
               plus
-              = link_to 'NetSquared', 'http://netsquared.org/', target: '_blank', id: 'emailLink'
+              = link_to 'NetSquared', 'http://netsquared.org/', target: '_blank', id: 'emailLink', class: 'red no-underline'
               events country-wide.
             %p
-              %a#emailLink{:href => "mailto:hello@wearecast.org.uk"} Drop us a line at hello@wearecast.org.uk
+              %a#emailLink{:href => "mailto:hello@wearecast.org.uk", :class => "red"} Drop us a line at hello@wearecast.org.uk
               if you'd like some tips on hosting your own community event.
 
     -# Clients and supporters
