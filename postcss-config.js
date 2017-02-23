@@ -1,6 +1,6 @@
 module.exports = {
-  input: 'css/index.css',
-  output: 'source/stylesheets/style.css',
+  input: 'source/tachyons/index.css',
+  output: 'source/style.min.css',
   use: [
     'postcss-import',
     'autoprefixer',
