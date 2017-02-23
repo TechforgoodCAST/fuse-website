@@ -35,5 +35,5 @@ a {
 }
 
 .transition-300 {
-  transition: 0.3s ease
+  transition-duration: 0.3s!important;
 }
