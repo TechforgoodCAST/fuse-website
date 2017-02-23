@@ -1,26 +1,13 @@
-%section#board.section.section-center.section-hilite.section-board
-  .container
-    %h2.section-title
-      %span Board Members
+%section#board.bg-light-gray.ph4-ns.pa2
+  = partial '/components/section_header', :locals => { :title => 'Board Members' }
 
-    .row.portfolio-isotope
-
-      - data.people.board.select(&:cast).each_with_index do |person, index|
-        -if index == 0
-          .portfolio-item.col-md-2.col-sm-4.col-xs-6.col-md-offset-1
-            = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
-              = image_tag person.image
-              %span.overlay
-                %i.fa.fa-linkedin-square
-              %h4= person.name
-              %h5= person.role
-              %h6= person.description
-        - else
-          .portfolio-item.col-md-2.col-sm-4.col-xs-6
-            = link_to person.linkedin, class: 'hover-effect', target: '_blank' do
-              = image_tag person.image
-              %span.overlay
-                %i.fa.fa-linkedin-square
-              %h4= person.name
-              %h5= person.role
-              %h6= person.description
+  .cf.tc.center.mw8
+    - data.people.board.select(&:cast).each do |person|
+      .w-50.w-20-m.fl.dib.pa3.hide-child.relative
+        .w-100.h-100.absolute.child.bg-light-red.top-0.left-0.br3.bg-animate.flex.items-center.justify-center.transition-300
+          %span.child.t-all.ease.slide-up
+            %i.fa.fa-linkedin-square.white
+        = link_to person.linkedin, class: 'mid-gray', target: '_blank' do
+          = image_tag person.image, class: 'br3'
+          %h4= person.name
+          %h6.fw4= person.description
