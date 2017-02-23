@@ -1,11 +1,11 @@
-%section#board.bg-light-gray.pa4
+%section#board.bg-light-gray.pa4-ns.pa2
   %h2.tc.fw4.gray
     %span.bg-light-gray.pa3 Board Members
     = partial '/components/divider', :locals => { :dividerColor => 'white', :offset => -15 }
 
   .cf.tc.center.mw8
     - data.people.board.select(&:cast).each do |person|
-      .w-20.fl.dib.pa3.hide-child.relative
+      .w-50.w-20-m.fl.dib.pa3.hide-child.relative
         .w-100.h-100.absolute.child.bg-light-red.top-0.left-0.br3.bg-animate.flex.items-center.justify-center.transition-300
           %span.child.t-all.ease.slide-up
             %i.fa.fa-linkedin-square.white
