@@ -25,6 +25,12 @@ end
 
 activate :directory_indexes
 
+activate :external_pipeline,
+  name: :tachyons,
+  command: 'npm run css',
+  source: 'source/tachyons'
+
+
 ###
 # Helpers
 ###
