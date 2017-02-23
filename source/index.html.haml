@@ -18,7 +18,7 @@
     -# What we do
     %section.bg-washed-blue.pa2
       .tc.center
-        %h2.ma3 What we do
+        = partial("components/section_header_dark", :locals => { :title => "What We Do"})
         .placeholder
           .icon-wrap= image_tag 'plantMoney.jpg'
           %h4.mt1.mb0 Funders
@@ -38,11 +38,12 @@
     -# Get involved
     %section.bg-washed-blue.pa2
       .tc.center
-        %h2.ma3 Get involved
+        = partial("components/section_header_dark", :locals => { :title => "Get Involved"})
 
         .mt4
-          = image_tag 'hiring.png', :class => "mw-100 w5 h5"
-          %h4 Need inspiration or got some to share?
+          .h5.w5.center
+            = image_tag 'hiring.png', :class => "mw-100"
+          %h4.mt3 Need inspiration or got some to share?
           %p
             Follow the
             = link_to '#techforgood', 'https://twitter.com/search?l=&q=%23techforgood&src=typd', target: '_blank', id: 'emailLink', class: 'dark-red'
@@ -55,8 +56,9 @@
 
 
           .mt4
-            = image_tag 'beehivelogo.png', :class => "mw-100 w6 h3"
-            %h4 Looking for funding?
+            .h3.w6.center
+              = image_tag 'beehivelogo.png', :class => "mw-100"
+            %h4.mt2 Looking for funding?
             %p
               CAST itself isn’t a funder, but we are currently incubating a funder recommendation platform called
               = succeed '.' do
@@ -67,8 +69,9 @@
                 = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
 
           .mt4
-            = image_tag 'tfgLogo.png', :class => "mw-100 w5 h3"
-            %h4 Join the Tech for Good community
+            .h3.w5.center
+              = image_tag 'tfgLogo.png', :class => "mw-100"
+            %h4.mt4 Join the Tech for Good community
             %p
               There are currently regular Tech for Good Meetups in
               = succeed ',' do

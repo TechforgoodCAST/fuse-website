@@ -1,6 +1,6 @@
 %section.pa2
   .tc.center
-    %h2 Our Work
+    = partial("components/section_header", :locals => { :title => "Our Work"})
 
     .flex.flex-wrap
       - data.work.projects.each do |project|

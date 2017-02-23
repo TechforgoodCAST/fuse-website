@@ -1,6 +1,6 @@
 %section.pa2
   .tc.center
-    %h2 Clients and Supporters
+    = partial("components/section_header", :locals => { :title => "Clients and Supporters"})
     .flex.flex-wrap
       - data.partners.partners.select { |partner| partner.role == 'cast' }.each_with_index do |partner, i|
         .w-50.pa2
