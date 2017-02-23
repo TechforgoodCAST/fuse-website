@@ -13,7 +13,7 @@
         %h4.ma3 CAST is accelerating the use of technology for social impact
         %h4.ma3 We help organisations use technology to deliver their social mission and get early stage ideas to scale
         %a.no-underline{href: '#newsletter', class: 'smooth-scroll'}
-          .bg-red.white.w-50.center.pa2.br3.ma2 Sign up for our Newsletter
+          .bg-dark-red.white.w-50.center.pa2.br3.ma2 Sign up for our Newsletter
 
     -# What we do
     %section.bg-washed-blue.pa2
@@ -21,15 +21,15 @@
         %h2.ma3 What we do
         .placeholder
           .icon-wrap= image_tag 'plantMoney.jpg'
-          %h4 Funders
+          %h4.mt1.mb0 Funders
           %p Working with charitable funders and foundations to build stronger tech for good programmes
         .placeholder
           .icon-wrap= image_tag 'rocket.jpg'
-          %h4 Ventures
+          %h4.mt1.mb0 Ventures
           %p Supporting social technology ventures to grow and access finance and talent
         .placeholder
           .icon-wrap= image_tag 'megaphoneColor.jpg'
-          %h4 Networks
+          %h4.mt1.mb0 Networks
           %p Bringing together great individuals and organisations to support and build the sector
 
     -# Our work
@@ -40,10 +40,8 @@
       .tc.center
         %h2.ma3 Get involved
 
-        .placeholder
-          .icon-wrap
-            .verticle-align= image_tag 'hiring.png', :class => "mw-100 w5 h5"
-
+        .mt4
+          = image_tag 'hiring.png', :class => "mw-100 w5 h5"
           %h4 Need inspiration or got some to share?
           %p
             Follow the
@@ -56,9 +54,8 @@
 
 
 
-          .col-md-4.col-sm-6
-            .icon-wrap.wide
-              .verticle-align= image_tag 'beehivelogo.png', :class => "mw-100 w6 h3"
+          .mt4
+            = image_tag 'beehivelogo.png', :class => "mw-100 w6 h3"
             %h4 Looking for funding?
             %p
               CAST itself isn’t a funder, but we are currently incubating a funder recommendation platform called
@@ -69,9 +66,8 @@
               = succeed '.' do
                 = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
 
-          .col-md-4.col-sm-6
-            .icon-wrap
-              .verticle-align= image_tag 'tfgLogo.png', :class => "mw-100 w5 h3"
+          .mt4
+            = image_tag 'tfgLogo.png', :class => "mw-100 w5 h3"
             %h4 Join the Tech for Good community
             %p
               There are currently regular Tech for Good Meetups in
