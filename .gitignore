@@ -19,3 +19,5 @@
 
 node_modules
 npm-debug.log
+
+source/style.min.css
