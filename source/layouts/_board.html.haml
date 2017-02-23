@@ -1,7 +1,5 @@
-%section#board.bg-light-gray.pa4-ns.pa2
-  %h2.tc.fw4.gray
-    %span.bg-light-gray.pa3 Board Members
-    = partial '/components/divider', :locals => { :dividerColor => 'white', :offset => -15 }
+%section#board.bg-light-gray.ph4-ns.pa2
+  = partial '/components/section_header', :locals => { :title => 'Board Members' }
 
   .cf.tc.center.mw8
     - data.people.board.select(&:cast).each do |person|

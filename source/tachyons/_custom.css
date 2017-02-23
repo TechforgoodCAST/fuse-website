@@ -8,6 +8,15 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--roboto-slab);
+}
+
+p {
+  font-size: var(--font-size-6);
+}
+
+
 .blue-green {
   color: var(--blue-green);
 }
@@ -22,6 +31,10 @@ a {
 
 .empty {
   content: "";
+}
+
+.w-16 {
+  width: 16.66%;
 }
 
 .modal {
@@ -43,10 +56,14 @@ a {
   transition-duration: 0.3s!important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--roboto-slab);
+@media (--breakpoint-not-small) {
+  .w-16-ns {
+    width: 16.66%;
+  }
 }
 
-p {
-  font-size: 14px;
+@media (--breakpoint-medium) {
+  .w-16-m {
+    width: 16.66%;
+  }
 }
