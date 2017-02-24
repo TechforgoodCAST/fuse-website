@@ -2,10 +2,7 @@
   .tc.center.cf.mw8
     = partial "components/section_header", locals: { title: "Get Involved" }
 
-    .w-100.w-33-m.fl.pa4
-      .h5.w5.center.pa3.flex.items-center
-        = image_tag 'hiring.png', class: "w-100"
-      %h4.mt3 Need inspiration or got some to share?
+    = partial "layouts/get_involved_block", locals: { img: 'hiring.png', title: 'Need some inspiration or got some to share?' } do
       %p
         Follow the
         = link_to '#techforgood', 'https://twitter.com/search?l=&q=%23techforgood&src=typd', target: '_blank', id: 'emailLink', class: 'dark-red'
@@ -16,11 +13,7 @@
         organisations and projects on GitHub. Please add your contributions!
 
 
-
-    .w-100.w-33-m.fl.pa4
-      .h5.w6.center.pa3.flex.items-center
-        = image_tag 'beehivelogo.png', class: "w-100"
-      %h4.mt2 Looking for funding?
+    = partial "layouts/get_involved_block", locals: { img: 'beehivelogo.png', title: 'Looking for funding?', smallImg: true } do
       %p
         CAST itself isn’t a funder, but we are currently incubating a funder recommendation platform called
         = succeed '.' do
@@ -31,10 +24,7 @@
           = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
 
 
-    .w-100.w-33-m.fl.pa4
-      .h5.w5.center.pa3.flex.items-center
-        = image_tag 'tfgLogo.png', class: "w-100"
-      %h4.mt2 Join the Tech for Good community
+    = partial 'layouts/get_involved_block', locals: { img: 'tfgLogo.png', title: 'Join the Tech for Good community' } do
       %p
         There are currently regular Tech for Good Meetups in
         = succeed ',' do
