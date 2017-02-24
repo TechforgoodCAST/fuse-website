@@ -1,7 +1,7 @@
 #page
   = partial 'layouts/main_nav'
 
-  #main.site-main
+  #main{style: 'padding-top: 48px'}
 
     -# Hero
     %section.bg-blue-green
@@ -16,7 +16,7 @@
           .bg-dark-red.white.w-50.center.pa2.br3.ma2 Sign up for our Newsletter
 
     -# What we do
-    %section.bg-washed-blue.pa2
+    %section.bg-washed-blue.pa2#features
       .tc.center
         = partial "components/section_header", locals: { title: "What We Do" }
         .placeholder
@@ -36,7 +36,7 @@
     = partial 'layouts/our_work'
 
     -# Get involved
-    %section.bg-washed-blue.pa2
+    %section.bg-washed-blue.pa2#get-involved
       .tc.center
         = partial "components/section_header", locals: { title: "Get Involved" }
 

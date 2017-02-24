@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--roboto-slab);
 }
@@ -15,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: var(--font-size-6);
 }
-
 
 .blue-green {
   color: var(--blue-green);
@@ -56,6 +59,10 @@ p {
   transition-duration: 0.3s!important;
 }
 
+.transition-all {
+  transition-property: all;
+}
+
 @media (--breakpoint-not-small) {
   .w-16-ns {
     width: 16.66%;
@@ -66,4 +73,24 @@ p {
   .w-16-m {
     width: 16.66%;
   }
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.in {
+  display: block;
+}
+
+.collapsing {
+  position:relative;
+  height:0;
+  overflow:hidden;
+  -webkit-transition:height .35s ease;
+  transition:height .35s ease
+}
+
+.active {
+  background-color: var(--dark-red)
 }
