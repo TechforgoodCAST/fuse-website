@@ -1,17 +1,19 @@
-%section.pa2
+%section.ph2.pv4
   .tc.center
     = partial "components/section_header", locals: { title: "Our Work", light: true }
 
-    .flex.flex-wrap
+    .flex.flex-wrap.mw8.center
       - data.work.projects.each do |project|
-        %article.w-50.pa2
+
+        - target      = project.modal? ? "##{project.partial}" : ''
+        - modalOption = project.modal? ? 'modal' : ''
+        - href        = project.modal? ? '#' : project.link
+
+        %article.w-50.w-25-m.pa4-ns.pa2.hide-child.relative
+          = partial 'components/plus_overlay'
           .entry-thumbnail
-            %a.mid-gray.no-underline.hover-effect{ "data-target": (project.modal? ? "##{project.partial}" : ""),
-                             "data-toggle": (project.modal? ? "modal" : ""),
-                             href: (project.modal? ? "#" : project.link)}
+            %a.mid-gray.no-underline.hover-effect{ "data-target": target, "data-toggle": modalOption, href: href }
               = image_tag project.image, class: "br3"
-              %span.overlay
-                %i.fa.fa-plus
               %h4= project.name
               %h5= project.description
 

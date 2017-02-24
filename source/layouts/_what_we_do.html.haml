@@ -1,0 +1,8 @@
+%section.bg-washed-blue.pa2
+  .tc.center.cf.mw8
+    = partial "components/section_header", locals: { title: "What We Do" }
+    - data.work.whatWeDo.each do |item|
+      .w-100.w-33-ns.fl.pa4
+        = image_tag "/images/#{item.img}"
+        %h4.mt1.mb0= item.title
+        %p= item.text
