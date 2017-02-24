@@ -1,5 +1,5 @@
 %section#team.tc.bg-light-gray.pv3
-  = partial '/components/section_header', :locals => { :title => "Our Team" }
+  = partial '/components/section_header', locals: { title: "Our Team" }
 
   .cf.tc.center.mw8.flex.flex-wrap
     - data.people.team.select(&:cast&&:first_row).each do |person|

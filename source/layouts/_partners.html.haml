@@ -1,7 +1,7 @@
-%section.pa2
+%section.pv4.ph4
   .tc.center
-    = partial("components/section_header", :locals => { :title => "Clients and Supporters"})
-    .flex.flex-wrap
-      - data.partners.partners.select { |partner| partner.role == 'cast' }.each_with_index do |partner, i|
-        .w-50.pa2
+    = partial "components/section_header", locals: { title: "Clients and Supporters", light: true }
+    .flex.flex-wrap.mw8.center
+      - data.partners.partners.select { |partner| partner.role == 'cast' }.each do |partner|
+        .w-50.w-16-ns.pa2
           %a= image_tag partner.image
