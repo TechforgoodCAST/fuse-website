@@ -22,3 +22,16 @@ projects:
   image: "cogs.jpg"
   modal: true
   partial: "power_to_change"
+
+whatWeDo:
+- img: 'plantMoney.jpg'
+  title: 'Funders'
+  text: 'Working with charitable funders and foundations to build stronger tech for good programmes'
+
+- img: 'rocket.jpg'
+  title: 'Ventures'
+  text: 'Supporting social technology ventures to grow and access finance and talent'
+
+- img: 'megaphoneColor.jpg'
+  title: 'Networks'
+  text: 'Bringing together great individuals and organisations to support and build the sector'

@@ -49,10 +49,24 @@ p {
   right: 0;
   bottom: 0;
   left: 0;
+  padding: var(--spacing-medium);
+  background-color: var(--black-70);
   z-index: 1050;
   -webkit-overflow-scrolling: touch;
   outline: 0;
-  background-color: #fff;
+  transition: 0.3s ease;
+}
+
+.fade {
+  opacity: 0;
+}
+
+.fade.in {
+  opacity: 1;
+}
+
+.modal-open {
+  overflow: hidden;
 }
 
 .transition-300 {
@@ -61,6 +75,10 @@ p {
 
 .transition-all {
   transition-property: all;
+}
+
+.no-pointer-events {
+  pointer-events: none;
 }
 
 @media (--breakpoint-not-small) {
