@@ -1,32 +1,22 @@
-%header#header.site-header
-  %nav#navbar.site-navbar.navbar.navbar-static-top{ role: 'navigation' }
-    .container
-      .navbar-header
-        %button.navbar-toggle{'data-target': '#navbar-collapse-1', 'data-toggle': 'collapse', type: 'button'}
+%header#header
+  %nav#navbar.fixed.w-100.z-9999{ role: 'navigation' }
+    .w-100.flex.flex-column
+      .navbar-header.flex.justify-end.bg-blue-green
+        %button.navbar-toggle.bg-blue-green.bn.pa3.outline-0{'data-target': '#navbar-collapse-1', 'data-toggle': 'collapse', type: 'button'}
           %span.sr-only Toggle navigation
-          %i.fa.fa-bars
-        %h1.navbar-brand
-          %a{ href: 'index.html' }
+          %i.fa.fa-bars.white.f5
       #navbar-collapse-1.collapse.navbar-collapse
-        .social-links
-          %a{ href: 'https://twitter.com/@TechforgoodCAST', target: '_blank' }
-            %i.fa.fa-twitter
-          %a{ href: 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank' }
-            %i.fa.fa-linkedin-square
-          %a{ href: 'https://medium.com/@wearecast', target: '_blank' }
-            %i.fa.fa-medium{ 'aria-hidden': 'true'}
-        %ul#navigation.nav.navbar-nav.navbar-right
-          %li.active
-            %a.current{ href: '#header' } Home
-          %li
-            %a{ href: '#features' } What we do
-          %li
-            %a{ href: '#portfolio' } Our work
-          %li
-            %a{ href: '#get-involved' } Get involved
-          %li
-            %a{ href: '#clients' } Partners
-          %li
-            %a{ href: '#team' } Team
-          %li
-            %a{ href: '#contact' } Contact
+        -# .social-links
+        -#   %a{ href: 'https://twitter.com/@TechforgoodCAST', target: '_blank' }
+        -#     %i.fa.fa-twitter
+        -#   %a{ href: 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank' }
+        -#     %i.fa.fa-linkedin-square
+        -#   %a{ href: 'https://medium.com/@wearecast', target: '_blank' }
+        -#     %i.fa.fa-medium{ 'aria-hidden': 'true'}
+        %ul#navigation.nav.navbar-nav.navbar-right.bg-blue-green.ma0.pa0.flex.flex-column.items-center
+          %li.w-90.active.br3
+            - linkClass = 'white db pa3 f6 br3 hover-dark-red hover-bg-white transition-300 transition-all'
+            = link_to 'Home', '#header', class: "#{linkClass}"
+          - data.nav_headers.each do |header|
+            %li.w-90.br3
+              = link_to header.title, header.href, class: "#{linkClass}"
