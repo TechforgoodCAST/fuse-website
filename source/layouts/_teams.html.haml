@@ -29,11 +29,11 @@
                 %h4.fuseTeamText= team.name
                 %h5.fuseTeamText= team.tagline
 
-          .modal.fade{"aria-hidden" => "true", "aria-labelledby" => "project-modal1-label", :role => "dialog", :tabindex => "-1", :id => team.name.downcase.gsub(' ', '-')}
+          .modal.fade{"aria-hidden": "true", "aria-labelledby": "project-modal1-label", :role => "dialog", :tabindex => "-1", :id => team.name.downcase.gsub(' ', '-')}
             .modal-dialog
               .modal-content
                 .modal-header
-                  %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+                  %button.close{"aria-hidden": "true", "data-dismiss" => "modal", :type => "button"} ×
                   %h4#project-modal-label.modal-title= team.name
                 .modal-body
                   %article.single-project

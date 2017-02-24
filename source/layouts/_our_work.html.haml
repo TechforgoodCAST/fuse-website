@@ -1,6 +1,6 @@
 %section.pa2
   .tc.center
-    = partial("components/section_header", :locals => { :title => "Our Work", :light => true })
+    = partial "components/section_header", locals: { title: "Our Work", light: true }
 
     .flex.flex-wrap
       - data.work.projects.each do |project|
@@ -9,7 +9,7 @@
             %a.mid-gray.no-underline.hover-effect{ "data-target": (project.modal? ? "##{project.partial}" : ""),
                              "data-toggle": (project.modal? ? "modal" : ""),
                              href: (project.modal? ? "#" : project.link)}
-              = image_tag project.image, :class => "br3"
+              = image_tag project.image, class: "br3"
               %span.overlay
                 %i.fa.fa-plus
               %h4= project.name

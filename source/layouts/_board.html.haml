@@ -1,5 +1,5 @@
 %section#board.bg-light-gray.ph4-ns.pa2
-  = partial '/components/section_header', :locals => { :title => 'Board Members' }
+  = partial '/components/section_header', locals: { title: 'Board Members' }
 
   .cf.tc.center.mw8
     - data.people.board.select(&:cast).each do |person|
