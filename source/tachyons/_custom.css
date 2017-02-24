@@ -56,6 +56,10 @@ p {
   transition-duration: 0.3s!important;
 }
 
+.no-pointer-events {
+  pointer-events: none;
+}
+
 @media (--breakpoint-not-small) {
   .w-16-ns {
     width: 16.66%;
