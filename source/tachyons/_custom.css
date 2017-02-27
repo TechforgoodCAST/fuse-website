@@ -93,18 +93,6 @@ p {
   pointer-events: none;
 }
 
-@media (--breakpoint-not-small) {
-  .w-16-ns {
-    width: 16.66%;
-  }
-}
-
-@media (--breakpoint-medium) {
-  .w-16-m {
-    width: 16.66%;
-  }
-}
-
 .collapse {
   display: none;
 }
@@ -122,5 +110,27 @@ p {
 }
 
 .active {
-  background-color: var(--dark-red)
+  background-color: var(--light-red)
+}
+
+.color-inherit {
+  color: inherit;
+}
+
+@media (--breakpoint-not-small) {
+  .w-16-ns {
+    width: 16.66%;
+  }
+}
+
+@media (--breakpoint-medium) {
+  .w-16-m {
+    width: 16.66%;
+  }
+}
+
+@media (--breakpoint-large) {
+  .collapse {
+    display: block;
+  }
 }
