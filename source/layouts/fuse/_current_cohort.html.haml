@@ -1,0 +1,8 @@
+= partial 'components/section_header', locals: { title: "Current", light: true }
+.mw8.center.flex.flex-wrap.justify-center.items-start.tc
+
+  - data.teams.teams.select { |t| !t.graduate }.each do |team|
+    .w-50.w-25-ns.mv4
+      .w-100.bg-center.contain.h6{ style: "background-image: url(/images/#{team.logo})" }
+      %a.mid-gray.no-underline
+        %h4= team.name
