@@ -1,12 +1,4 @@
 window.onload = function(){
-  var $container = $('.portfolio-isotope');
-
-  $container.isotope({
-    itemSelector : '.portfolio-item',
-    resizable: true,
-    resizesContainer: true,
-    layoutMode: 'fitRows'
-  });
 
   // Add "loaded" class when a section has been loaded
   $(window).scroll(function() {
@@ -29,13 +21,6 @@ window.onload = function(){
     beforeStart: function() {
     },
     onComplete: function() {
-    }
-  });
-
-  // Sticky Navbar Affix
-  $('#navbar').affix({
-    offset: {
-      top: $('#topbar').outerHeight(),
     }
   });
 

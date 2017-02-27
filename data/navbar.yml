@@ -1,0 +1,31 @@
+headers:
+  - title: "Home"
+    href: "#header"
+
+  - title: "What We Do"
+    href: "#features"
+
+  - title: "Our Work"
+    href: "#portfolio"
+
+  - title: "Get Involved"
+    href: "#get-involved"
+
+  - title: "Partners"
+    href: "#partners"
+
+  - title: "Team"
+    href: "#team"
+
+  - title: "Contact"
+    href: "#contact"
+
+icons:
+  - href: "https://twitter.com/@TechforgoodCAST"
+    image: "fa fa-twitter"
+
+  - href: "https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology"
+    image: "fa fa-linkedin-square"
+
+  - href: "https://medium.com/@wearecast"
+    image: "fa fa-medium"
