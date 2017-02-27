@@ -1,22 +1,21 @@
 %header#header
-  %nav#navbar.fixed.w-100.z-9999{ role: 'navigation' }
+  %nav#navbar.fixed.w-100.z-9999{ role: "navigation" }
     .w-100.flex.flex-column
+
       .navbar-header.flex.justify-end.bg-blue-green
-        %button.navbar-toggle.bg-blue-green.bn.pa3.outline-0{'data-target': '#navbar-collapse-1', 'data-toggle': 'collapse', type: 'button'}
-          %span.sr-only Toggle navigation
+        %button.navbar-toggle.bg-blue-green.bn.pa3.outline-0.dn-l{"data-target": "#navbar-collapse-1", "data-toggle": "collapse", type: "button"}
           %i.fa.fa-bars.white.f5
+
       #navbar-collapse-1.collapse.navbar-collapse
-        -# .social-links
-        -#   %a{ href: 'https://twitter.com/@TechforgoodCAST', target: '_blank' }
-        -#     %i.fa.fa-twitter
-        -#   %a{ href: 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank' }
-        -#     %i.fa.fa-linkedin-square
-        -#   %a{ href: 'https://medium.com/@wearecast', target: '_blank' }
-        -#     %i.fa.fa-medium{ 'aria-hidden': 'true'}
-        %ul#navigation.nav.navbar-nav.navbar-right.bg-blue-green.ma0.pa0.flex.flex-column.items-center
-          %li.w-90.active.br3
-            - linkClass = 'white db pa3 f6 br3 hover-dark-red hover-bg-white transition-300 transition-all'
-            = link_to 'Home', '#header', class: "#{linkClass}"
-          - data.nav_headers.each do |header|
-            %li.w-90.br3
-              = link_to header.title, header.href, class: "#{linkClass}"
+        .flex-l.flex-row-l.bg-blue-green.pt2-l.pb2-l.justify-end-l.pr5-l
+
+          %ul#navigation.nav.navbar-nav.ma0.pa0.flex.flex-column.items-center.flex-row-l
+            - liClass = "w-90 br2 w-auto-l tc-l ml2-l white hover-light-red hover-bg-white transition-300 transition-all"
+            - data.navbar.headers.each_with_index do |header, i|
+              %li{ class: "#{liClass}" ++ (i == 0 ? " active" : "") }
+                = link_to header.title, header.href, class: "db pa3 f6 br2  pa3-l color-inherit"
+
+          .social-links.dn.flex-l.flex-row-l.bg-blue-green.items-center-l.pl3-l.pr3-l
+            - data.navbar.icons.each do |icon|
+              %a{ href: icon.href, target: "_blank", class: "white pl3-l hover-light-red"}
+                %i{class: icon.image }
