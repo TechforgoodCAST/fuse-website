@@ -1,9 +1,7 @@
-%section#partners.section.section-our-clients
-  .container
-    %h2.section-title
-      %span Supporters and partners
-    .row
-      - data.partners.partners.select { |partner| partner.role == 'fuse' }.each_with_index do |partner, i|
-        .col-md-2.col-sm-3.col-xs-2{class: ('col-md-offset-1' if i < 1), class: ('col-xs-offset-1' if i == 0)}
-          = link_to partner.link, target: '_blank' do
-            = image_tag partner.image
+%section.pv4.ph4#partners
+  .tc.center
+    = partial "components/section_header", locals: { title: "Supporters and partners", light: true }
+    .flex.flex-wrap.mw8.center
+      - data.partners.partners.select { |partner| partner.role == 'fuse' }.each do |partner|
+        .w-50.w-20-ns.pa2
+          %a= image_tag partner.image
