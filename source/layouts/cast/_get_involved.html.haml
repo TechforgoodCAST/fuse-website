@@ -2,7 +2,7 @@
   .tc.center.cf.mw8
     = partial "components/section_header", locals: { title: "Get Involved" }
 
-    = partial "layouts/get_involved_block", locals: { img: 'hiring.png', title: 'Need some inspiration or got some to share?' } do
+    = partial "layouts/cast/get_involved_block", locals: { img: 'hiring.png', title: 'Need some inspiration or got some to share?' } do
       %p
         Follow the
         = link_to '#techforgood', 'https://twitter.com/search?l=&q=%23techforgood&src=typd', target: '_blank', id: 'emailLink', class: 'dark-red'
@@ -13,7 +13,7 @@
         organisations and projects on GitHub. Please add your contributions!
 
 
-    = partial "layouts/get_involved_block", locals: { img: 'beehivelogo.png', title: 'Looking for funding?', smallImg: true } do
+    = partial "layouts/cast/get_involved_block", locals: { img: 'beehivelogo.png', title: 'Looking for funding?', smallImg: true } do
       %p
         CAST itself isn’t a funder, but we are currently incubating a funder recommendation platform called
         = succeed '.' do
@@ -24,7 +24,7 @@
           = link_to 'Visit Beehive', 'https://www.beehivegiving.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
 
 
-    = partial 'layouts/get_involved_block', locals: { img: 'tfgLogo.png', title: 'Join the Tech for Good community' } do
+    = partial 'layouts/cast/get_involved_block', locals: { img: 'tfgLogo.png', title: 'Join the Tech for Good community' } do
       %p
         There are currently regular Tech for Good Meetups in
         = succeed ',' do
