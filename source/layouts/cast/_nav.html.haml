@@ -11,7 +11,7 @@
 
           %ul#navigation.nav.navbar-nav.ma0.pa0.flex.flex-column.items-center.flex-row-l
             - liClass = "w-90 br2 w-auto-l tc-l ml2-l white hover-light-red hover-bg-white transition-300 transition-all"
-            - data.navbar.headers.each_with_index do |header, i|
+            - data.navbar.castHeaders.each_with_index do |header, i|
               %li{ class: "#{liClass}" ++ (i == 0 ? " active" : "") }
                 = link_to header.title, header.href, class: "db pa3 f6 br2 color-inherit"
 

@@ -1,4 +1,4 @@
-headers:
+castHeaders:
   - title: "Home"
     href: "#header"
 
@@ -16,6 +16,25 @@ headers:
 
   - title: "Team"
     href: "#team"
+
+  - title: "Contact"
+    href: "#contact"
+
+fuseHeaders:
+  - title: "Home"
+    href: "#header"
+
+  - title: "How it works"
+    href: "#howitworks"
+
+  - title: "Nonprofits"
+    href: "#nonprofits"
+
+  - title: "Team"
+    href: "#team"
+
+  - title: "Partners"
+    href: "#partners"
 
   - title: "Contact"
     href: "#contact"
