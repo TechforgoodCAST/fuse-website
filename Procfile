@@ -1,1 +1,1 @@
-web: bundle exec puma -p $PORT
+web: npm install && bundle exec puma -p $PORT
