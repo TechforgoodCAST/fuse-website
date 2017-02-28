@@ -1,4 +1,4 @@
-%header#header
+%header#home
   %nav#navbar.bg-blue-green.fixed.w-100.z-9999.flex-l.justify-center-l{ role: "navigation" }
     .w-90-l.mw8.ml6-l.flex.flex-column.pt2.pb2.bg-blue-green
 
@@ -11,8 +11,8 @@
 
           %ul#navigation.nav.navbar-nav.ma0.pa0.flex.flex-column.items-center.flex-row-l
             - liClass = "w-90 br2 w-auto-l tc-l ml2-l white hover-light-red hover-bg-white transition-300 transition-all"
-            - data.navbar.headers.each_with_index do |header, i|
-              %li{ class: "#{liClass}" ++ (i == 0 ? " active" : "") }
+            - data.navbar.castHeaders.each_with_index do |header, i|
+              %li{ class: "#{liClass}" ++ (i == 0 ? " nav-item-active" : "") }
                 = link_to header.title, header.href, class: "db pa3 f6 br2 color-inherit"
 
           .social-links.dn.flex-l.flex-row-l.bg-blue-green.items-center-l.pl3-l.pr3-l

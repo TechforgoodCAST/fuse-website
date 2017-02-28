@@ -1,21 +1,40 @@
-headers:
+castHeaders:
   - title: "Home"
-    href: "#header"
+    href: "#home"
 
   - title: "What We Do"
-    href: "#features"
+    href: "#whatwedo"
 
   - title: "Our Work"
-    href: "#portfolio"
+    href: "#ourwork"
 
   - title: "Get Involved"
-    href: "#get-involved"
+    href: "#getinvolved"
 
   - title: "Partners"
     href: "#partners"
 
   - title: "Team"
     href: "#team"
+
+  - title: "Contact"
+    href: "#contact"
+
+fuseHeaders:
+  - title: "Home"
+    href: "#home"
+
+  - title: "How it works"
+    href: "#howitworks"
+
+  - title: "Nonprofits"
+    href: "#nonprofits"
+
+  - title: "Team"
+    href: "#team"
+
+  - title: "Partners"
+    href: "#partners"
 
   - title: "Contact"
     href: "#contact"

@@ -1,27 +1,22 @@
-%header#header.site-header
-  %nav#navbar.site-navbar.navbar.navbar-static-top.fuse-navbar{ role: "navigation" }
-    .container
-      .navbar-header
-        %div
-          = link_to '/fuse.html' do
-            = image_tag 'fuseLogo.png', width: 190, class: 'fuse-small'
-          = link_to '/' do
-            = image_tag 'castLogoSmallPng.png', class: 'thumbnailImage cast-small'
+%header#home
+  %nav#navbar.bg-navy.fixed.w-100.z-9999.flex-l.justify-center-l{ role: "navigation" }
+    .w-90-l.mw8.flex.flex-column.pt2.pb2.bg-navy.flex-row-l.items-center-l.justify-between-l
 
-        %button.navbar-toggle{ "data-target": "#navbar-collapse-1", "data-toggle": "collapse", type: "button" }
-          %span.sr-only Toggle navigation
-          %i.fa.fa-bars
-      #navbar-collapse-1.collapse.navbar-collapse
-        %ul#navigation.nav.navbar-nav.navbar-right
-          %li
-            %a{ href: "#header" } Home
-          %li
-            %a{ href: "#howitworks" } How it works
-          %li
-            %a{ href: "#nonprofits" } Nonprofits
-          %li
-            %a{ href: "#team" } The team
-          %li
-            %a{ href: "#partners" } Partners
-          %li
-            %a{ href: "#contact" } Contact
+      .navbar-header.flex.justify-between.bg-navy
+        .flex-l.flex-row-l
+          %a{href: '#home', id: 'test'}
+            = image_tag 'fuseLogoSmall.png', width: 94, class: 'ml2 ml0-l'
+          = link_to '/' do
+            = image_tag 'castLogoSmallPng.png', width: 143, class: 'dn db-l ml2-l'
+
+        %button.navbar-toggle.bg-navy.bn.pa3.outline-0.dn-l{"data-target": "#navbar-collapse-1", "data-toggle": "collapse", type: "button"}
+          %i.fa.fa-bars.white.f5
+
+      #navbar-collapse-1.collapse.navbar-collapse.bg-navy
+        .flex-l.flex-row-l.bg-navy.justify-end-l
+
+          %ul#navigation.nav.navbar-nav.ma0.pa0.flex.flex-column.items-center.flex-row-l
+            - liClass = "w-90 br2 w-auto-l tc-l ml2-l white hover-light-red hover-bg-white transition-300 transition-all"
+            - data.navbar.fuseHeaders.each_with_index do |header, i|
+              %li{ class: "#{liClass}" ++ (i == 0 ? " nav-item-active" : "") }
+                = link_to header.title, header.href, class: "db pa3 f6 br2 color-inherit"
