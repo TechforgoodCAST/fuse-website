@@ -1,0 +1,21 @@
+%section.ph2.pv4#ourwork
+  .tc.center
+    = partial "components/section_header", locals: { title: "Our Work", light: true }
+
+    .flex.flex-wrap.mw8.center
+      - data.work.projects.each do |project|
+
+        - target      = project.modal? ? "##{project.partial}" : ''
+        - modalOption = project.modal? ? 'modal' : ''
+        - href        = project.modal? ? '#' : project.link
+
+        %article.w-50.w-25-m.pa4-ns.pa2.hide-child.relative
+          = partial 'components/plus_overlay'
+          .entry-thumbnail
+            %a.mid-gray.no-underline{ "data-target": target, "data-toggle": modalOption, href: href }
+              = image_tag project.image, class: "br3"
+              %h4= project.name
+              %h5= project.title
+
+        - if project.modal?
+          = partial "modals/#{project.partial}", locals: { id: project.partial, img: project.image, title: project.name }

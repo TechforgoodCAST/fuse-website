@@ -1,45 +1,44 @@
-%section#contact.section.section-center.section-contact{class: ('section-hilite' if current_page.url.include?('fuse'))}
+%section#contact.pa4{ class: ('section-hilite' if current_page.url.include?('fuse')) }
   .container
-    %h2.section-title
-      %span Contact Us
-    .row
-      .col-md-3.col-sm-6
-        %i.fa.fa-envelope.fa-3x
-        %p
+    = partial "components/section_header", locals: { title: "Contact Us", light: true }
+    .cf.pa4.tc.mw9.center
+      .w-100.pa3.w-25-m.fl
+        %i.fa.fa-envelope.fa-3x.db.mid-gray
+        %p.f6
           - if current_page.url.include?('fuse')
             Want to say hello? Want to know more about us? Drop us an email on
-            %a#emailLink.emailLink{href: 'mailto:hello@wearecast.org.uk'} hello@wearecast.org.uk
+            %a.dark-red#emailLink.emailLink{ href: 'mailto:hello@wearecast.org.uk' } hello@wearecast.org.uk
             and we will get back to you as soon as we can.
           - else
             Want to say hello? Drop us an email on
-            %a#emailLink.emailLink{href: 'mailto:hello@wearecast.org.uk'} hello@wearecast.org.uk
+            %a.dark-red#emailLink.emailLink{ href: 'mailto:hello@wearecast.org.uk' } hello@wearecast.org.uk
             and we will get back to you as soon as we can.
-      .col-md-3.col-sm-6
-        %i.fa.fa-twitter.fa-3x
-        %p
+      .w-100.pa3.w-25-m.fl
+        %i.fa.fa-twitter.fa-3x.db.mid-gray
+        %p.f6
           For daily updates,
-          = link_to '#techforgood', 'https://twitter.com/hashtag/techforgood', target: '_blank', id: 'emailLink'
+          = link_to '#techforgood', 'https://twitter.com/hashtag/techforgood', target: '_blank', id: 'emailLink', class: "dark-red"
           community news and useful resources, follow us on
           = succeed '.' do
-            = link_to 'Twitter', 'https://twitter.com/@TechforgoodCAST', target: '_blank', id: 'emailLink'
-      .col-md-3.col-sm-6
-        %i.fa.fa-linkedin.fa-3x
-        %p
+            = link_to 'Twitter', 'https://twitter.com/@TechforgoodCAST', target: '_blank', id: 'emailLink', class: "dark-red"
+      .w-100.pa3.w-25-m.fl
+        %i.fa.fa-linkedin.fa-3x.db.mid-gray
+        %p.f6
           If
-          = link_to 'LinkedIn', 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank', id: 'emailLink'
+          = link_to 'LinkedIn', 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank', id: 'emailLink', class: "dark-red"
           is more your thing, you can
-          = link_to 'follow us', 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank', id: 'emailLink'
+          = link_to 'follow us', 'https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology', target: '_blank', id: 'emailLink', class: "dark-red"
           on there for CAST news and thought pieces.
-      .col-md-3.col-sm-6
-        %i.fa.fa-medium.fa-3x
-        %p
+      .w-100.pa3.w-25-m.fl
+        %i.fa.fa-medium.fa-3x.db.mid-gray
+        %p.f6
           - if current_page.url.include?('fuse')
             Follow the progress of our charity 'Fusiliers' on our
             = succeed ',' do
-              = link_to 'dedicated Fuse blog', 'https://medium.com/@CAST_fuse', target: '_blank', id: 'emailLink'
+              = link_to 'dedicated Fuse blog', 'https://medium.com/@CAST_fuse', target: '_blank', id: 'emailLink', class: "dark-red"
             where we share insights about the accelerator process and latest updates.
           - else
             Follow our latest thoughts on
             = succeed ',' do
-              = link_to 'our Medium blog', 'https://medium.com/@wearecast', target: '_blank', id: 'emailLink'
+              = link_to 'our Medium blog', 'https://medium.com/@wearecast', target: '_blank', id: 'emailLink', class: "dark-red"
             where we share our latest ideas, projects and learnings.

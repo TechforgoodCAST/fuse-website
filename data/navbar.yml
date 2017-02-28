@@ -1,0 +1,50 @@
+castHeaders:
+  - title: "Home"
+    href: "#home"
+
+  - title: "What We Do"
+    href: "#whatwedo"
+
+  - title: "Our Work"
+    href: "#ourwork"
+
+  - title: "Get Involved"
+    href: "#getinvolved"
+
+  - title: "Partners"
+    href: "#partners"
+
+  - title: "Team"
+    href: "#team"
+
+  - title: "Contact"
+    href: "#contact"
+
+fuseHeaders:
+  - title: "Home"
+    href: "#home"
+
+  - title: "How it works"
+    href: "#howitworks"
+
+  - title: "Nonprofits"
+    href: "#nonprofits"
+
+  - title: "Team"
+    href: "#team"
+
+  - title: "Partners"
+    href: "#partners"
+
+  - title: "Contact"
+    href: "#contact"
+
+icons:
+  - href: "https://twitter.com/@TechforgoodCAST"
+    image: "fa fa-twitter"
+
+  - href: "https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology"
+    image: "fa fa-linkedin-square"
+
+  - href: "https://medium.com/@wearecast"
+    image: "fa fa-medium"

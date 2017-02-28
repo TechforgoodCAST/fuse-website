@@ -1,0 +1,7 @@
+%section.pv4.ph4#partners
+  .tc.center
+    = partial "components/section_header", locals: { title: "Supporters and partners", light: true }
+    .flex.flex-wrap.mw8.center.justify-center
+      - data.partners.partners.select { |partner| partner.role == 'fuse' }.each do |partner|
+        .w-50.w-20-ns.pa2
+          %a= image_tag partner.image
