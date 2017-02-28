@@ -1,8 +1,30 @@
-%section#nonprofits
-  .mw8.center.flex.flex-wrap.justify-center.items-start.tc
-    - data.teams.teams.select(&:graduate).each do |team|
-      .w-50.w-25-ns.mv4.hide-child.relative
-        = partial 'components/plus_overlay'
-        .w-100.bg-center.contain.h6{ style: "background-image: url(/images/#{team.logo})"}
-        %a.mid-gray.no-underline{ "data-toggle": "modal", href: "#" }
-          %h4= team.name
+= partial "components/section_header", locals: { title: "Graduates", light: true }
+.mw8.center.flex.flex-wrap.justify-center.items-start.tc
+
+  -# teams with descriptions
+  - data.teams.teams.select(&:graduate&&:has_description).each do |team|
+    .w-50.w-25-ns.mv4.hide-child.relative.pointer
+      = partial 'components/plus_overlay'
+
+      - modalId = team.name.downcase.gsub(' ', '-')
+
+      .w-100.bg-center.contain.h6{ style: "background-image: url(/images/#{team.logo})", "data-target": "##{modalId}", "data-toggle": "modal" }
+      %a.mid-gray.no-underline
+        %h4= team.name
+
+    .modal.fade{ "aria-hidden": "true", "aria-labelledby": "#{modalId}", role: "dialog", tabindex: "-1", id: "#{modalId}" }
+      .bg-white.w-75.br1.center.pa3.relative.br2
+        %button.bn.bg-white.fr.f3.pointer.silver.outline-0.absolute.top-1.right-1{ "aria-hidden": "true", "data-dismiss": "modal", type: "button" } ×
+        %h4#project-modal-label.f4.mt2 #{team.name}
+        .modal-body
+          = image_tag team.image
+          .pa4
+            - team.description.each do |paragraph|
+              %p #{paragraph}
+
+  -# teams without descriptions
+  - data.teams.teams.select { |t| t.graduate? && !t.has_description }.each do |team|
+    .w-50.w-25-ns.mv4
+      .w-100.bg-center.contain.h6{ style: "background-image: url(/images/#{team.logo})" }
+      %a.mid-gray.no-underline
+        %h4= team.name

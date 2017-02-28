@@ -109,7 +109,7 @@ p {
   transition:height .35s ease
 }
 
-.active {
+.nav-item-active {
   background-color: var(--light-red)
 }
 
