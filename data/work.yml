@@ -1,24 +1,24 @@
 projects:
 - name: "Fuse"
-  description: "Running the UK's first charity digital accelerator"
+  title: "Running the UK's first charity digital accelerator"
   image: "diaryResize.jpg"
   modal: false
   link: "fuse"
 
 - name: "Digital Fellowship"
-  description: "A comprehensive learning programme to support charity CEOs to become experts in digital"
+  title: "A comprehensive learning programme to support charity CEOs to become experts in digital"
   image: "fellowshipSession.png"
   modal: true
   partial: "fellowship"
 
 - name: "Ufi Charitable Trust"
-  description: "Developing Ufi’s innovation fund and providing strategic insight to further their mission and impact"
+  title: "Developing Ufi’s innovation fund and providing strategic insight to further their mission and impact"
   image: "ufiBrainStorm.jpg"
   modal: true
   partial: "ufi"
 
 - name: "The Power to Change"
-  description: "Supporting The Power to Change to embed digital tools into their grant management processes"
+  title: "Supporting The Power to Change to embed digital tools into their grant management processes"
   image: "cogs.jpg"
   modal: true
   partial: "power_to_change"
