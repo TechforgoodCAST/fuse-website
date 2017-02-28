@@ -16,12 +16,7 @@ window.onload = function(){
     offset: $('#navbar').outerHeight(),
     filter: ':not(.external)',
     speed: 750,
-    currentClass: 'active',
-
-    beforeStart: function() {
-    },
-    onComplete: function() {
-    }
+    currentClass: 'nav-item-active'
   });
 
   // Smooth Hash Link Scroll
