@@ -30,6 +30,7 @@ activate :external_pipeline,
   command: 'npm run css',
   source: 'source/tachyons'
 
+ignore 'source/tachyons/*.css'
 
 ###
 # Helpers
