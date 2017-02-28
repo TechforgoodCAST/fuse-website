@@ -113,6 +113,11 @@ p {
   background-color: var(--light-red)
 }
 
+.nav-item-active:hover {
+  background-color: var(--light-red);
+  color: white;
+}
+
 .color-inherit {
   color: inherit;
 }
