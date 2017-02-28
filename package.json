@@ -4,7 +4,7 @@
   "description": "[www.wearecast.org.uk](http://wearecast.org.uk)",
   "main": "index.js",
   "scripts": {
-    "css": "postcss --watch --config postcss-config.js"
+    "css": "postcss --config postcss-config.js"
   },
   "repository": {
     "type": "git",
