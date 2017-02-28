@@ -12,17 +12,17 @@
         = partial 'components/plus_overlay'
         - modalId = team.name.downcase.gsub(' ', '-')
 
-        .w-100.bg-center.contain.h6{ style: "background-image: url(/images/#{team.logo})", "data-target": "##{modalId}", "data-toggle": "modal" }
-        %a.mid-gray.no-underline
+        %a.mid-gray.no-underline{ "data-target": "##{modalId}", "data-toggle": "modal", href: "#{modalId}" }
+          .w-100.bg-center.contain.h6{ style: "background-image: url(/images/#{team.logo})", "data-target": "##{modalId}", "data-toggle": "modal" }
           %h4= team.name
 
       .modal.fade{ "aria-hidden": "true", "aria-labelledby": "#{modalId}", role: "dialog", tabindex: "-1", id: "#{modalId}" }
-        .bg-white.w-75.br1.center.pa3.relative.br2.mt6
-          %button.bn.bg-white.fr.f3.pointer.silver.outline-0.absolute.top-1.right-1{ "aria-hidden": "true", "data-dismiss": "modal", type: "button" } ×
-          %h4#project-modal-label.f4.mt2 #{team.name}
+        .bg-white.w-100.br1.center.pa3.relative.br2.mt5.w-75-ns
+          %button.bn.bg-transparent.fr.f3.pointer.silver.outline-0.absolute.top-1.right-1{ "aria-hidden": "true", "data-dismiss": "modal", type: "button", style: "top: 0.3em; right: 0.1em" } ×
+          %h4#project-modal-label.f5.mt2.f4-ns #{team.name}
           .modal-body
-            = image_tag team.image
-            .pa4
+            = image_tag team.image, class: 'w-50-ns br2'
+            .pa1
               - team.description.each do |paragraph|
                 %p #{paragraph}
     - else
