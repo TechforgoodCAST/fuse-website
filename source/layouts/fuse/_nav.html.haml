@@ -1,10 +1,10 @@
-%header#header
+%header#home
   %nav#navbar.bg-navy.fixed.w-100.z-9999.flex-l.justify-center-l{ role: "navigation" }
     .w-90-l.mw8.flex.flex-column.pt2.pb2.bg-navy.flex-row-l.items-center-l.justify-between-l
 
       .navbar-header.flex.justify-between.bg-navy
         .flex-l.flex-row-l
-          = link_to '/fuse.html' do
+          %a{href: '#home', id: 'test'}
             = image_tag 'fuseLogoSmall.png', width: 94, class: 'ml2 ml0-l'
           = link_to '/' do
             = image_tag 'castLogoSmallPng.png', width: 143, class: 'dn db-l ml2-l'

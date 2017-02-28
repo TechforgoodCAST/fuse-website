@@ -1,15 +1,15 @@
 castHeaders:
   - title: "Home"
-    href: "#header"
+    href: "#home"
 
   - title: "What We Do"
-    href: "#features"
+    href: "#whatwedo"
 
   - title: "Our Work"
-    href: "#portfolio"
+    href: "#ourwork"
 
   - title: "Get Involved"
-    href: "#get-involved"
+    href: "#getinvolved"
 
   - title: "Partners"
     href: "#partners"
@@ -22,7 +22,7 @@ castHeaders:
 
 fuseHeaders:
   - title: "Home"
-    href: "#header"
+    href: "#home"
 
   - title: "How it works"
     href: "#howitworks"

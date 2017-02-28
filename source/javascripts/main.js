@@ -4,7 +4,7 @@ window.onload = function(){
   $(window).scroll(function() {
     var scrollTop = $(window).scrollTop();
     $(".section").each(function() {
-      var elementTop = $(this).offset().top - $('#header').outerHeight();
+      var elementTop = $(this).offset().top - $('#home').outerHeight();
       if(scrollTop >= elementTop) {
         $(this).addClass('loaded');
       }
@@ -20,8 +20,8 @@ window.onload = function(){
   });
 
   // Smooth Hash Link Scroll
-  $('.smooth-scroll').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+  $('#test').click(function() {
+    if (window.location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && window.location.hostname == this.hostname) {
 
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
