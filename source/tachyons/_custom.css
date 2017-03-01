@@ -12,7 +12,12 @@ li {
   list-style-type: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
+  font-family: var(--roboto-slab);
+  font-weight: 400;
+}
+
+h2 {
   font-family: Helvetica, Arial;
   font-weight: 400;
 }

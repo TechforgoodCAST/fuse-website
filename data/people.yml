@@ -65,20 +65,20 @@ team:
   image: "david.jpg"
   cast: true
 
-- name: "Andrew MacMurray"
-  role: "Full Stack Developer"
-  description: "Technical lead on Fuse programme"
-  linkedin: "https://www.linkedin.com/in/andrew-macmurray-280a08111"
-  image: "andrew.jpg"
-  cast: true
-  fuse: true
-  fuse_role: "Technical Lead"
-
 - name: "Ivan Gonzalez"
   role: "Full Stack Developer"
   description: "Technical lead on Fuse programme"
   linkedin: "https://uk.linkedin.com/in/i-gonzalez"
   image: "ivan.jpg"
+  cast: true
+  fuse: true
+  fuse_role: "Technical Lead"
+
+- name: "Andrew MacMurray"
+  role: "Full Stack Developer"
+  description: "Technical lead on Fuse programme"
+  linkedin: "https://www.linkedin.com/in/andrew-macmurray-280a08111"
+  image: "andrew.jpg"
   cast: true
   fuse: true
   fuse_role: "Technical Lead"
@@ -96,11 +96,11 @@ team:
   link: "http://superbeinglabs.org"
 
 board:
-- name: "Nat Hunter"
+- name: "Lord Jim Knight"
   role: "Board Member"
-  description: "Social, digital and communications designer. Founder of Airside, former Director of Design at the RSA and Director of the Machine Rooms"
-  linkedin: "https://www.linkedin.com/in/nathunter"
-  image: "nat.jpg"
+  description: "Education, technology and digital inclusion expert. Former Labour Schools minister, Chief Education Adviser at TES Global Ltd. and co-owner of tech for good venture, xRapid"
+  linkedin: "https://uk.linkedin.com/in/jimpknight"
+  image: "jim.jpg"
   cast: true
 
 - name: "Mary McKenna MBE"
@@ -108,6 +108,13 @@ board:
   description: "Tech entrepreneur &amp angel investor, Entrepreneur in Residence at the NI Science Park, Digital Catapult Advisory Network member, charities trustee, co-founded Learning Pool"
   linkedin: "https://www.linkedin.com/in/mmarymckenna"
   image: "mary3.jpg"
+  cast: true
+
+- name: "Nat Hunter"
+  role: "Board Member"
+  description: "Social, digital and communications designer. Founder of Airside, former Director of Design at the RSA and Director of the Machine Rooms"
+  linkedin: "https://www.linkedin.com/in/nathunter"
+  image: "nat.jpg"
   cast: true
 
 - name: "Nick Stanhope"
@@ -122,13 +129,6 @@ board:
   description: "Charity and technology innovator, leader and advocate. Former CEO of YouthNet and Trustee of Technology Trust"
   linkedin: "https://www.linkedin.com/in/emma-thomas-17316015"
   image: "emma.jpg"
-  cast: true
-
-- name: "Lord Jim Knight"
-  role: "Board Member"
-  description: "Education, technology and digital inclusion expert. Former Labour Schools minister, Chief Education Adviser at TES Global Ltd. and co-owner of tech for good venture, xRapid"
-  linkedin: "https://uk.linkedin.com/in/jimpknight"
-  image: "jim.jpg"
   cast: true
 
 # - name: "More team members to be announced soon..."
