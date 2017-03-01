@@ -9,7 +9,7 @@
         - modalOption = project.modal? ? 'modal' : ''
         - href        = project.modal? ? '#' : project.link
 
-        %article.w-50.w-25-m.pa4-ns.pa2.hide-child.relative
+        %article.w-50.w-25-m.pa3-ns.pa2.hide-child.relative
           = partial 'components/plus_overlay'
           .entry-thumbnail
             %a.mid-gray.no-underline{ "data-target": target, "data-toggle": modalOption, href: href }
