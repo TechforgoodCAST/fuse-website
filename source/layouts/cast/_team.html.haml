@@ -1,11 +1,12 @@
-%section#team.tc.bg-light-gray.pv3
-  = partial 'components/section_header', locals: { title: "Our Team" }
+%section#team.bg-light-gray.pv3
+  .tc.center.mw8
+    = partial 'components/section_header', locals: { title: "Our Team" }
 
-  .tc.center.mw8.flex.flex-wrap.justify-center
-    - data.people.team.select(&:cast).each do |person|
-      .w-50.w-20-m.dib.pa3.hide-child.relative
-        = partial 'components/linkedin_overlay', locals: { link: person.linkedin }
-        = image_tag person.image, class: 'br3 w-100'
-        %h4.f6.black= person.name
-        %h5= person.role
-        %h6.fw4= person.description
+    .flex.flex-wrap.justify-center
+      - data.people.team.select(&:cast).each do |person|
+        .w-50.w-20-m.dib.pa3.hide-child.relative
+          = partial 'components/linkedin_overlay', locals: { link: person.linkedin }
+          = image_tag person.image, class: 'br3 w-100'
+          %h4.f6.black= person.name
+          %h5= person.role
+          %h6.fw4= person.description
