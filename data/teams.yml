@@ -5,17 +5,36 @@ teams:
 - name: "Advising London"
   logo: "advising-london.png"
   graduate: true
-  has_description: false
+  has_description: true
+  image: "advising-london-design-session.jpg"
+  description:
+  - "Advising London is at the absolute peak of its current delivery capacity for face-to-face legal advice, while demand for its services continues to increase. As a result, people queue outside the main Advice Hub for increasingly long amounts of time — often before they even know whether the Hub can help them."
+  - "On Fuse, Advising London has started creating a digital tool to help clients with one specific area focus: debt and money issues. It will assess a potential client’s advice needs to determine whether these align with the areas of law the Hub can advise on, and what level of advice they require. They can then book appointment slots, or be guided towards tailored self-help content and resources."
+  - "Advising London is planning to test a simple Typeform beta in early 2017."
+  - "Nathan Denne, Development Manager at Advising London: “If your organisation is - as we were - struggling to find the capacity, knowledge and resources to explore digital solutions to stubborn organisational issues, I’d highly recommend exploring future Fuse programme openings.”"
 
 - name: "Clore Social Leadership"
   logo: "clore-social-leadership.png"
   graduate: true
-  has_description: false
+  has_description: true
+  image: "clore-design-session.jpg"
+  description:
+  - "A lack of good leadership in the social sector has resulted in the public losing their trust in charities. Ultimately, this means poorer outcomes and services for those that need them the most."
+  - "On Fuse, Clore has developed a three-stage solution to this social leadership challenge: a digital tool that helps as many people as possible to identify as social leaders; an online development programme that provides them with the support they need to develop their potential; and a peer community that offers sustainable ongoing leadership development."
+  - "Having developed simple prototypes with tools like Typeform and Squarespace, Clore is currently testing all stages with potential end users, including multiple revenue models."
+  - "Matthew McStravick, Clore Fellow at Clore Social Leadership: \"It's been a hugely rewarding experience working with the CAST team and, beyond this project, we're introducing the methodologies used to Clore Social Fellows for both online and offline projects throughout the sector.\""
+
 
 - name: "Womens Aid"
   logo: "womens-aid.png"
   graduate: true
-  has_description: false
+  has_description: true
+  image: "womens-aid-design.jpg"
+  description:
+  - "Information about domestic abuse isn’t reaching young people or resonating with them. Women’s Aid’s consultations with young survivors revealed that they tried to deal with abusive behaviour on their own for a long time. It was only when the abuse became more severe that they felt their experiences were valid enough to qualify for help from specialist services."
+  - "On Fuse, Women’s Aid has created a new interactive online service for girls aged 14-18 to answer their questions about relationships. They then receive advice and support from experts, young survivors of abuse and their peers, to emphasise that they are not alone."
+  - "The service has been developed in consultation with over 150 young women across the country, and is currently being tested ahead of an Alpha launch."
+  - "Steph Atkins, Communications Officer at Women’s Aid: “We are indebted to CAST for their excellent support and guidance at every step of this project. The Fuse programme has given us the tools and confidence to embed user-centred design principles not only in this project but in other initiatives across the organisation. We are are proud to be collaborating with young survivors of abuse on the development of this new service, together we want to make sure that no one else has to go through what they experienced.”"
 
 - name: "National Childbirth Trust"
   logo: "nct-logo-fuse.png"
@@ -38,7 +57,8 @@ teams:
   - Seeing this gap and the small triggers that tipped people into food poverty, it became apparent that a new service should focus on financial resilience - not just food - in order to have the most impact.
   - On Fuse, the Oxfam team piloted a service that helps people to build an emergency fund for food through their usual shopping habits, while also enabling data collection around food poverty to help Oxfam advocate and campaign for more systemic change. Feedback was great, with users quickly seeing the benefit of the service. One user commented, “It was really simple to do. You can just do your shopping and you’re saving money at the same time.”
   - Oxfam is currently looking at the best way to fund the future development of this service, identifying potential routes to support the next steps of the project.
-  - <em>“The Fuse programme gave us a really deep understanding of user-centred design and agile development - delivering a service we can test across the UK to address food insecurity and enabling us to use this process elsewhere.”</em> Seb Mayfield, Oxfam Project Lead
+  - <em>“The Fuse programme gave us a really deep understanding of user-centred design and agile development - delivering a service we can test across the UK to address food insecurity and enabling us to use this process elsewhere.”</em>
+  - Seb Mayfield, Oxfam Project Lead
 
 - name: "Breast Cancer Care"
   tagline: "Providing useful and meaningful activities to women recovering from breast cancer"
@@ -50,7 +70,8 @@ teams:
   - Every year, nearly 60,000 people in the UK are diagnosed with breast cancer – the equivalent of one person every 10 minutes. Breast Cancer Care joined Fuse to look at new ways to support women diagnosed with breast cancer after intial treatment ends, as studies have shown that it’s at this point that there’s a big drop in the emotional wellbeing as people come to turns with life after diagnosis.
   - Joining Fuse, Breast Cancer Care had a plan to develop a new service to connect women with others in their local area. After speaking to a broad spectrum of women, it was clear that this wouldn’t provide them with the support needed after treatment ended. Through phone calls, workshops and the odd cup of coffee, a new service was born - supporting women through quick tips and suggestions from the Breast Cancer Care community. It’s been really well received by users, with one of the Beta testers commenting, “I feel like it could carry me through a bad day”.
   - Breast Cancer Care is now developing the service further, with the aim of producing an open Beta soon.
-  - <em>“Fuse has equipped us with the skills to kick-start the delivery of digital solutions at Breast Cancer Care. Through the expertise and support of its programme leads, the project and the team have been accelerated. Breast Cancer Care are very excited about the potential this project has to help women going through breast cancer.”</em> Kristina Barrick, Innovation Manager, Breast Cancer Care
+  - <em>“Fuse has equipped us with the skills to kick-start the delivery of digital solutions at Breast Cancer Care. Through the expertise and support of its programme leads, the project and the team have been accelerated. Breast Cancer Care are very excited about the potential this project has to help women going through breast cancer.”</em>
+  - Kristina Barrick, Innovation Manager, Breast Cancer Care
 
 - name: "Age UK"
   tagline: "Tools for supporting guided care conversations"
@@ -63,7 +84,8 @@ teams:
   - Aging is not an illness, but it can be challenging and Age UK provides services and support at a national and local level to inspire, enable and support older people. Age UK joined Fuse to find ways to have more, meaningful conversations with older people across the UK.
   - On the Fuse programme, Age UK spoke to staff, volunteers and older people to understand how technology could have a transformative impact in supporting older people to enjoy later life. After going up and down the country visiting people’s homes, a new tool was developed to enable workers to have natural conversations with older people that covered key topics to ensure they could help as much as possible.
   - Age UK is currently piloting the new tool in four locations across the UK. After the pilot, the team plan to make changes based on feedback from users and then roll out to more locations.
-  - <em>“[Fuse] is very fast-paced - which is great because we get so far so quickly, so even if we were going in the wrong direction, we will know sooner and could correct it quicker.”</em> Asmaa Sehli, Digital Project Manager, Age UK
+  - <em>“Fuse is very fast-paced - which is great because we get so far so quickly, so even if we were going in the wrong direction, we will know sooner and could correct it quicker.”</em>
+  - Asmaa Sehli, Digital Project Manager, Age UK
 
 
 - name: "Centrepoint"
@@ -78,4 +100,5 @@ teams:
   - Learning from their pilot phoneline service, they realised the need to use other channels to engage young people and those worried about them. After speaking to young people to understand how they like to communicate, Centrebot was developed.
   - Centrebot is a text-based messaging service that enables people to contact Centrepoint for advice and guidance through SMS and web; it quickly gathers information from people in a way that feels less intrusive than a person asking questions over the phone, enabling Centrepoint to prioritise the most vulnerable and give them a call back quickly, and signpost people to other services when they know they aren’t the best organisation to help (such as those over 26).
   - Centrepoint is currently trialling Centrebot with users via SMS and is looking at the best next steps to scale the service.
-  - <em>"As an organisation we have been trialling an agile and user-centric process to design over the past year. The [Fuse] accelerator programme has really made me question and interrogate these concepts in greater depth, evaluate the way I’ve done things so far and give me tools and principles useful in my current and future work."</em> Hafsah FitzGibbon, Partnerships & Participation Manager, Youth Homelessness Databank, Centrepoint
+  - <em>"As an organisation we have been trialling an agile and user-centric process to design over the past year. The [Fuse] accelerator programme has really made me question and interrogate these concepts in greater depth, evaluate the way I’ve done things so far and give me tools and principles useful in my current and future work."</em>
+  - Hafsah FitzGibbon, Partnerships & Participation Manager, Youth Homelessness Databank, Centrepoint

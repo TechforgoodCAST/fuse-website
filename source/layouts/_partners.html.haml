@@ -1,9 +1,0 @@
-%section#clients.section.section-our-clients
-  .container
-    %h2.section-title
-      %span Clients and Supporters
-      %br
-    .row.portfolio-isotope
-      - data.partners.partners.select { |partner| partner.role == 'cast' }.each_with_index do |partner, i|
-        .portfolio-item.small.col-md-2.col-sm-3.col-xs-6
-          %a= image_tag partner.image

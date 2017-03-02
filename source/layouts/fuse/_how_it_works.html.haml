@@ -1,0 +1,10 @@
+%section#howitworks.bg-navy.pv4
+  %h2.white.tc
+    %span How it works
+  .flex.flex-wrap.justify-center.items-start.mw8.center
+    - data.work.howItWorks.each do |item|
+      .w-50.w-33-ns.tc.pa3.pa4-ns
+        .w5.h5.center
+          %img{ src: "/images/#{item.img}", class: "w-100" }
+        %h3.white #{item.title}
+        %p.white.fw4 #{item.text}

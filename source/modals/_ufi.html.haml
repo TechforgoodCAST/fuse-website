@@ -1,13 +1,2 @@
-#ufi.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "ufi-label", :role => "dialog", :tabindex => "-1"}
-  .modal-dialog
-    .modal-content
-      .modal-header
-        %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
-        %h4#project-modal-label.modal-title Ufi Vocational Technology Programme
-      .modal-body
-        %article.single-project
-          .project-thumbnail
-            .item.active
-              = image_tag 'ufiBrainStorm.jpg'
-              %br
-              %p Post-16 vocational learning is of huge social and economic importance, yet it is often overlooked in favour of formal and academic education.  The Ufi Charitable Trust is in a position to address this and we worked with them to find and support the most innovative uses of tech, and to create widespread positive change through vocational learning.
+= partial 'layouts/cast/modal_shell', locals: { id: "ufi", img: img, title: title } do
+  %p Post-16 vocational learning is of huge social and economic importance, yet it is often overlooked in favour of formal and academic education.  The Ufi Charitable Trust is in a position to address this and we worked with them to find and support the most innovative uses of tech, and to create widespread positive change through vocational learning.

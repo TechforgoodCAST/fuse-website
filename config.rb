@@ -25,6 +25,22 @@ end
 
 activate :directory_indexes
 
+configure :development do
+  activate :external_pipeline,
+    name: :tachyons,
+    command: 'npm run watch',
+    source: 'source/tachyons'
+end
+
+configure :build do
+  activate :external_pipeline,
+    name: :tachyons,
+    command: 'npm run css',
+    source: 'source/tachyons'
+end
+
+ignore 'tachyons/*'
+
 ###
 # Helpers
 ###
