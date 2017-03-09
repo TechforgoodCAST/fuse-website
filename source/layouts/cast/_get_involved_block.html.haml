@@ -1,7 +1,8 @@
 - imgContainerClass = (defined? smallImg) ? '' : 'w5'
+- imgClass = (defined? smallImg) ? 'w-100 w-50-ns w-100-m' : 'w-100'
 
 .w-100.w-33-m.fl.pa4
   .h5.center.pa3.flex.items-center{ class: imgContainerClass }
-    = image_tag "#{img}", class: "w-100"
+    = image_tag "#{img}", class: "#{imgClass}" 
   %h4.mt3 #{title}
   = yield
