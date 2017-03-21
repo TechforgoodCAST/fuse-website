@@ -19,6 +19,16 @@ team:
   fuse_role: "Strategy and venture support"
   fuse_first_row: true
 
+- name: "Sam Sparrow"
+  role: "Associate"
+  description: "Leads on Fuse programme delivery"
+  linkedin: "https://www.linkedin.com/in/samanthasparrow"
+  image: "sam.jpg"
+  cast: true
+  fuse: true
+  fuse_role: "Programme Lead"
+  fuse_first_row: true
+
 - name: "Ellie Hale"
   role: "Associate"
   description: "Leads our Digital Fellowship programme, manages CAST's PR and Marketing"
@@ -37,16 +47,6 @@ team:
   cast: true
   fuse: true
   fuse_role: "User research"
-  fuse_first_row: true
-
-- name: "Sam Sparrow"
-  role: "Associate"
-  description: "Leads on Fuse programme delivery"
-  linkedin: "https://www.linkedin.com/in/samanthasparrow"
-  image: "sam.jpg"
-  cast: true
-  fuse: true
-  fuse_role: "Programme Lead"
   fuse_first_row: true
 
 - name: "Suraj Vadgama"
@@ -89,11 +89,6 @@ team:
   image: "simon.png"
   link: "http://www.showmestudio.co.uk"
 
-- name: "Super Being Labs"
-  fuse: true
-  fuse_role: "Technology Partner"
-  image: "superbeingLogo.png"
-  link: "http://superbeinglabs.org"
 
 board:
 - name: "Lord Jim Knight"
