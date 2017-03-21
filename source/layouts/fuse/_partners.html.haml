@@ -3,5 +3,6 @@
     = partial "components/section_header", locals: { title: "Supporters and partners", light: true }
     .flex.flex-wrap.mw8.center.justify-center
       - data.partners.partners.select { |partner| partner.role == 'fuse' }.each do |partner|
-        .w-50.w-16-ns.pa2
-          %img{ src: "/images/#{partner.image}" }
+        .w-50.w-20-ns.pa2.mt4
+          %a{ href: "#{partner.link}", target: "_blank" }
+            %img{ src: "/images/#{partner.image}" }

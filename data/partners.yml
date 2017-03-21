@@ -39,6 +39,9 @@ partners:
 - image: 'thoughtbotLogoFuse.jpg'
   role: 'fuse'
   link: 'https://thoughtbot.com/london'
-- image: "superbeingLogo.png"
+- image: 'superbeingLogo.png'
   role: 'fuse'
   link: 'http://superbeinglabs.org'
+- image: 'health-foundry.png'
+  role: 'fuse'
+  link: 'http://www.healthfoundry.org/'
