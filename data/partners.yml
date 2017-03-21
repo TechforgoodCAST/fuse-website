@@ -39,3 +39,6 @@ partners:
 - image: 'thoughtbotLogoFuse.jpg'
   role: 'fuse'
   link: 'https://thoughtbot.com/london'
+- image: "superbeingLogo.png"
+  role: 'fuse'
+  link: 'http://superbeinglabs.org'
