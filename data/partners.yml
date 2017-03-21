@@ -18,10 +18,12 @@ partners:
 - image: 'forwardPartnersLogoFuse.jpg'
   role: 'cast'
 - image: 'foundersLogo.jpg'
+  square: true
   role: 'cast'
 - image: 'latimerLogo400x300.jpg'
   role: 'cast'
-- image: 'impactHubLogoFuse.jpg'
+- image: 'impact-hub.jpg'
+  square: true
   role: 'cast'
 
 - image: 'big-lottery-fund-logo.png'
@@ -30,15 +32,21 @@ partners:
 - image: 'comicReliefLogoFuse.jpg'
   role: 'fuse'
   link: 'http://www.comicrelief.com'
-- image: 'impactHubLogoFuse.jpg'
+- image: 'impact-hub.jpg'
   role: 'fuse'
+  square: true
   link: 'http://www.impacthub.net'
 - image: 'forwardPartnersLogoFuse.jpg'
   role: 'fuse'
   link: 'http://www.forwardpartners.com'
+- image: 'health-foundry.png'
+  role: 'fuse'
+  square: true
+  link: 'http://www.healthfoundry.org/'
 - image: 'thoughtbotLogoFuse.jpg'
   role: 'fuse'
   link: 'https://thoughtbot.com/london'
-- image: "superbeingLogo.png"
+- image: 'superbeingLogo.png'
   role: 'fuse'
+  square: true
   link: 'http://superbeinglabs.org'
