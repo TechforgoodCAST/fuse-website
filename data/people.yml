@@ -69,10 +69,10 @@ team:
   role: "Fuse Programme Co-ordinator"
   description: "Delivers Fuse, helping charities test, prototype and develop new digital services"
   linkedin: "https://www.linkedin.com/in/victoria-kate-ellaway-10342a25/"
-  image: "tori.png"
+  image: "tori.jpg"
   cast: true
   fuse: true
-  fuse_role: "Programme Co-ordinator"  
+  fuse_role: "Programme Co-ordinator"
 
 - name: "Ivan Gonzalez"
   role: "Full Stack Developer"
