@@ -2,15 +2,15 @@
   .tc.center.cf.mw8
     = partial "components/section_header", locals: { title: "Get Involved" }
 
-    = partial "layouts/cast/get_involved_block", locals: { img: 'hiring.png', title: 'Need some inspiration or got some to share?' } do
+    = partial "layouts/cast/get_involved_block", locals: { img: 'tenets.png', title: 'Need inspiration or got some to share?' } do
       %p
-        Follow the
-        = link_to '#techforgood', 'https://twitter.com/search?l=&q=%23techforgood&src=typd', target: '_blank', id: 'emailLink', class: 'dark-red'
-        hashtag on Twitter for regular updates and inspiring stories from the global tech for good community.
+        Check out our blog on
+        = link_to 'the Six Tenets of Tech for Good', 'https://hackernoon.com/six-tenets-of-tech-for-good-210168573f87', target: '_blank', id: 'emailLink', class: 'dark-red'
+        about how effective use of digital can drive huge social change.
       %p
-        We’ve also put together a handy guide for developers to some
+        We’ve also put together a handy GitHub guide to some
         = link_to 'awesome-techforgood', 'https://github.com/TechforgoodCAST/awesome-techforgood', target: '_blank', id: 'emailLink', class: 'dark-red'
-        organisations and projects on GitHub. Please add your contributions!
+        . Please add your contributions!
 
 
     = partial "layouts/cast/get_involved_block", locals: { img: 'beehivelogo.png', title: 'Looking for funding?', smallImg: true } do
@@ -33,8 +33,14 @@
           = link_to 'Manchester', 'http://www.meetup.com/Tech-for-Good-Manchester/', target: '_blank', id: 'emailLink', class: 'dark-red'
         = succeed ',' do
           = link_to 'Sheffield', 'http://shefftech4good.org/', target: '_blank', id: 'emailLink', class: 'dark-red'
-        and
+        = succeed ',' do
         = link_to 'Cambridge', 'http://www.meetup.com/Cambridge-Tech-For-Good-Meetup/', target: '_blank', id: 'emailLink', class: 'dark-red'
+        = succeed ',' do
+        = link_to 'Dublin', 'https://www.meetup.com/TechForGood-Dublin/', target: '_blank', id: 'emailLink', class: 'dark-red'
+        = succeed ',' do
+        = link_to 'Bristol', 'https://www.meetup.com/Tech4Good-Bristol/', target: '_blank', id: 'emailLink', class: 'dark-red'
+        and
+        = link_to 'Bath', 'https://www.meetup.com/Tech4Good-Bath/', target: '_blank', id: 'emailLink', class: 'dark-red'
         plus
         = link_to 'NetSquared', 'http://netsquared.org/', target: '_blank', id: 'emailLink', class: 'red no-underline'
         events country-wide.
