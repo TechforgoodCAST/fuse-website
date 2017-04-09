@@ -8,6 +8,10 @@ teams:
   logo: "parkinsons-uk.jpg"
   graduate: false
 
+- name: "Action for Children"
+  logo: "action-for-children.png"
+  graduate: false
+
 - name: "Oxfam UK Poverty Team"
   tagline: "Addressing food poverty"
   logo: "oxfamFuse.jpg"
