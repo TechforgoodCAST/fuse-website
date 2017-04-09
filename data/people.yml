@@ -27,7 +27,7 @@ team:
   cast: true
   fuse: true
   fuse_role: "User research"
-  fuse_first_row: true  
+  fuse_first_row: true
 
 - name: "Sam Sparrow"
   role: "Associate"
@@ -74,6 +74,15 @@ team:
   fuse: true
   fuse_role: "Programme Co-ordinator"
 
+- name: "Simon I'Anson"
+  role: "Head of Design and Product"
+  description: "Working out how to do things better and in completely new ways with digital"
+  linkedin: "https://www.linkedin.com/in/simonianson/"
+  image: "simon.png"
+  cast: true
+  fuse: true
+  fuse_role: "Design and Product Lead"
+
 - name: "Ivan Gonzalez"
   role: "Full Stack Developer"
   description: "Technical lead on our Fuse programme"
@@ -92,14 +101,6 @@ team:
   fuse: true
   fuse_role: "Technical Lead"
 
-- name: "Simon I'Anson"
-  role: "Head of Design and Product"
-  description: "Working out how to do things better and in completely new ways with digital"
-  linkedin: "https://www.linkedin.com/in/simonianson/"
-  image: "simon.png"
-  cast: true
-  fuse: true
-  fuse_role: "Design and Product Lead"
 
 board:
 - name: "Lord Jim Knight"
