@@ -19,6 +19,16 @@ team:
   fuse_role: "Strategy and venture support"
   fuse_first_row: true
 
+- name: "Kieron Kirkland"
+  role: "Co-Founder & Director"
+  description: "Leads on user research, digital R&D and impact measurement"
+  linkedin: "https://www.linkedin.com/pub/kieron-kirkland/19/7a2/a68"
+  image: "kieron.jpg"
+  cast: true
+  fuse: true
+  fuse_role: "User research"
+  fuse_first_row: true  
+
 - name: "Sam Sparrow"
   role: "Associate"
   description: "Leads our Fuse programme. Designs and tests other CAST nonprofit digital offers"
@@ -37,16 +47,6 @@ team:
   cast: true
   fuse: true
   fuse_role: "Marketing and PR Lead"
-  fuse_first_row: true
-
-- name: "Kieron Kirkland"
-  role: "Co-Founder & Director"
-  description: "Leads on user research, digital R&D and impact measurement"
-  linkedin: "https://www.linkedin.com/pub/kieron-kirkland/19/7a2/a68"
-  image: "kieron.jpg"
-  cast: true
-  fuse: true
-  fuse_role: "User research"
   fuse_first_row: true
 
 - name: "Suraj Vadgama"
