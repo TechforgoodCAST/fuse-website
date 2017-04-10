@@ -2,7 +2,7 @@
   .tc.center.cf.mw8
     = partial "components/section_header", locals: { title: "Get Involved" }
 
-    = partial "layouts/cast/get_involved_block", locals: { img: 'tenets.png', title: 'Need inspiration or got some to share?' } do
+    = partial "layouts/cast/get_involved_block", locals: { img: 'tenets.png', title: 'Need inspiration or got some to share?', smallImg: true } do
       %p
         Check out our blog on
         = link_to 'the Six Tenets of Tech for Good', 'https://hackernoon.com/six-tenets-of-tech-for-good-210168573f87', target: '_blank', id: 'emailLink', class: 'dark-red'
