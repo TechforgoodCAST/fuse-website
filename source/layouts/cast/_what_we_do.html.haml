@@ -1,13 +1,11 @@
 %section.bg-washed-blue.pa2#whatwedo
   .tc.center.cf.mw8
-    = partial "components/section_header", locals: { title: "What We Do" } do
-      %p
-        We help funders, nonprofits, businesses and government to put digital at the heart of their service delivery
-        and drive organisational change
-      %p
-      test
-        - data.work.whatWeDo.each do |item|
-          .w-100.w-33-ns.fl.pa4
-            = image_tag "/images/#{item.img}"
-            %h4.mt1.mb0= item.title
-            %p= item.text
+    = partial "components/section_header", locals: { title: "What We Do" }
+    %h4
+      We help funders, nonprofits, businesses and government put digital at the heart of their service delivery
+      %br and drive organisational change
+    - data.work.whatWeDo.each do |item|
+      .w-100.w-33-ns.fl.pa4
+        = image_tag "/images/#{item.img}"
+        %h4.mt1.mb0= item.title
+        %p= item.text
