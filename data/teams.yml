@@ -8,6 +8,10 @@ teams:
   logo: "parkinsons-uk.jpg"
   graduate: false
 
+- name: "Action for Children"
+  logo: "action-for-children.png"
+  graduate: false
+
 - name: "Oxfam UK Poverty Team"
   tagline: "Addressing food poverty"
   logo: "oxfamFuse.jpg"
@@ -75,10 +79,11 @@ teams:
   has_description: true
   image: "advising-london-design-session.jpg"
   description:
-  - "Advising London is at the absolute peak of its current delivery capacity for face-to-face legal advice, while demand for its services continues to increase. As a result, people queue outside the main Advice Hub for increasingly long amounts of time — often before they even know whether the Hub can help them."
-  - "On Fuse, Advising London has started creating a digital tool to help clients with one specific area focus: debt and money issues. It will assess a potential client’s advice needs to determine whether these align with the areas of law the Hub can advise on, and what level of advice they require. They can then book appointment slots, or be guided towards tailored self-help content and resources."
-  - "Advising London is planning to test a simple Typeform beta in early 2017."
-  - "Nathan Denne, Development Manager at Advising London: “If your organisation is - as we were - struggling to find the capacity, knowledge and resources to explore digital solutions to stubborn organisational issues, I’d highly recommend exploring future Fuse programme openings.”"
+  - Advising London is at the absolute peak of its current delivery capacity for face-to-face legal advice, while demand for its services continues to increase. As a result, people queue outside the main Advice Hub for increasingly long amounts of time — often before they even know whether the Hub can help them.
+  - On Fuse, Advising London has started creating a digital tool to help clients with one specific area focus - debt and money issues. It will assess a potential client’s advice needs to determine whether these align with the areas of law the Hub can advise on, and what level of advice they require. They can then book appointment slots, or be guided towards tailored self-help content and resources.
+  - Advising London is planning to test a simple Typeform beta in early 2017.
+  - <em>“If your organisation is - as we were - struggling to find the capacity, knowledge and resources to explore digital solutions to stubborn organisational issues, I’d highly recommend exploring future Fuse programme openings.”</em>
+  - Nathan Denne, Development Manager, Advising London
 
 - name: "Womens Aid"
   logo: "womens-aid.png"
@@ -86,10 +91,11 @@ teams:
   has_description: true
   image: "womens-aid-design.jpg"
   description:
-  - "Information about domestic abuse isn’t reaching young people or resonating with them. Women’s Aid’s consultations with young survivors revealed that they tried to deal with abusive behaviour on their own for a long time. It was only when the abuse became more severe that they felt their experiences were valid enough to qualify for help from specialist services."
-  - "On Fuse, Women’s Aid has created a new interactive online service for girls aged 14-18 to answer their questions about relationships. They then receive advice and support from experts, young survivors of abuse and their peers, to emphasise that they are not alone."
-  - "The service has been developed in consultation with over 150 young women across the country, and is currently being tested ahead of an Alpha launch."
-  - "Steph Atkins, Communications Officer at Women’s Aid: “We are indebted to CAST for their excellent support and guidance at every step of this project. The Fuse programme has given us the tools and confidence to embed user-centred design principles not only in this project but in other initiatives across the organisation. We are are proud to be collaborating with young survivors of abuse on the development of this new service, together we want to make sure that no one else has to go through what they experienced.”"
+  - Information about domestic abuse isn’t reaching young people or resonating with them. Women’s Aid’s consultations with young survivors revealed that they tried to deal with abusive behaviour on their own for a long time. It was only when the abuse became more severe that they felt their experiences were valid enough to qualify for help from specialist services.
+  - On Fuse, Women’s Aid has created a new interactive online service for girls aged 14-18 to answer their questions about relationships. They then receive advice and support from experts, young survivors of abuse and their peers, to emphasise that they are not alone.
+  - The service has been developed in consultation with over 150 young women across the country, and is currently being tested ahead of an Alpha launch.
+  - <em>“We are indebted to CAST for their excellent support and guidance at every step of this project. The Fuse programme has given us the tools and confidence to embed user-centred design principles not only in this project but in other initiatives across the organisation. We are are proud to be collaborating with young survivors of abuse on the development of this new service, together we want to make sure that no one else has to go through what they experienced.”</em>
+  - Steph Atkins, Communications Officer, Women’s Aid
 
 - name: "Clore Social Leadership"
   logo: "clore-social-leadership.png"
@@ -97,7 +103,8 @@ teams:
   has_description: true
   image: "clore-design-session.jpg"
   description:
-  - "A lack of good leadership in the social sector has resulted in the public losing their trust in charities. Ultimately, this means poorer outcomes and services for those that need them the most."
-  - "On Fuse, Clore has developed a three-stage solution to this social leadership challenge: a digital tool that helps as many people as possible to identify as social leaders; an online development programme that provides them with the support they need to develop their potential; and a peer community that offers sustainable ongoing leadership development."
-  - "Having developed simple prototypes with tools like Typeform and Squarespace, Clore is currently testing all stages with potential end users, including multiple revenue models."
-  - "Matthew McStravick, Clore Fellow at Clore Social Leadership: \"It's been a hugely rewarding experience working with the CAST team and, beyond this project, we're introducing the methodologies used to Clore Social Fellows for both online and offline projects throughout the sector.\""
+  - A lack of good leadership in the social sector has resulted in the public losing their trust in charities. Ultimately, this means poorer outcomes and services for those that need them the most.
+  - On Fuse, Clore has developed a three-stage solution to this social leadership challenge - a digital tool that helps as many people as possible to identify as social leaders; an online development programme that provides them with the support they need to develop their potential; and a peer community that offers sustainable ongoing leadership development.
+  - Having developed simple prototypes with tools like Typeform and Squarespace, Clore is currently testing all stages with potential end users, including multiple revenue models.
+  - <em>"It's been a hugely rewarding experience working with the CAST team and, beyond this project, we're introducing the methodologies used to Clore Social Fellows for both online and offline projects throughout the sector."</em>
+  - Matthew McStravick, Clore Fellow, Clore Social Leadership

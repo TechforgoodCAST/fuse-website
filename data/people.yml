@@ -19,9 +19,19 @@ team:
   fuse_role: "Strategy and venture support"
   fuse_first_row: true
 
+- name: "Kieron Kirkland"
+  role: "Co-Founder & Director"
+  description: "Leads on user research, digital R&D and impact measurement"
+  linkedin: "https://www.linkedin.com/pub/kieron-kirkland/19/7a2/a68"
+  image: "kieron.jpg"
+  cast: true
+  fuse: true
+  fuse_role: "User research"
+  fuse_first_row: true
+
 - name: "Sam Sparrow"
   role: "Associate"
-  description: "Leads on Fuse programme delivery"
+  description: "Leads our Fuse programme. Designs and tests other CAST nonprofit digital offers"
   linkedin: "https://www.linkedin.com/in/samanthasparrow"
   image: "sam.jpg"
   cast: true
@@ -31,22 +41,12 @@ team:
 
 - name: "Ellie Hale"
   role: "Associate"
-  description: "Leads our Digital Fellowship programme, manages CAST's PR and Marketing"
+  description: "Leads our Digital Fellowship programme. Manages CAST's PR, marketing and community engagement"
   linkedin: "https://www.linkedin.com/in/eleanorghale"
   image: "ellieWindow.jpg"
   cast: true
   fuse: true
   fuse_role: "Marketing and PR Lead"
-  fuse_first_row: true
-
-- name: "Kieron Kirkland"
-  role: "Co-Founder & Director"
-  description: "Leads on community building, digital R&D and impact measurement"
-  linkedin: "https://www.linkedin.com/pub/kieron-kirkland/19/7a2/a68"
-  image: "kieron.jpg"
-  cast: true
-  fuse: true
-  fuse_role: "User research"
   fuse_first_row: true
 
 - name: "Suraj Vadgama"
@@ -65,9 +65,27 @@ team:
   image: "david.jpg"
   cast: true
 
+- name: "Tori Ellaway"
+  role: "Fuse Programme Co-ordinator"
+  description: "Delivers Fuse, helping charities test, prototype and develop new digital services"
+  linkedin: "https://www.linkedin.com/in/victoria-kate-ellaway-10342a25/"
+  image: "tori.jpg"
+  cast: true
+  fuse: true
+  fuse_role: "Programme Co-ordinator"
+
+- name: "Simon I'Anson"
+  role: "Head of Design and Product"
+  description: "Working out how to do things better and in completely new ways with digital"
+  linkedin: "https://www.linkedin.com/in/simonianson/"
+  image: "simon.png"
+  cast: true
+  fuse: true
+  fuse_role: "Design and Product Lead"
+
 - name: "Ivan Gonzalez"
   role: "Full Stack Developer"
-  description: "Technical lead on Fuse programme"
+  description: "Technical lead on our Fuse programme"
   linkedin: "https://uk.linkedin.com/in/i-gonzalez"
   image: "ivan.jpg"
   cast: true
@@ -76,18 +94,12 @@ team:
 
 - name: "Andrew MacMurray"
   role: "Full Stack Developer"
-  description: "Technical lead on Fuse programme"
+  description: "Technical lead on our Fuse programme"
   linkedin: "https://www.linkedin.com/in/andrew-macmurray-280a08111"
   image: "andrew.jpg"
   cast: true
   fuse: true
   fuse_role: "Technical Lead"
-
-- name: "Simon L'anson"
-  fuse: true
-  fuse_role: "Design and Product Lead"
-  image: "simon.png"
-  link: "http://www.showmestudio.co.uk"
 
 
 board:
