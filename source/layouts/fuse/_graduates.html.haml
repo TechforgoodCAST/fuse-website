@@ -1,7 +1,7 @@
 = partial "components/section_header", locals: { title: "Graduates", light: true }
 .mw8.center.flex.flex-wrap.justify-center.items-start.tc
 
-  - sortedTeams = data.teams.teams
+  - sortedTeams = data.fuse_teams
   -   .select(&:graduate)
   -   .partition {|t| t.has_description == true }
   -   .flatten

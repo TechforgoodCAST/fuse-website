@@ -84,7 +84,7 @@ team:
   fuse_role: "Design and Product Lead"
 
 - name: "Ivan Gonzalez"
-  role: "Full Stack Developer"
+  role: "Software Developer"
   description: "Technical lead on our Fuse programme"
   linkedin: "https://uk.linkedin.com/in/i-gonzalez"
   image: "ivan.jpg"
@@ -93,7 +93,7 @@ team:
   fuse_role: "Technical Lead"
 
 - name: "Andrew MacMurray"
-  role: "Full Stack Developer"
+  role: "Software Developer"
   description: "Technical lead on our Fuse programme"
   linkedin: "https://www.linkedin.com/in/andrew-macmurray-280a08111"
   image: "andrew.jpg"
@@ -137,9 +137,3 @@ board:
   linkedin: "https://www.linkedin.com/in/emma-thomas-17316015"
   image: "emma.jpg"
   cast: true
-
-# - name: "More team members to be announced soon..."
-#   description: "Stay tuned!"
-#   linkedin: "https://www.linkedin.com/company/cast-centre-for-the-acceleration-of-social-technology/"
-#   image: "comingsoon.png"
-#   cast: true
