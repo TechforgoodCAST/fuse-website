@@ -1,0 +1,59 @@
+projects:
+- name: "Fuse"
+  tagline: "Running the UK's first charity digital accelerator"
+  logo: "diaryResize.jpg"
+  link: "/fuse"
+
+- name: "Digital Fellowship"
+  tagline: "A comprehensive learning programme to support charity CEOs to become experts in digital"
+  logo: "fellowshipSession.png"
+  has_description: true
+  description:
+  - To transform the charity sector and enable it to put digital at the heart of its work, we need to support senior charity leaders and CEOs to understand the potential of digital.
+  - Our Digital Fellowship is a carefully constructed learning programme that teaches its fellows the key aspects of the digital development, from paper prototyping to business modelling. We bring the leaders together to learn from industry experts as well as spending time with key organisations leading the field.
+  - The pilot was funded by Comic Relief in 2016, and culminated in a design sprint with development teams from Founders & Coders for the Fellows to put what they'd learned into practice.
+  - For more information on our Digital Fellowship and <a href='https://docs.google.com/forms/d/e/1FAIpQLScMWA-TDysEDjbCcTvVOgguGYeK8N_GELsQhwbkLiis2qDK-g/viewform' class='dark-red' target='_blank'>apply for next year's programme</a>
+  - Download
+    <a href='/files/IntroToDigitalFellowship.pdf' class='dark-red' target='_blank'>'About'</a> document
+  - Read about the course structure in the
+    <a href='https://medium.com/@wearecast/creating-digitally-confident-leaders-in-the-social-sector-9d3fd0f7b3ff#.xiw5ax1nh' class='dark-red'>Programme review</a> and our
+    <a href='https://medium.com/@wearecast/diving-into-the-digital-fellowship-part-1-411119ad5039#.djtjjs969' class='dark-red'>Day 1</a> and
+    <a href='https://medium.com/@wearecast/diving-into-the-digital-fellowship-part-2-cbffa5dda601#.2zgqjbec3' class='dark-red'>Day 2</a> blogs
+  - Check out these Fellowship guest blogs
+    <a href='http://www.charitytimes.com/ct/blog-using-tech-to-improve-services-in-a-small-charity.php' class='dark-red'>from Alex Feis Bryce, CEO at Ugly Mugs</a> and
+    <a href='http://www.charitydigitalnews.co.uk/2017/02/15/building-digital-products-in-a-small-to-medium-sized-charity-guest-post/' class='dark-red'>Duncan McLaggan, Operations Manager at QSA</a>
+  - Watch this
+    <a href='https://www.youtube.com/watch?v=ODAYSZXw_uE' class='dark-red'>short video</a> of the Fellows' own thoughts and testimonials
+
+- name: "Comic Relief"
+  tagline: "Proving support to a leading grant maker in designing and delivering grant programmes that support nonprofit tech for good"
+  logo: "comicRelief.png"
+  has_description: true
+  description:
+  - Trusts and foundations play a vital role in realising the potential of digital technology to achieve charitable and social impact. We work with grant makers to identify where digital can make the biggest impact in their work, including designing and co-developing grant programmes; assessing applications, and working directly with grantees to support their development and delivery.
+  - We're currently working with Comic Relief to deliver the
+    <a href='https://www.comicrelief.com/grants/tech-for-good' class='dark-red'>Tech for Good</a> fund and to support all grantees in their
+    <a href='https://www.comicrelief.com/news/comic-relief-launches-tech-vs-abuse-initiative' class='dark-red'>Tech Vs Abuse</a> funding programme.
+
+- name: "Wales Third Sector Skills"
+  tagline: "Developing an agile mentoring and skills service that can support third sector organisations across Wales"
+  logo: "walesThirdSector.jpg"
+  has_description: true
+  description:
+  - Working with Wales Co-operative Centre, Business in the Community Cymru and Wales Council for Voluntary Action, we're developing a digital service to support third sector organisations across Wales to access skills, mentoring and trustees to build their organisational capacity.
+  - Having completed our Digital Fellowship, Derek Walker, CEO of Wales Co-op, secured funding from Big Lottery Wales to follow an agile user-led and test-driven process to identify how digital tools can be developed to provide this new support. We're leading that process to research, prototype and deliver this new digital service to support social organisations across Wales.
+
+
+
+whatWeDo:
+- img: 'plantMoney.jpg'
+  title: 'Funders'
+  text: "Working with charitable funders and foundations to build stronger tech for good programmes"
+
+- img: 'rocket.jpg'
+  title: 'Ventures'
+  text: "Supporting social technology ventures to grow and access finance and talent"
+
+- img: 'megaphoneColor.jpg'
+  title: 'Networks'
+  text: "Bringing together great individuals and organisations to support and build the sector"

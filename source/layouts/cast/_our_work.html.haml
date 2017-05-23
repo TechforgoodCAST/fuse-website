@@ -1,21 +1,29 @@
 %section.ph2.pv4#ourwork
   .tc.center.mw8
-    = partial "components/section_header", locals: { title: "Our Work", light: true }
+    = partial "components/section_header", locals: {title: "Our Work", light: true}
 
     .flex.flex-wrap.mw8.center
-      - data.work.projects.each do |project|
+      - data.cast_work.projects.each do |project|
+        - if project.has_description?
+          .w-50.w-25-ns.pv4.hide-child.relative.pointer.ph3
+            = partial 'components/plus_overlay'
+            - modalId = project.name.downcase.gsub(' ', '-')
 
-        - target      = project.modal? ? "##{project.partial}" : ''
-        - modalOption = project.modal? ? 'modal' : ''
-        - href        = project.modal? ? '#' : project.link
-
-        %article.w-50.w-25-m.pa3-ns.pa2.hide-child.relative
-          = partial 'components/plus_overlay'
-          .entry-thumbnail
-            %a.mid-gray.no-underline{ "data-target": target, "data-toggle": modalOption, href: href }
-              = image_tag project.image, class: "br3"
+            %a.mid-gray.no-underline{"data-target": "##{modalId}", "data-toggle": "modal", href: "#{modalId}"}
+              .w-100.bg-center.cover.h6.br3{style: "background-image: url(/images/#{project.logo})", "data-target": "##{modalId}", "data-toggle": "modal"}
               %h4= project.name
-              %h5= project.title
 
-        - if project.modal?
-          = partial "modals/#{project.partial}", locals: { id: project.partial, img: project.image, title: project.name }
+          .modal.fade{"aria-hidden": "true", "aria-labelledby": "#{modalId}", role: "dialog", tabindex: "-1", id: "#{modalId}"}
+            .bg-white.w-100.br1.center.relative.br2.mt5.w-75-ns.mw7.pv3.ph4.ph5-ns
+              %button.bn.bg-transparent.fr.f3.pointer.silver.outline-0.absolute{"aria-hidden": "true", "data-dismiss": "modal", type: "button", style: "top: 0.3em; right: 0.1em"} ×
+              %h4#project-modal-label.f5.f4-ns.mt2 #{project.name}
+              .modal-body
+                = image_tag project.logo, class: 'w-50-ns br2'
+                .pa1
+                  - project.description.each do |paragraph|
+                    %p #{paragraph}
+        - else
+          %a.dib.w-50.w-25-ns.border-box.ph3.pv4.hide-child.relative.pointer{href: project.link}
+            = partial 'components/plus_overlay'
+            .w-100.bg-center.cover.h6.br3{style: "background-image: url(/images/#{project.logo})"}
+            %h4.dark-gray= project.name
