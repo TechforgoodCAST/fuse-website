@@ -1,9 +1,9 @@
-- name: "National Childbirth Trust"
-  logo: "nct-logo-fuse.png"
+- name: "Addaction"
+  logo: "addaction-logo.png"
   graduate: false
 
-- name: "Parkinsons UK"
-  logo: "parkinsons-uk.jpg"
+- name: "Gingerbread"
+  logo: "gingerbread-logo.png"
   graduate: false
 
 - name: "Action for Children"
