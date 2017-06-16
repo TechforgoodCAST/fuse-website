@@ -1,17 +1,45 @@
-- name: "National Childbirth Trust"
-  logo: "nct-logo-fuse.png"
+- name: "Addaction"
+  logo: "addaction-logo.png"
   graduate: false
 
-- name: "Parkinsons UK"
-  logo: "parkinsons-uk.jpg"
+- name: "Gingerbread"
+  logo: "gingerbread-logo.png"
   graduate: false
 
 - name: "Action for Children"
   logo: "action-for-children.png"
   graduate: false
 
+- name: "Parkinsons UK"
+  logo: "parkinsons-uk.jpg"
+  graduate: true
+  image: "parkinsons-modal.jpg"
+  has_description: true
+  description:
+  - Every year over 10,000 people are diagnosed with Parkinson’s. The information and support they receive at the point of diagnosis remains inconsistent, and while some people are overloaded with information they’re not yet ready for, others leave the consulting room into the unknown.
+  - Parkinson’s UK joined the Fuse programme to develop a better understanding of how to connect newly diagnosed people to the charity’s information and support services. Speaking to people affected by Parkinson’s raised a common theme - it’s just too difficult to navigate the information and support available and work out what service best meets their needs.
+  - From the user research, a signposting tool was developed and is just about to be launched as an open Beta. The analysis and feedback from this testing stage will be crucial in future iterations, and essential in ensuring the product is fully integrated into the Parkinson’s UK roadmap.
+  - <em>“Through the guidance and support of the team at Fuse, we are now armed with the right skills and understanding of user-centred design and rapid product development to take this exciting project forward. Keen to put what we’ve learnt into practice, we’ve now built an Innovation Lab in our London office, in the hope to foster a creative and innovative culture across the organisation.”</em>
+  - Claire Edwards, Digital Product Manager
+
+- name: "National Childbirth Trust"
+  logo: "nct-logo-fuse.png"
+  graduate: true
+  image: "nct-modal.jpg"
+  has_description: true
+  description:
+  - For 60 years, NCT has been supporting new and expectant parents. As the largest parenting charity in the UK, we share knowledge, make friends and come together to campaign for change. Yet we know that many more people could benefit from NCT than do at present, and we know we can do more to support parents postnatally.
+  - Our vision is of a world in which no parent is isolated and all parents are supported to build a strong society. It is a vision of a boundless network – of parents supporting parents, parenting together and parenting informed, whoever you are, wherever you’re from. Because we see that as a movement of passionate people, standing on our collective strength – our expertise, our scale and our brand – we have a determination to do more and go further.
+  - And this is where Fuse comes in...
+  - NCT is going through a time of change and renewal, a time of re-discovery and innovation. My time on Fuse supports two of our key goals -
+  - •	To strengthen our core work in antenatal education and infant feeding
+  - •	To modernise our public image and increase our reach so that we are relevant and trusted by all parents wherever they live, wherever they are from.
+  - The product we worked on is a modern and intuitive course booking process, initially designed for our antenatal courses but with potential to be rolled out to all of our services, both paid for and offered by our network of over 300 branches, run by volunteers.
+  - It has great scope to evolve to be richer, enhancing the NCT journey and keeping parents with us throughout their first 1,000 days of parenthood.
+  - <em>"I've gained so much, both professionally and personally, from the Fuse accelerator. The methodology I've learnt is one that I know we can use more widely within NCT, across many areas of our charity. It's hugely exciting to know that this is just the beginning of our digital transformation, and that there is such scope for development and growth, with colleagues from Fuse supporting us as we move forwards."</em>
+  - Tamara Bavin, Parent Services Operational Excellence Manager
+
 - name: "Oxfam UK Poverty Team"
-  tagline: "Addressing food poverty"
   logo: "oxfamFuse.jpg"
   graduate: true
   image: "oxfamPostIts700Crop.jpg"
@@ -27,7 +55,6 @@
   - Seb Mayfield, Oxfam Project Lead
 
 - name: "Breast Cancer Care"
-  tagline: "Providing useful and meaningful activities to women recovering from breast cancer"
   logo: "breastCancerCareLogoFuse.jpg"
   graduate: true
   image: "bccFuse.jpg"
@@ -40,7 +67,6 @@
   - Kristina Barrick, Innovation Manager, Breast Cancer Care
 
 - name: "Age UK"
-  tagline: "Tools for supporting guided care conversations"
   logo: "ageUkFuseLogo.png"
   graduate: true
   image: "diaryResizeLarge.jpg"
@@ -55,7 +81,6 @@
 
 
 - name: "Centrepoint"
-  tagline: "Streamlining service provision for young people affected by homelessness"
   logo: "centrepointLogo.jpg"
   graduate: true
   image: "centrepointDiary.jpg"
