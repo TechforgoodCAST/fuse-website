@@ -32,3 +32,9 @@ run lambda { |env|
   content = File.exist?(not_found_page) ? File.read(not_found_page) : '404 - page not found'
   return [404, { 'Content-Type'  => 'text/html'}, [content]]
 }
+
+# Forces SSL in production
+if ENV['RACK_ENV'] == 'production'
+  require 'rack/ssl'
+  use Rack::SSL
+end

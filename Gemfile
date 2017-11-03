@@ -5,8 +5,9 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 gem 'rack'
-gem 'puma', '~> 2.7.0'
+gem 'puma', '~> 3.1'
 gem 'rake', '~> 10.1.0'
+gem 'rack-ssl'
 
 # For faster file watcher updates on Windows:
 gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
